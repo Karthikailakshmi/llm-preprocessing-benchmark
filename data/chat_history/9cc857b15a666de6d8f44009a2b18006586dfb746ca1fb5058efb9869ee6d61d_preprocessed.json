@@ -1,0 +1,650 @@
+[
+  {
+    "role": "user",
+    "content": "What is hindi?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Hindi** (हिंदी) is one of the major languages of the world, primarily spoken in India. \n\nHere are the key facts about it:\n\n* **Official Status:** It is one of the official languages of the Republic of India (along with English) and is the primary official language of several states in northern and central India.\n* **Global Reach:** Hindi is the third most-spoken native language in the world (after Mandarin Chinese and Spanish), with hundreds of millions of speakers.\n* **Writing System:** It is written from left to right using the **Devanagari** script, which is also used for Sanskrit, Marathi, and Nepali.\n* **Roots:** It belongs to the Indo-Aryan branch of the Indo-European language family and shares a deep historical connection with Sanskrit. It also shares a large common vocabulary and grammatical base with Urdu (together, they are often referred to as Hindustani).",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is hindi?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is hindi?",
+      "total_ms": 2521.3021999952616,
+      "pre_ms": 329.81540002219845,
+      "api_ms": 2191.3417000032496,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 46,
+      "out_tok": 190,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.008600007276982069,
+        "text_cleaning": 0.1472000003559515,
+        "data_filtering": 0.009700001101009548,
+        "deduplication": 0.042100000428035855,
+        "tokenization": 329.5834000018658,
+        "truncation": 0.017099999240599573,
+        "prompt_formatting": 0.007300011930055916
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** can refer to two very different things depending on the context: a **giant snake** or a **computer programming language**. \n\nHere is what it means in both contexts:\n\n### 1. Python (The Programming Language)\nIn technology, Python is one of the most popular and widely used programming languages in the world. \n* **Key Features:** It is known for being easy to read, write, and learn because its syntax resembles plain English. \n* **Uses:** It is used in web development, data science, artificial intelligence (AI), machine learning, automation, and software testing.\n* **Origin:** It was created by Guido van Rossum and released in 1991. (It was named after the British comedy television show *Monty Python's Flying Circus*, not the snake).\n\n### 2. Python (The Animal)\nIn biology, a python is a family of non-venomous snakes found in Africa, Asia, and Australia.\n* **Key Features:** Pythons are among the largest snakes in the world. They kill their prey by constriction—wrapping their muscular bodies around an animal and squeezing it tightly until it stops breathing before swallowing it whole.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 7604.900799997267,
+      "pre_ms": 0.23789997794665396,
+      "api_ms": 7604.525399990962,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 242,
+      "out_tok": 250,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.010200004908256233,
+        "text_cleaning": 0.027699992642737925,
+        "data_filtering": 0.01340000017080456,
+        "deduplication": 0.01619999238755554,
+        "tokenization": 0.15380000695586205,
+        "truncation": 0.011999989510513842,
+        "prompt_formatting": 0.004599991370923817
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is for loop?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **for loop** is a control flow statement used in programming to **iterate** (repeat a block of code) a specific number of times, usually over a sequence of items.\n\nInstead of having to write the same code multiple times, you put the code inside the loop, and the loop handles the repetition automatically.\n\n### How it works (Conceptually)\nImagine you have a list of names: `[\"Alice\", \"Bob\", \"Charlie\"]`. A `for` loop allows you to say: \"For *each* name in this list, print that name.\"\n\n### Examples in Different Languages\n\n**1. Python (Most common example):**\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor fruit in fruits:\n    print(fruit)\n# Output:\n# apple\n# banana\n# cherry\n```\n\n**2. JavaScript:**\n```javascript\nfor (let i = 0; i < 3; i++) {\n  console.log(\"Iteration number: \" + i);\n}\n// Output: 0, 1, 2\n```\n\n**3. C++/Java (Traditional counter-based loop):**\n```java\nfor (int i = 0; i < 5; i++) {\n    System.out.println(\"Count: \" + i);\n}\n```\n\n### When to use a `for` loop:\n* When you know exactly **how many times** you need to repeat something (e.g., 10 times).\n* When you need to process **every item** in a collection (like a list, array, string, or range of numbers).\n\n**In short: A `for` loop is the tool you use when you need to perform an action *for every item* in a defined group.**",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is for loop?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is for loop?",
+      "total_ms": 4611.921999996412,
+      "pre_ms": 0.3443000023253262,
+      "api_ms": 4611.384300005739,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 527,
+      "out_tok": 383,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.013500000932253897,
+        "text_cleaning": 0.033199990866705775,
+        "data_filtering": 0.017099999240599573,
+        "deduplication": 0.021500003640539944,
+        "tokenization": 0.23180000425782055,
+        "truncation": 0.021200001356191933,
+        "prompt_formatting": 0.006000002031214535
+      },
+      "details": {
+        "query_tokens_estimate": 5,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is classes?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Classes** are the building blocks of object‑oriented programming (OOP).  \nThey define a *template* or *blueprint* for creating objects (instances). A class specifies:\n\n1. **Attributes (data)** – the properties that each object will hold.  \n2. **Methods (behaviour)** – the functions that operate on those attributes.\n\nWhen you create an object from a class, you’re called an **instance** of that class. The instance has its own copy of the attributes, but shares the same methods.\n\n**Example (Python):**\n\n```python\nclass Dog:\n    # attribute\n    species = \"Canis familiaris\"\n\n    def __init__(self, name, age):\n        # instance attributes\n        self.name = name\n        self.age = age\n\n    # method\n    def bark(self):\n        return f\"{self.name} says woof!\"\n\n# Creating an instance\nmy_dog = Dog(\"Buddy\", 3)\nprint(my_dog.bark())   # Buddy says woof!\nprint(my_dog.species)  # Canis familiaris\n```\n\nIn this example:\n- `Dog` is the class.\n- `my_dog` is an instance of `Dog`.\n- `name` and `age` are instance attributes; `species` is a class attribute.\n- `bark` is a method that uses the instance’s data.\n\nClasses help organize code, promote reuse, and model real‑world entities in software.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is classes?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is classes?",
+      "total_ms": 1287.729199990281,
+      "pre_ms": 0.32479999936185777,
+      "api_ms": 1287.2599000111222,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 954,
+      "out_tok": 348,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.00960000033956021,
+        "text_cleaning": 0.024599998141638935,
+        "data_filtering": 0.011399999493733048,
+        "deduplication": 0.013700002455152571,
+        "tokenization": 0.2035000070463866,
+        "truncation": 0.05639999289996922,
+        "prompt_formatting": 0.005599998985417187
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is arrays in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, there is no built-in data type called an \"array\" in the same way that languages like C++ or Java have them. Instead, Python uses **lists** to serve the purpose of arrays.\n\nHowever, if you specifically need a fixed-size, homogeneous (same data type) array for performance or memory efficiency, Python provides the `array` module.\n\nHere’s a breakdown of the two main ways to handle \"arrays\" in Python:\n\n### 1. Lists (The Standard \"Array\" in Python)\nLists are the most common way to store ordered collections of items. They are dynamic (can grow/shrink) and can hold different data types.\n\n```python\n# Creating a list\nmy_list = [1, 2, 3, 4, 5]\n\n# Accessing elements\nprint(my_list[0])  # Output: 1\n\n# Modifying elements\nmy_list[0] = 10\n\n# Appending\nmy_list.append(6)\n```\n\n**Pros:**\n- Easy to use and flexible.\n- Can hold mixed data types (e.g., `[1, \"two\", 3.0]`).\n\n**Cons:**\n- Uses more memory than a true array.\n- Slightly slower for large numerical datasets.\n\n### 2. The `array` Module (True Arrays)\nIf you need a memory-efficient, fixed-type array, you can use the `array` module from Python’s standard library.\n\n```python\nimport array\n\n# Create an array of integers ('i' is the type code for signed int)\nmy_array = array.array('i', [1, 2, 3, 4, 5])\n\n# Accessing elements\nprint(my_array[0])  # Output: 1\n\n# Appending\nmy_array.append(6)\n```\n\n**Pros:**\n- More memory-efficient than lists.\n- Faster for numerical operations.\n- Enforces a single data type.\n\n**Cons:**\n- Less flexible (cannot mix data types).\n- Fewer built-in methods than lists.\n\n### 3. NumPy Arrays (For Scientific Computing)\nFor advanced numerical computing, data science, and machine learning, **NumPy** is the standard. NumPy arrays are highly optimized for performance.\n\n```python\nimport numpy as np\n\n# Create a NumPy array\nmy_numpy_array = np.array([1, 2, 3, 4, 5])\n\n# Perform vectorized operations\nresult = my_numpy_array * 2\nprint(result)  # Output: [2 4 6 8 10]\n```\n\n**Pros:**\n- Extremely fast for large-scale numerical operations.\n- Supports multi-dimensional arrays.\n- Rich ecosystem of mathematical functions.\n\n**Cons:**\n- Requires installing the NumPy library.\n- Overkill for simple tasks.\n\n### Summary\n- **Use lists** for general-purpose programming.\n- **Use `array` module** if you need memory efficiency and fixed types.\n- **Use NumPy** for scientific computing, data analysis, or machine learning.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is arrays in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is arrays in python?",
+      "total_ms": 1616.5431999979774,
+      "pre_ms": 0.5974999658064917,
+      "api_ms": 1615.7431000028737,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1066,
+      "out_tok": 659,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.014499993994832039,
+        "text_cleaning": 0.049299997044727206,
+        "data_filtering": 0.05099999543745071,
+        "deduplication": 0.026299996534362435,
+        "tokenization": 0.3394999948795885,
+        "truncation": 0.10229999315924942,
+        "prompt_formatting": 0.014599994756281376
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is error handling?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Error handling** is the practice of anticipating, detecting, and responding to problems (exceptions) that occur while a program is running, so the program can fail gracefully instead of crashing.\n\n---\n\n## Why it matters\n| Situation | Without error handling | With error handling |\n|-----------|------------------------|---------------------|\n| File not found | Program aborts with a traceback | Show a friendly message, ask for a different file, or create a default one |\n| Invalid user input | Unhandled exception stops execution | Prompt the user again or use a default value |\n| Network timeout | Crash or hang | Retry, fall back to cached data, or inform the user |\n\n---\n\n## Core concepts\n\n| Concept | Description |\n|---------|-------------|\n| **Exception / Error** | An object that represents an abnormal condition (e.g., `ZeroDivisionError`, `IOError`). |\n| **Raise / Throw** | The act of generating an exception when a problem is detected. |\n| **Catch / Handle** | Code that intercepts the exception and decides what to do (log, recover, re‑raise, etc.). |\n| **Finally / Cleanup** | Code that runs regardless of whether an exception occurred (e.g., closing files, releasing locks). |\n| **Propagation** | If an exception isn’t caught locally, it bubbles up the call stack until a handler is found. |\n\n---\n\n## Typical pattern (Python example)\n\n```python\ndef read_number_from_file(path):\n    try:\n        with open(path, 'r') as f:          # may raise FileNotFoundError, PermissionError\n            data = f.read()\n        return int(data)                    # may raise ValueError\n    except FileNotFoundError:\n        print(f\"Error: '{path}' does not exist.\")\n        return None                         # graceful fallback\n    except ValueError:\n        print(\"Error: file does not contain a valid integer.\")\n        return None\n    finally:\n        print(\"Attempt to read finished.\") # always runs\n```\n\n- **`try`** block contains code that might fail.  \n- **`except`** blocks handle specific exception types.  \n- **`finally`** runs no matter what (useful for cleanup).  \n\n---\n\n## Error handling in other languages (quick reference)\n\n| Language | Keywords | Example |\n|----------|----------|---------|\n| **Java** | `try { … } catch (ExceptionType e) { … } finally { … }` | `try { int x = 5/0; } catch (ArithmeticException e) { … }` |\n| **C#**   | `try { … } catch (Exception e) { … } finally { … }` | Same as Java. |\n| **JavaScript** | `try { … } catch (err) { … } finally { … }` | `try { JSON.parse(badJson); } catch (e) { console.error(e); }` |\n| **C++**  | `try { … } catch (const std::exception& e) { … }` | `try { throw std::runtime_error(\"boom\"); } catch (const std::exception& e) { … }` |\n| **Go**   | No exceptions; uses multiple return values and `error` type. | `if err != nil { … }` |\n\n---\n\n## Best practices\n\n1. **Catch only what you can handle** – don’t swallow every exception; let unexpected ones propagate.\n2. **Prefer specific exceptions** – catching `Exception` (or a generic base class) can hide bugs.\n3. **Keep the `try` block small** – makes it clear which line raised the error.\n4. **Log useful context** – include stack trace, input values, and timestamps.\n5. **Clean up resources** – use `finally`, context managers (`with` in Python), or language‑specific RAII patterns.\n6. **Don’t use exceptions for flow control** – they should represent truly exceptional situations, not ordinary logic.\n\n---\n\n### TL;DR\nError handling = detecting runtime problems (exceptions) and responding to them with `try/except`‑style constructs so the program can recover, inform the user, or shut down cleanly instead of crashing.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is error handling?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is error handling?",
+      "total_ms": 2618.2392000046093,
+      "pre_ms": 0.4323000175645575,
+      "api_ms": 2617.6531999954022,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1455,
+      "out_tok": 936,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.011099997209385037,
+        "text_cleaning": 0.0219999928958714,
+        "data_filtering": 0.03650000144261867,
+        "deduplication": 0.03680000372696668,
+        "tokenization": 0.20120000408496708,
+        "truncation": 0.11930000619031489,
+        "prompt_formatting": 0.005400012014433742
+      },
+      "details": {
+        "query_tokens_estimate": 5,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is a popular, open-source, and cross-platform programming language that works on all main platforms and operating systems (such as Windows, macOS, and Linux) [2, 3]. It is a multi-purpose programming language that can be used for simulation, creating web pages, communicating with database systems, scientific computing and calculations, and web development [2, 3]. It was first released in 1991 [3].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is python?",
+      "total_ms": 2123.4801999962656,
+      "pre_ms": 1.2356000079307705,
+      "api_ms": 2115.365200006636,
+      "retrieval_ms": 6.64649999816902,
+      "wait_ms": 0.0,
+      "in_tok": 2441,
+      "out_tok": 91,
+      "sources": [
+        {
+          "ref": "Python Programming.pdf, page 2",
+          "score": 0.8161956071853638,
+          "text": "®, python’\n\nPython Programming"
+        },
+        {
+          "ref": "Python Programming.pdf, page 5",
+          "score": 0.7526274919509888,
+          "text": "Preface\nPython is a popular programming language, and it is one of the most used pro-\ngramming languages today. Python works on all the main platforms and operating systems used today, such\nWindows, macOS, and Linux. Python is a multi-purpose programming language, which can be use for simu-\nlation, creating web pages, communicate with database systems, etc. My Blog/Web Site [1]:\nhttps://www.halvorsen.blog\nHere you find lots of technical resources about Technology, Programming, Soft-\nware Engineering, Automation and Control, Industrial IT, etc. Here you find my Web page with Python resources:\nhttps://www.halvorsen.blog/documents/programming/python/\nThese resources are a supplement to this textbook. Here you can download the\nsoftware, download code examples, etc."
+        },
+        {
+          "ref": "Python Programming.pdf, page 21",
+          "score": 0.7462685108184814,
+          "text": "Chapter 2 What is Python? 2.1 Introduction to Python Python is an open source and cross-platform programming language, that has\nbecome increasingly popular over the last ten years. It was first released in\n1991. Latest version is 3.7.0. CPython is the reference implementation of the\nPython programming language. Written in C, CPython is the default and most\nwidely-used implementation of the language. Python is a multi-purpose programming languages (due to its many extensions),\nexamples are scientific computing and calculations, simulations, web develop-\nment (using, e.g., the Django Web framework), etc. Python Home Page [6]:\nhttps://www.python.org"
+        },
+        {
+          "ref": "Python Programming.pdf, page 54",
+          "score": 0.7021497488021851,
+          "text": "Part II\nPython Programming\n51"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.008899995009414852,
+        "text_cleaning": 0.01850000990089029,
+        "data_filtering": 0.011199997970834374,
+        "deduplication": 0.06809999467805028,
+        "tokenization": 0.29740000900346786,
+        "truncation": 0.8107000030577183,
+        "prompt_formatting": 0.020799998310394585
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is for loops?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **For loop** in Python is used for iterating over a sequence [1]. It is described as one of the most useful features in Python [1].\n\nExamples of how to use a For loop include:\n*   Iterating over a sequence like a list:\n    ```python\n    data = [1.6, 3.4, 5.5, 9.4]\n    for x in data:\n        print(x)\n    ```\n*   Using the `range()` function to iterate a specific number of times:\n    ```python\n    for i in range(1, 10):\n        print(i)\n    ```\n    The `range()` function returns a sequence of numbers, starting from 0 by default, incrementing by 1 by default, and ending at a specified number. It can also be used with a starting point, a stopping point (not included), and a step:\n    ```python\n    for x in range(start, stop):\n        print(x)\n\n    for x in range(start, stop, step):\n        print(x)\n    ```\n*   Using a For loop to calculate the sum of a data set:\n    ```python\n    data = [1, 5, 6, 3, 12, 3]\n    sum = 0\n    for x in data:\n        sum = sum + x\n    print(sum)\n    ```\n\nFor loops, along with `If...Else` and `While Loops`, are features needed to create real applications in Python [4].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is for loops?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is for loops?",
+      "total_ms": 4303.287600007025,
+      "pre_ms": 2.0193000382278115,
+      "api_ms": 4294.895500002895,
+      "retrieval_ms": 6.162899997434579,
+      "wait_ms": 0.0,
+      "in_tok": 3185,
+      "out_tok": 342,
+      "sources": [
+        {
+          "ref": "Python Programming.pdf, page 58",
+          "score": 0.7594250440597534,
+          "text": "5.3 For Loops A For loop is used for iterating over a sequence. I guess all your programs will\n use one or more For loops. So if you have not used For loops before, make sure\n to learn it now. Below you see a basic example how you can use a For loop in Python: 1 f o r i in range (1 , 10) :\n 2 print ( i ) The For loop is probably one of the most useful feature in Python (or in any\n kind of programming language). Below you will see different examples how you\n can use a For loop in Python. Example 5.3.1. Using For Loops in Python 1 data = [ 1 . 6 , 3.4 , 5.5 , 9 . 4 ] 2\n 3 f o r x in data :\n 4 print (x ) 5 6\n 7 c a r l i s t = [ ”Volvo” , ” Tesla ” , ”Ford” ] 8\n 9 f o r car in c a r l i s t :\n10 print ( car ) Listing 5.5: Using For Loops in Python"
+        },
+        {
+          "ref": "Python Programming.pdf, page 11",
+          "score": 0.6477566957473755,
+          "text": ". . . . . . . . . . . . . . . . . . . . 53\n5.3 For Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\n5.3.1 Nested For Loops . . . . . . . . . . . . . . . . . . . . . . . 58\n5.4 While Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\n5.5 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\n6 Creating F unctions in Python 61\n6.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61\n6.2 Functions with multiple return values . . . . . . . . . . . . . . . 63\n6.3 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64\n7 Creating Classes in Python 67\n7.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\n7.2 The init () Function . . . . . . . . . . . . . . . . . . . . ."
+        },
+        {
+          "ref": "Python Programming.pdf, page 59",
+          "score": 0.5825454592704773,
+          "text": "You should try all these examples in order to learn the basic structure of a For\n loop. [End of Example] Example 5.3.2. Using For Loops for Summation of Data You typically want to use a For loop for find the sum of a given data set. 1 data = [ 1 , 5 , 6 , 3 , 12 , 3] 2\n 3 sum = 0 4\n 5 #Find the Sum of a l l the numbers\n 6 f o r x in data :\n 7 sum = sum + x 8\n 9 print (sum) 10\n11 #Find the Mean or Average of a l l the numbers 12\n13 N = len ( data ) 14\n15 mean = sum/N 16\n17 print (mean) This gives the following results: 1 30\n 2 5.0 [End of Example] Example 5.3.3. Implementing Fibonacci Numbers Using a For Loop in Python"
+        },
+        {
+          "ref": "Python Programming.pdf, page 55",
+          "score": 0.5388510227203369,
+          "text": "Chapter 5 Python Programming We have been through the basics in Python, such as variables, using some basic\n built-in functions, basic plotting, etc. You may come far only using these thins, but to create real applications, you\n need to know about and use features like: • If ... Else • For Loops • While Loops • Arrays ... If you are familiar with one or more other programming language, these fea-\n tures should be familiar and known to you. All programming languages have\n these features built-in, but the syntax is slightly different from one language to\n another. 5.1 If ... Else An ”if statement” is written by using the if keyword. Here are some Examples how you use a If sentences in Python: Example 5.1.1. Using If ... Else in Python Using If: 1 a = 5\n 2 b = 8"
+        },
+        {
+          "ref": "Python Programming.pdf, page 58",
+          "score": 0.5302663445472717,
+          "text": "8\n 9 f o r car in c a r l i s t :\n10 print ( car ) Listing 5.5: Using For Loops in Python The range() function is handy to use in For Loops: 1 N = 10 2\n 3 f o r x in range (N) :\n 4 print (x ) The range() function returns a sequence of numbers, starting from 0 by default,\n and increments by 1 (by default), and ends at a specified number. You can also use the range() function like this: 1 s t a r t = 4\n 2 stop= 12 #but not including 3\n 4 f o r x in range ( start , stop ) :\n 5 print (x ) Finally, you can also use the range() function like this: 1 s t a r t = 4\n 2 stop = 12 #but not including\n 3 step = 2 4\n 5 f o r x in range ( start , stop , step ) :\n 6 print (x ) 55"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.010500007192604244,
+        "text_cleaning": 0.026599998818710446,
+        "data_filtering": 0.016700010746717453,
+        "deduplication": 0.11120001727249473,
+        "tokenization": 0.18220000492874533,
+        "truncation": 1.6428999952040613,
+        "prompt_formatting": 0.02920000406447798
+      },
+      "details": {
+        "query_tokens_estimate": 5,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is classes?"
+  },
+  {
+    "role": "assistant",
+    "content": "Classes are the foundation of object‑oriented programming (OOP) in Python.  \nA class defines a new type of object, specifying its attributes (properties) and methods (functions) that operate on those attributes. When you create an instance of a class (e.g., `car = Car()`), Python allocates memory for that object and initializes its attributes, often via the built‑in `__init__()` constructor.  \n\nIn the provided material, a simple class example is shown:\n\n```python\nclass Car:\n    model = \"Volvo\"\n    color = \"Blue\"\n\ncar = Car()\nprint(car.model)   # Volvo\nprint(car.color)   # Blue\n```\n\nThis demonstrates how a class can hold data and be instantiated to create objects with those attributes [1].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is classes?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is classes?",
+      "total_ms": 949.7344999981578,
+      "pre_ms": 1.5672000008635223,
+      "api_ms": 937.1225999930175,
+      "retrieval_ms": 10.820600000442937,
+      "wait_ms": 0.0,
+      "in_tok": 2492,
+      "out_tok": 204,
+      "sources": [
+        {
+          "ref": "Python Programming.pdf, page 70",
+          "score": 0.5325316190719604,
+          "text": "Chapter 7\n\n Creating Classes in Python\n\n 7.1 Introduction\n\n Python is an object oriented programming (OOP) language. Almost everything\n in Python is an object, with its properties and methods.\n\n The foundation for all object oriented programming (OOP) languages are Classes.\n\n To create a class, use the keyword class:\n\n 1 c l a s s ClassName :\n 2 <statement−1>\n 3 .\n 4 .\n 5 .\n 6 <statement−N>\n\n Example 7.1.1. Simple Class Example\n\n We will create a simple Class in Python.\n\n 1 c l a s s Car :\n 2 model = ”Volvo”\n 3 c o l o r = ”Blue”\n\n 4\n\n 5\n 6 car = Car ()\n\n 7\n\n 8\n 9 print ( car . model )\n10 print ( car . c o l o r )\n\n Listing 7.1: Simple Python Class\n\n The results will be in this case:\n\n 1 Volvo\n 2 Blue\n\n 67"
+        },
+        {
+          "ref": "Python Programming.pdf, page 8",
+          "score": 0.4617164731025696,
+          "text": "in today’s software market.\nYou find lots of Programming Resources here:\nhttps://www.halvorsen.blog/documents/programming/\nSoftware Engineering\nSoftware Engineering is the discipline for creating software applications. A\nsystematic approach to the design, development, testing, and maintenance of\nsoftware.\nThe main parts or phases in the Software Engineering process are:\n•Planning\n•Requirements Analysis\n•Design\n•Implementation\n•Testing\n•Deployment and Maintenance\nYou find lots of Software Engineering Resources here:\nhttps://www.halvorsen.blog/documents/programming/softwareengineering/\n5"
+        },
+        {
+          "ref": "Python Programming.pdf, page 73",
+          "score": 0.4395688772201538,
+          "text": "1 car1 = Car ( ” Tesla ” , ”Red” ) Listing 7.5: Import Class [End of Example] Exercise 7.2.2. Create the Class in a separate Python file We start by creating the Class and then we save the code in ”Car.py”: 1 # Defining the Class Car\n 2 c l a s s Car :\n 3 def i n i t ( s e l f , model , c o l o r ) :\n 4 s e l f . model = model\n 5 s e l f . c o l o r = c o l o r 6\n 7 def displayCar ( s e l f ) :\n 8 print ( s e l f . model )\n 9 print ( s e l f . c o l o r ) Listing 7.6: Define Python Class in separate File Then we create a Python Script (testCar.py) where we are using the Class: 1 # Importing the Car Class\n 2 from Car import Car 3\n 4 # Lets s t a r t using the Class 5\n 6 car1 = Car ( ” Tesla ” , ”Red” ) 7\n 8 car1 . displayCar () 9 10\n11 car2 = Car ( ”Ford” , ”Green” ) 12\n13 print ( car2 ."
+        },
+        {
+          "ref": "Python Programming.pdf, page 71",
+          "score": 0.4192296266555786,
+          "text": "This example don’t illustrate the good things with classes so we will create some\n more examples. [End of Example] Example 7.1.2. Python Class Lets create the following Python Code: 1 c l a s s Car :\n 2 model = ””\n 3 c o l o r = ”” 4\n 5 car = Car () 6\n 7 car . model = ”Volvo”\n 8 car . c o l o r = ”Blue” 9\n10 print ( car . c o l o r + ” ” + car . model ) 11\n12 car . model = ”Ford”\n13 car . c o l o r = ”Green” 14\n15 print ( car . c o l o r + ” ” + car . model ) Listing 7.2: Python Class example You should try these examples. [End of Example] 7.2 The init () Function In Python all classes have a built-in function called init (), which is always\n executed when the class is being initiated. In many other OOP languages we call this the Constructor. Exercise 7.2.1. The init () Function"
+        },
+        {
+          "ref": "Python Programming.pdf, page 64",
+          "score": 0.41553762555122375,
+          "text": "We will learn more about Classes\nin Chapter 7. Scripts vs. Functions\nIt is important to know the difference between a Script and a Function. Scripts:\n•A collection of commands that you would execute in the Editor\n•Used for automating repetitive tasks\nFunctions:\n•Operate on information (inputs) fed into them and return outputs\n•Have a separate workspace and internal variables that is only valid inside\nthe function\n61"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.007200011168606579,
+        "text_cleaning": 0.016699996194802225,
+        "data_filtering": 0.008000002708286047,
+        "deduplication": 0.149200001033023,
+        "tokenization": 0.19379999139346182,
+        "truncation": 1.1677000002237037,
+        "prompt_formatting": 0.024599998141638935
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is arrays in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, arrays are used to store multiple items in a single variable. They are often implemented using lists. According to the provided documents, arrays are a key feature needed to create real applications in Python, alongside If...Else, For Loops, and While Loops [4].\n\nExamples of creating and using arrays (lists) in Python include:\n*   Defining an array: `data = [1.6, 3.4, 5.5, 9.4]` [1].\n*   Getting the length of the array: `N = len(data)` [1].\n*   Accessing a specific element by index: `print(data[2])` [1].\n*   Modifying an element: `data[2] = 7.3` [1].\n\nAdditionally, strings in Python are described as arrays of bytes, where indices can be used to access specific characters [2].",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is arrays in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is arrays in python?",
+      "total_ms": 708.0028000054881,
+      "pre_ms": 1.0986999986926094,
+      "api_ms": 700.2943999978015,
+      "retrieval_ms": 6.401499995263293,
+      "wait_ms": 0.0,
+      "in_tok": 1335,
+      "out_tok": 194,
+      "sources": [
+        {
+          "ref": "Python Programming.pdf, page 56",
+          "score": 0.7600293159484863,
+          "text": "Here are some Examples how you can create and use Arrays in Python: Example 5.2.1. Arrays in Python 1 data = [ 1 . 6 , 3.4 , 5.5 , 9 . 4 ] 2\n 3 N = len ( data ) 4\n 5 print (N) 6\n 7 print ( data [ 2 ] ) 8\n 9 data [ 2 ] = 7.3 10\n11 print ( data [ 2 ] ) 53"
+        },
+        {
+          "ref": "Python Programming.pdf, page 44",
+          "score": 0.5987412929534912,
+          "text": "9 print ( a . upper () )\n10 print ( a . r e p l a c e ( ”H” , ”J” ) )\n11 print ( a . s p l i t ( ” ” ) ) Listing 4.7: Strings in Python As you see in the example, there are many built-in functions form manipulating\n strings in Python. The Example shows only a few of them. Strings in Python are arrays of bytes, and we can use index to get a specific\n character within the string as shown in the example code. [End of Example] 4.2.3 String Input Python allows for command line input. That means we are able to ask the user for input. Example 4.2.5. String Input in Python The following example asks for the user’s name, then, by using the input()\n method, the program prints the name to the screen: 1 print ( ”Enter your name : ” )\n 2 x = input ()\n 3 print ( ” Hello , ” + x)"
+        },
+        {
+          "ref": "Python Programming.pdf, page 2",
+          "score": 0.590757429599762,
+          "text": "®, python’\n\nPython Programming"
+        },
+        {
+          "ref": "Python Programming.pdf, page 55",
+          "score": 0.5781337022781372,
+          "text": "Chapter 5 Python Programming We have been through the basics in Python, such as variables, using some basic\n built-in functions, basic plotting, etc. You may come far only using these thins, but to create real applications, you\n need to know about and use features like: • If ... Else • For Loops • While Loops • Arrays ... If you are familiar with one or more other programming language, these fea-\n tures should be familiar and known to you. All programming languages have\n these features built-in, but the syntax is slightly different from one language to\n another. 5.1 If ... Else An ”if statement” is written by using the if keyword. Here are some Examples how you use a If sentences in Python: Example 5.1.1. Using If ... Else in Python Using If: 1 a = 5\n 2 b = 8"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.005599998985417187,
+        "text_cleaning": 0.016299993149004877,
+        "data_filtering": 0.01720000000204891,
+        "deduplication": 0.09580000187270343,
+        "tokenization": 0.09650000720284879,
+        "truncation": 0.8442999969702214,
+        "prompt_formatting": 0.02300000051036477
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is error handling?"
+  },
+  {
+    "role": "assistant",
+    "content": "Error handling in Python is the practice of anticipating and managing errors (called **exceptions**) that occur while a program runs, so that the program can continue or fail gracefully instead of crashing.  \n\nKey points from the documents:\n\n* **Exceptions** are runtime errors that interrupt normal execution (e.g., `ZeroDivisionError`, `TypeError`)【1†source: Python Programming.pdf, page 83】.  \n* Python provides built‑in constructs for handling these exceptions:  \n  * `try` block – runs code that may raise an error.  \n  * `except` block – catches and handles the specific error.  \n  * `finally` block – executes code that should run regardless of whether an error occurred【4†source: Python Programming.pdf, page 84】.  \n\nA simple example:\n\n```python\ntry:\n    10 * (1/0)          # raises ZeroDivisionError\nexcept ZeroDivisionError:\n    print(\"The calculation failed\")\n```\n\nThus, error handling lets you detect, catch, and respond to exceptions, preventing the program from terminating abruptly.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is error handling?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is error handling?",
+      "total_ms": 1235.6485000054818,
+      "pre_ms": 1.783799976692535,
+      "api_ms": 1226.3076000090223,
+      "retrieval_ms": 7.320200005779043,
+      "wait_ms": 0.0,
+      "in_tok": 1989,
+      "out_tok": 286,
+      "sources": [
+        {
+          "ref": "Python Programming.pdf, page 83",
+          "score": 0.6000021696090698,
+          "text": "Chapter 10 Error Handling in Python 10.1 Introduction to Error Handling So far error messages haven’t been discussed. You could say that we have 2\n kinds of errors: syntax errors and exceptions. 10.1.1 Syntax Errors Below we see an example of syntax errors: 1 >>> print ( Hello World )\n2 F i l e ”<ipython−input −1−10cb182148e3>” , l i n e 1\n3 print ( Hello World )\n4 ˆ\n5 SyntaxError : i n v a l i d syntax In the example we have written print(Hello World) instead of print(”Hello\n World”) and then the Python Interpreter gives us an error message. 10.1.2 Exceptions Even if a statement or expression is syntactically correct, it may cause an error\n when an attempt is made to execute it."
+        },
+        {
+          "ref": "Python Programming.pdf, page 83",
+          "score": 0.5866707563400269,
+          "text": "Errors detected during execution are\n called exceptions and are not unconditionally fatal: you will soon learn how to\n handle them in Python programs. Most exceptions are not handled by programs,\n however, and result in error messages as shown here: 1 >>> 10 ∗ (1/0)\n2 Traceback ( most recent c a l l l a s t ) : 3\n4 F i l e ”<ipython−input −2−0b280f36835c>” , l i n e 1 , in <module>\n5 10 ∗ (1/0) 6\n7 ZeroDivisionError : d i v i s i o n by zero or: 1 >>> ’ 2 ’ + 2\n2 Traceback ( most recent c a l l l a s t ) : 3 80"
+        },
+        {
+          "ref": "Python Programming.pdf, page 12",
+          "score": 0.5156754851341248,
+          "text": "10 Error Handling in Python 80\n10.1 Introduction to Error Handling . . . . . . . . . . . . . . . . . . . 80\n10.1.1 Syntax Errors . . . . . . . . . . . . . . . . . . . . . . . . . 80\n10.1.2 Exceptions . . . . . . . . . . . . . . . . . . . . . . . . . . 80\n10.2 Exceptions Handling . . . . . . . . . . . . . . . . . . . . . . . . . 81\n11 Debugging in Python 83\n12 Installing and using Python Packages 84\n12.1 What is PIP? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84\nIII Python Environments and Distributions 85\n13 Introduction to Python Environments and Distributions 86\n13.1 Package and Environment Managers . . . . . . . . . . . . . . . . 87\n13.1.1 PIP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\n13.1.2 Conda . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        },
+        {
+          "ref": "Python Programming.pdf, page 84",
+          "score": 0.45384299755096436,
+          "text": "4 F i l e ”<ipython−input−3−d2b23a1db757>” , l i n e 1 , in <module>\n5 ’ 2 ’ + 2 6\n7 TypeError : must be str , not i n t 10.2 Exceptions Handling It is possible to write programs that handle selected exceptions. In Python we can use the following built-in Exceptions Handling features: • The try block lets you test a block of code for errors. • The except block lets you handle the error. • The finally block lets you execute code, regardless of the result of the try-\n and except blocks. When an error occurs, or exception as we call it, Python will normally stop and\n generate an error message. These exceptions can be handled using the try - except statements. Some basic example: 1 try :\n2 10 ∗ (1/0)\n3 except :\n4 print ( ”The c a l c u l a t i o n f a i l e d ” ) or:"
+        },
+        {
+          "ref": "Python Programming.pdf, page 86",
+          "score": 0.3606731593608856,
+          "text": "Chapter 11\nDebugging in Python\nDebugging is the process of finding and resolving defects or problems within\na computer program that prevent correct operation of computer software or a\nsystem [14]. Debuggers are software tools which enable the programmer to monitor the ex-\necution of a program, stop it, restart it, set breakpoints, and change values in\nmemory. The term debugger can also refer to the person who is doing the de-\nbugging. As a programmer, one of the first things that you need for serious program\ndevelopment is a debugger. Python has a built-in debugger that can be used if you are coding Python with\na basic text editor and running your Python programs from the command line. A better option is to use the Debugging features integrated in your Python Ed-\nitor."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.008099988917820156,
+        "text_cleaning": 0.01930000144056976,
+        "data_filtering": 0.038300000596791506,
+        "deduplication": 0.1255999959539622,
+        "tokenization": 0.07539999205619097,
+        "truncation": 1.4889999874867499,
+        "prompt_formatting": 0.0281000102404505
+      },
+      "details": {
+        "query_tokens_estimate": 5,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  }
+]

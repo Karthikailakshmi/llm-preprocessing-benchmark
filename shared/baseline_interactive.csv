@@ -1,0 +1,529 @@
+timestamp_utc,username,run_id,variant,case_id,mode,provider,model_id,question_original,question_processed,answer,total_ms,preprocessing_ms,retrieval_ms,api_ms,rate_limit_wait_ms,input_tokens,output_tokens,token_source,success,error_type,error_message,retrieved_sources,embedding_backend,techniques_enabled,preprocessing_step_ms
+2026-10-28T09:46:20.763645+00:00,,20261028-094515,baseline,,General Chat,gemini,gemini-3.5-flash-lite,hi,hi,Hello! How can I help you today?,4956.883,0,,4956.725,0.0,39,9,provider,True,,,,,{},{}
+2026-10-28T12:09:54.800459+00:00,,20261028-120931,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi,Hi,,1980.212,0,,1980.019,0.0,,,,False,bad_request,"bad_request: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]",,,{},{}
+2026-10-28T12:10:14.644591+00:00,,20261028-120931,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Good evening!,Good evening!,,289.622,0,,289.432,0.0,,,,False,bad_request,"bad_request: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]",,,{},{}
+2026-10-28T12:15:01.383605+00:00,,20261028-121452,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi,Hi,,272.439,0,,271.972,0.0,,,,False,bad_request,"bad_request: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]",,,{},{}
+2026-10-28T12:17:57.833928+00:00,,20261028-121727,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi...,Hi...,Hello! How can I help you today?,5282.734,0,,5282.588,0.0,40,9,provider,True,,,,,{},{}
+2026-10-28T12:19:29.970960+00:00,,20261028-121727,baseline,,General Chat,gemini,gemini-3.5-flash-lite,where is Taj Mahal?,where is Taj Mahal?,"The Taj Mahal is located in the city of **Agra**, in the state of **Uttar Pradesh, India**. It sits on the right bank of the Yamuna River.",3718.68,0,,3718.532,0.0,56,35,provider,True,,,,,{},{}
+2026-10-28T12:19:55.980576+00:00,,20261028-121727,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Faith vs Fear which is helpful?,Faith vs Fear which is helpful?,"Generally speaking, **faith** is far more helpful than fear. However, both are natural human emotions that serve different evolutionary purposes. Here is a breakdown of how they affect us:
+
+**Why Faith is Helpful:**
+* **Promotes Action & Resilience:** Faith gives you the courage to try new things, take risks, and push through difficult times because you believe a positive outcome is possible.
+* **Reduces Stress:** Trusting in a higher power, the universe, or simply in your own ability to handle the future lowers anxiety and brings mental peace.
+* **Fosters Hope:** Faith keeps you motivated when facing obstacles, reminding you that current hardships are temporary.
+
+**When Fear is Helpful (in small doses):**
+* **Survival:** Fear is an alarm system designed to keep you safe from immediate physical danger. 
+* **Preparation:** A healthy amount of fear can make you cautious, helping you plan better and avoid reckless mistakes.
+
+**The Verdict:**
+While fear can warn you of danger, **living in fear paralyzes you**. **Faith empowers you** to move forward. To achieve success and inner peace, it is much more helpful to lead with faith, while using caution (not fear) as a practical guide.",7343.315,0,,7343.069,0.0,100,253,provider,True,,,,,{},{}
+2026-10-28T12:21:46.562141+00:00,,20261028-121727,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Hi,Hi,Hello! How can I assist you today?,1007.998,0,,1007.795,0.0,393,10,provider,True,,,,,{},{}
+2026-10-28T12:22:04.721160+00:00,,20261028-121727,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,where is Taj Mahal?,where is Taj Mahal?,"The Taj Mahal is located in the city of **Agra**, in the state of **Uttar Pradesh, India**.",765.803,0,,765.688,0.0,396,24,provider,True,,,,,{},{}
+2026-10-28T12:22:48.886197+00:00,,20261028-121727,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Faith vs Fear which is helpful?,Faith vs Fear which is helpful?,"Generally speaking, **faith** is far more helpful than fear.
+
+Here is a brief comparison:
+
+* **Faith** promotes **hope, courage, resilience, and positive action**. It allows you to move forward even when the outcome is uncertain.
+* **Fear** promotes **paralysis, anxiety, and avoidance**. While a small amount of caution (not paralyzing fear) is necessary for safety, excessive fear prevents growth and decision-making.
+
+**In summary:** Use caution (a rational assessment of risk), but lead with **faith** (belief in your ability to handle challenges and a positive future).",2181.534,0,,2181.426,0.0,386,125,provider,True,,,,,{},{}
+2026-10-28T12:23:38.723177+00:00,,20261028-121727,baseline,,General Chat,groq,openai/gpt-oss-20b,hi,hi,Hello! How can I help you today?,744.015,0,,743.932,0.0,311,29,provider,True,,,,,{},{}
+2026-10-28T12:23:55.310905+00:00,,20261028-121727,baseline,,General Chat,groq,openai/gpt-oss-20b,where is Taj Mahal?,where is Taj Mahal?,"The Taj Mahal is in **Agra, Uttar Pradesh, India**. It sits on the banks of the Yamuna River, about 200 km (≈125 mi) south of Delhi.",628.031,0,,627.932,0.0,315,70,provider,True,,,,,{},{}
+2026-10-28T12:24:47.191320+00:00,,20261028-121727,baseline,,General Chat,groq,openai/gpt-oss-20b,Faith vs Fear which is helpful?,Faith vs Fear which is helpful?,"**Faith** is generally more helpful than **fear**.
+
+- **Faith** (hope, confidence, belief in a positive outcome) encourages action, resilience, and a constructive mindset.  
+- **Fear** (anxiety, doubt, avoidance) can paralyze decision‑making and limit growth.
+
+A healthy balance is to use **caution** (a rational assessment of risk) while letting **faith** drive you forward.",1179.166,0,,1179.06,0.0,337,111,provider,True,,,,,{},{}
+2026-10-28T12:27:40.305433+00:00,,20261028-121727,baseline,,General Chat,cerebras,gpt-oss-120b,Hi,Hi,,0.126,0,,,0.0,,,,False,auth,auth: CEREBRAS_API_KEY is not set in .env.,,,{},{}
+2026-10-28T12:38:54.730882+00:00,,20261028-121727,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,hi,hi,,1014.217,0,,1014.112,0.0,,,,False,rate_limit,"rate_limit: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Liquid', 'is_byok': False, 'provider_error_code': 'model_rate_limit_exceeded', 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://open",,,{},{}
+2026-10-28T12:56:39.197836+00:00,,20261028-125619,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi,Hi,Hello! How can I help you today?,6010.64,0,,6010.528,0.0,39,9,provider,True,,,,,{},{}
+2026-10-28T12:56:59.091174+00:00,,20261028-125619,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra, Uttar Pradesh, India**. It is situated on the right bank of the Yamuna River.",5911.842,0,,5911.731,0.0,55,28,provider,True,,,,,{},{}
+2026-10-28T12:57:07.810477+00:00,,20261028-125619,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Hi,Hi,Hello! How can I help you today?,749.037,0,,748.945,0.0,115,10,provider,True,,,,,{},{}
+2026-10-28T12:57:32.207073+00:00,,20261028-125619,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is in **Agra, Uttar Pradesh, India**.",941.675,0,,941.594,0.0,139,15,provider,True,,,,,{},{}
+2026-10-28T12:57:52.207236+00:00,,20261028-125619,baseline,,General Chat,groq,openai/gpt-oss-20b,Hi,Hi,Hello! How can I help you today?,564.3,0,,564.221,0.0,205,66,provider,True,,,,,{},{}
+2026-10-28T12:57:59.100692+00:00,,20261028-125619,baseline,,General Chat,groq,openai/gpt-oss-20b,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra, Uttar Pradesh, India**.",679.641,0,,679.541,0.0,185,56,provider,True,,,,,{},{}
+2026-10-28T12:58:40.448130+00:00,,20261028-125619,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Hi,Hi,Hi there! How can I help you today?,320.39,0,,320.272,0.0,155,11,provider,True,,,,,{},{}
+2026-10-28T12:59:17.164427+00:00,,20261028-125619,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra, Uttar Pradesh, India**.",574.28,0,,574.167,0.0,150,17,provider,True,,,,,{},{}
+2026-10-28T12:59:40.427890+00:00,,20261028-125619,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Hi,Hi,Hello! How can I assist you today?,1720.01,0,,1719.91,0.0,142,42,provider,True,,,,,{},{}
+2026-10-28T12:59:50.283037+00:00,,20261028-125619,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Where is Taj Mahal?,Where is Taj Mahal?,,597.58,0,,597.4,0.0,,,,False,rate_limit,"rate_limit: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'liquid/lfm-2.5-2.6b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Liquid', 'is_byok': False, 'provider_error_code': 'model_rate_limit_exceeded', 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://open",,,{},{}
+2026-10-29T10:28:56.557064+00:00,,20261029-102843,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Hi,Hi,Hello! How can I help you today?,2500.757,0,,2500.627,0.0,52,53,provider,True,,,,,{},{}
+2026-10-29T10:29:14.562204+00:00,,20261029-102843,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra, Uttar Pradesh, India**. It is a UNESCO World Heritage Site and one of the New Seven Wonders of the World. It was built by the Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",849.946,0,,849.84,0.0,77,123,provider,True,,,,,{},{}
+2026-10-29T10:31:17.433105+00:00,,20261029-102843,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hello!,Hello!,Hello again! How can I help you today?,893.276,0,,893.152,0.0,111,10,provider,True,,,,,{},{}
+2026-10-29T10:31:36.669046+00:00,,20261029-102843,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Explain Machine Learning?,Explain Machine Learning?,"**Machine Learning (ML)** is a subset of artificial intelligence (AI) that allows computers to learn from data and improve their performance over time without being explicitly programmed for every single task.
+
+Here is a simple way to understand it:
+
+### Traditional Programming vs. Machine Learning
+*   **Traditional Programming:** You give the computer **Rules** + **Data**, and it gives you **Answers**.
+*   **Machine Learning:** You give the computer **Data** + **Answers (Examples)**, and it figures out the **Rules**.
+
+### How it Works (The Basic Process)
+1.  **Data Collection:** You feed the computer a large amount of data (e.g., thousands of pictures of cats and dogs).
+2.  **Training:** The algorithm analyzes the data to find patterns and features (e.g., cats have pointy ears, dogs are often larger).
+3.  **Prediction/Decision:** When given new, unseen data, the model uses what it learned to make a prediction (e.g., ""This new photo is 95% likely to be a cat"").
+4.  **Evaluation:** If the prediction is wrong, the model adjusts itself to get better next time.
+
+### Common Types of Machine Learning
+1.  **Supervised Learning:** The model is trained on labeled data (like flashcards with questions and answers). *Example: Predicting house prices based on historical sales data.*
+2.  **Unsupervised Learning:** The model looks for hidden patterns in unlabeled data. *Example: Grouping customers into different segments based on shopping habits.*
+3.  **Reinforcement Learning:** The model learns by trial and error, receiving rewards for good actions and penalties for bad ones. *Example: Teaching a computer to play chess or self-driving cars.*
+
+### Real-World Examples
+*   **Recommendation systems** (Netflix, Spotify, YouTube suggesting what to watch or listen to next).
+*   **Spam filters** in your email.
+*   **Voice assistants** like Siri and Alexa.
+*   **Facial recognition** on your smartphone. 
+
+In short, machine learning is how we teach computers to recognize patterns, make decisions, and solve complex problems much like humans do.",2330.071,0,,2329.984,0.0,127,462,provider,True,,,,,{},{}
+2026-10-29T10:34:56.930633+00:00,,20261029-102843,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Faith vs Fear? Explain,Faith vs Fear? Explain,"**Faith** and **Fear** are two of the most powerful, fundamental emotional and psychological forces that drive human behavior. Though opposites, they are deeply interconnected. 
+
+Here is a breakdown of what they are, how they work, and how they shape our lives:
+
+---
+
+### 1. Defining the Concepts
+
+*   **Fear** is a natural, survival-based emotion. It is triggered by the perception of danger, threat, uncertainty, or pain. Its evolutionary purpose is to protect us (the ""fight, flight, or freeze"" response). However, chronic fear operates in the *imagination*, worrying about things that might happen in the future.
+*   **Faith** is the choice to trust in the unknown, in a positive outcome, or in something greater than oneself (whether that is God, the universe, humanity, or one's own resilience). Faith is not the absence of doubt; it is the decision to move forward *despite* doubt.
+
+---
+
+### 2. Key Differences
+
+| Feature | Fear | Faith |
+| :--- | :--- | :--- |
+| **Core Focus** | What could go **wrong** (Worst-case scenario) | What could go **right** (Possibility and potential) |
+| **Energy** | Constricting, draining, and paralyzing | Expanding, energizing, and motivating |
+| **Time Orientation** | Lives in the **future** (anticipating disaster) or the past (regret) | Lives in the **present moment** (taking action) and the future (hope) |
+| **Result** | Creates barriers, isolation, and inaction | Builds bridges, courage, and momentum |
+
+---
+
+### 3. How They Interact
+
+*   **They require the same imagination:** Interestingly, fear and faith are twins of the imagination. Fear uses imagination to picture a negative future; faith uses imagination to picture a positive future. Both require you to believe in something you **cannot yet see**.
+*   **They are mutually exclusive:** You cannot operate from a place of true faith and deep fear at the same time. When fear enters, faith tends to recede, and vice versa. 
+*   **Fear is a reaction; Faith is a choice:** Fear is often an automatic, instinctual reaction to danger or uncertainty. Faith, on the other hand, is an active choice—a discipline of the mind and heart to trust instead of panic.
+
+---
+
+### 4. Real-World Impact
+
+*   **When Fear Wins:** It keeps us in our comfort zones, stops us from taking risks, damages our health (through chronic stress), and can lead to prejudice or missed opportunities. 
+*   **When Faith Wins:** It empowers people to start businesses, heal from trauma, stand up for justice, explore new frontiers, and endure difficult hardships with grace.
+
+### Summary
+In life, uncertainty is guaranteed. **Fear** tells you, *""Don't try, because you might fail.""* **Faith** tells you, *""Try anyway, because you might succeed, and even if you fail, you will learn.""* 
+
+Ultimately, both demand that you believe in an unseen future—faith asks you to believe in the best of it, while fear prepares you for the worst of it. The quality of our lives often depends on which one we choose to feed.",5756.644,0,,5756.549,0.0,584,697,provider,True,,,,,{},{}
+2026-10-29T10:42:26.833695+00:00,,20261029-102843,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Hi,Hi,Hi! How can I help you today? 😊,856.074,0,,855.967,0.0,1262,11,provider,True,,,,,{},{}
+2026-10-29T10:43:21.063907+00:00,,20261029-102843,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Explain Machine Learning?,Explain Machine Learning?,"**Machine Learning (ML)** is a subset of Artificial Intelligence (AI) that enables computer systems to **learn patterns and make decisions directly from data**, rather than being explicitly programmed for every single rule.
+
+Think of it this way:
+*   **Traditional Programming:** You give the computer **Rules** + **Data** $\rightarrow$ It gives **Answers**.
+*   **Machine Learning:** You give the computer **Data** + **Answers (Examples)** $\rightarrow$ It figures out the **Rules** itself.
+
+### ⚙️ How Does It Work?
+1.  **Training:** A vast amount of relevant data (e.g., thousands of labeled pictures of cats and dogs) is fed into an ML algorithm.
+2.  **Pattern Recognition:** The algorithm analyzes this data to identify underlying statistical patterns (e.g., ""cats usually have certain ear shapes,"" ""dogs have certain snout structures"").
+3.  **Prediction:** Once trained, the model can look at a *new*, unseen picture and accurately predict whether it is a cat or a dog, based on the rules it learned.
+4.  **Improvement:** If it makes a mistake, it adjusts its internal parameters to perform better next time.
+
+### 📊 Main Types of ML
+1.  **Supervised Learning:** Training with **labeled** data (e.g., ""This email is SPAM,"" ""This house costs $300k""). Used for **classification** and **regression**.
+2.  **Unsupervised Learning:** Training with **unlabeled** data. The goal is to find hidden structures or groupings (e.g., segmenting customers into distinct groups).
+3.  **Reinforcement Learning:** The model learns by **trial and error** within an environment, receiving rewards for good actions and penalties for bad ones (e.g., training a robot or an AI to play a game).
+
+### 💡 Real-World Examples
+*   **Netflix/Spotify:** Recommending content based on your past behavior.
+*   **Email Filters:** Automatically sorting spam.
+*   **Self-Driving Cars:** Recognizing pedestrians, traffic lights, and road signs.
+*   **Medical Diagnosis:** Analyzing scans (X-rays, MRIs) to detect diseases earlier than the human eye might.
+
+In essence, ML allows technology to become **adaptive**—it gets smarter the more data it consumes, rather than needing a programmer to write a new rule for every new scenario.",11024.801,0,,11024.638,0.0,1264,513,provider,True,,,,,{},{}
+2026-10-29T10:44:31.912661+00:00,,20261029-102843,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Faith vs Fear. Explain?,Faith vs Fear. Explain?,"**Faith** and **Fear** are two fundamental, opposing psychological forces that dictate how we perceive the world and how we choose to act.
+
+Here is a concise explanation of each and how they contrast:
+
+### 🕊️ Faith
+*   **What it is:** The choice to **trust** in something unseen—a positive outcome, a higher power, one's own resilience, or the goodness of life—*despite* the presence of uncertainty or evidence to the contrary.
+*   **Focus:** **Possibility** (What *could* be good).
+*   **Action:** **Courage** and **Movement**. Faith motivates action, hope, and perseverance through difficulty.
+*   **Nature:** An **active choice** made in the present moment.
+
+### 😨 Fear
+*   **What it is:** A natural, survival-based emotion triggered by the perception of **danger, threat, or loss**. It is often focused on worst-case scenarios.
+*   **Focus:** **Threat** (What *could* go wrong).
+*   **Action:** **Paralysis** or **Avoidance**. Fear keeps us safe in the short term but prevents growth and opportunity in the long term.
+*   **Nature:** An **instinctive reaction** to perceived threat.
+
+### ⚖️ The Core Difference
+| Feature | Fear | Faith |
+| :--- | :--- | :--- |
+| **Orientation** | Past regrets or negative future predictions | Present trust and hopeful future possibilities |
+| **Result** | Stagnation, anxiety, avoidance | Growth, courage, resilience |
+| **Mechanism** | Reacting to what *might* hurt | Choosing to believe in what *can* be good |
+
+**In summary:** Fear keeps you small and safe in the known; Faith gives you the courage to step into the unknown, trusting that you can handle what comes, even if it isn't perfect. It is not the *absence* of fear, but the **choice to act in spite of it.**",9128.957,0,,9128.769,0.0,1316,425,provider,True,,,,,{},{}
+2026-10-29T10:48:19.772466+00:00,,20261029-102843,baseline,,General Chat,groq,openai/gpt-oss-20b,Hi,Hi,Hello! How can I help you today?,2531.339,0,,2531.251,0.0,1072,43,provider,True,,,,,{},{}
+2026-10-29T10:49:01.486438+00:00,,20261029-102843,baseline,,General Chat,groq,openai/gpt-oss-20b,Explain Machine Learning?,Explain Machine Learning?,"**Machine Learning (ML)** is a branch of artificial intelligence that lets computers learn from data instead of being explicitly programmed for every rule.
+
+---
+
+### 1. The Core Idea
+- **Traditional programming:** You write *exact* instructions → computer follows them.
+- **Machine learning:** You give the computer *data* (and sometimes the correct answers) → the computer discovers the rules itself.
+
+---
+
+### 2. How It Works (Simplified)
+
+| Step | What Happens | Example |
+|------|--------------|---------|
+| **Collect data** | Gather many examples (images, texts, numbers). | Thousands of labeled photos of cats & dogs. |
+| **Choose a model** | Pick an algorithm (e.g., decision tree, neural network). | A convolutional neural network for image recognition. |
+| **Train** | The model adjusts internal parameters to minimize error on the training data. | It learns that “cat” images often have pointy ears. |
+| **Validate** | Test on unseen data to check performance. | Feed it a new cat photo it hasn’t seen before. |
+| **Deploy** | Use the trained model to make predictions or decisions. | A spam filter classifies new emails. |
+
+---
+
+### 3. Main Types of ML
+
+| Type | What it needs | Typical use |
+|------|---------------|-------------|
+| **Supervised** | Labeled data (input + correct output) | Image classification, spam detection |
+| **Unsupervised** | Unlabeled data | Clustering customers, anomaly detection |
+| **Reinforcement** | Interaction with an environment + rewards | Game AI, robotics |
+
+---
+
+### 4. Why It Matters
+
+| Benefit | Why it’s useful |
+|---------|-----------------|
+| **Automation** | Handles repetitive tasks faster than humans. |
+| **Insight** | Finds patterns humans might miss. |
+| **Adaptability** | Improves over time with more data. |
+| **Scalability** | Works on huge datasets that would be impossible to analyze manually. |
+
+---
+
+### 5. Quick Example
+
+1. **Problem:** Predict house prices.  
+2. **Data:** Past sales with features (size, location, age).  
+3. **Model:** Linear regression.  
+4. **Training:** Fit the line that best predicts prices.  
+5. **Prediction:** Input a new house’s features → get an estimated price.
+
+---
+
+**Bottom line:** Machine learning is all about letting data teach a computer how to perform a task, turning raw information into actionable predictions or decisions.",931.774,0,,931.692,0.0,1074,556,provider,True,,,,,{},{}
+2026-10-29T10:49:30.540543+00:00,,20261029-102843,baseline,,General Chat,groq,openai/gpt-oss-20b,Faith vs Fear Explain?,Faith vs Fear Explain?,"**Faith vs. Fear**
+
+| Aspect | Fear | Faith |
+|--------|------|-------|
+| **What it is** | An instinctive reaction to perceived danger or loss. | A conscious choice to trust in something unseen or hopeful. |
+| **Focus** | *What could go wrong?* | *What could be good?* |
+| **Emotion** | Anxiety, dread, hesitation. | Hope, courage, confidence. |
+| **Result** | Paralysis, avoidance, stagnation. | Action, growth, resilience. |
+| **Nature** | Instinctive, often automatic. | Active, intentional, present‑moment decision. |
+
+**Bottom line:**  
+Fear keeps you safe in the known but limits you. Faith lets you step into the unknown, trusting that you can handle what comes. It isn’t the absence of fear, but the choice to act *in spite of* it.",614.435,0,,614.337,0.0,1099,233,provider,True,,,,,{},{}
+2026-10-29T10:50:30.043505+00:00,,20261029-102843,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Hi,Hi,Hello! How can I help you today?,303.901,0,,303.787,0.0,868,10,provider,True,,,,,{},{}
+2026-10-29T10:50:45.133121+00:00,,20261029-102843,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Explain Machine Learning?,Explain Machine Learning?,"**Machine Learning (ML)** is a branch of artificial intelligence that allows computers to learn from data and improve their performance on tasks without being explicitly programmed for every rule.
+
+### Core Idea
+Instead of writing specific instructions (e.g., ""if X, then Y""), you provide the computer with **data** and let it find patterns to make predictions or decisions.
+
+### How It Works
+1. **Data Collection**: Gather large amounts of relevant data (e.g., images, text, numbers).
+2. **Model Selection**: Choose an algorithm (e.g., neural network, decision tree).
+3. **Training**: The model analyzes the data and adjusts its internal parameters to minimize errors.
+4. **Testing**: Evaluate the model on new, unseen data to check accuracy.
+5. **Deployment**: Use the trained model to make real-world predictions.
+
+### Main Types
+- **Supervised Learning**: Learns from labeled data (input + correct output).  
+  *Example: Spam email detection.*
+- **Unsupervised Learning**: Finds hidden patterns in unlabeled data.  
+  *Example: Customer segmentation.*
+- **Reinforcement Learning**: Learns by interacting with an environment and receiving rewards/penalties.  
+  *Example: Game-playing AI.*
+
+### Why It Matters
+- **Automation**: Handles complex tasks faster than humans.
+- **Insight**: Discovers patterns in large datasets.
+- **Adaptability**: Improves over time with more data.
+
+**In short:** Machine learning turns raw data into actionable predictions by letting algorithms learn from examples.",944.333,0,,944.254,0.0,872,327,provider,True,,,,,{},{}
+2026-10-29T10:51:03.403244+00:00,,20261029-102843,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Faith vs Fear Explain?,Faith vs Fear Explain?,"**Faith vs. Fear**
+
+| Aspect | Fear | Faith |
+|--------|------|-------|
+| **What it is** | An instinctive reaction to perceived danger or loss. | A conscious choice to trust in something unseen or hopeful. |
+| **Focus** | *What could go wrong?* | *What could be good?* |
+| **Emotion** | Anxiety, dread, hesitation. | Hope, courage, confidence. |
+| **Result** | Paralysis, avoidance, stagnation. | Action, growth, resilience. |
+| **Nature** | Instinctive, often automatic. | Active, intentional, present‑moment decision. |
+
+**Bottom line:**  
+Fear keeps you safe in the known but limits you. Faith lets you step into the unknown, trusting that you can handle what comes. It isn’t the absence of fear, but the choice to act *in spite of* it.",908.808,0,,908.681,0.0,643,195,provider,True,,,,,{},{}
+2026-10-29T10:51:16.702259+00:00,,20261029-102843,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Hi,Hi,Hello! How can I help you today?,3502.429,0,,3502.305,0.0,617,69,provider,True,,,,,{},{}
+2026-10-29T10:51:44.716173+00:00,,20261029-102843,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Explain Machine Learning?,Explain Machine Learning?,"**Machine Learning (ML)** is a subset of artificial intelligence where computers learn from data to make predictions or decisions without being explicitly programmed for every task.
+
+### How It Works
+1. **Data** – The model is trained on large amounts of examples (e.g., images, text, numbers).
+2. **Pattern Recognition** – The algorithm identifies patterns and relationships in the data.
+3. **Prediction** – Once trained, the model can generalize to new, unseen data.
+
+### Main Types
+- **Supervised Learning** – Learns from labeled data (input + correct output). Example: spam detection.
+- **Unsupervised Learning** – Finds hidden patterns in unlabeled data. Example: customer segmentation.
+- **Reinforcement Learning** – Learns by trial and error, receiving rewards or penalties. Example: game-playing AI.
+
+### Why It Matters
+- Automates complex tasks (image recognition, language translation, recommendation systems).
+- Enables personalization (streaming services, search engines).
+- Helps make decisions based on data rather than intuition.
+
+**In short:** ML turns data into knowledge, letting computers improve at tasks over time.",1491.641,0,,1491.537,0.0,620,300,provider,True,,,,,{},{}
+2026-10-29T10:55:37.770318+00:00,,20261029-102843,baseline,,General Chat,openrouter,liquid/lfm-2.5-2.6b:free,Faith vs Fear Explain?,Faith vs Fear Explain?,"**Faith vs. Fear**
+
+| Aspect | Fear | Faith |
+|--------|------|-------|
+| **Definition** | An instinctive reaction to perceived danger or loss. | A conscious choice to trust in something unseen or hopeful. |
+| **Focus** | *What could go wrong?* | *What could be good?* |
+| **Emotion** | Anxiety, dread, hesitation. | Hope, courage, confidence. |
+| **Result** | Paralysis, avoidance, stagnation. | Action, growth, resilience. |
+| **Nature** | Instinctive, automatic. | Active, intentional, present‑moment decision. |
+
+**Key Difference:**
+- **Fear** is about *protection* — it keeps you safe in the known but can trap you in fear of the unknown.
+- **Faith** is about *trust* — it allows you to step into the unknown, knowing you can handle what comes.
+
+**Bottom line:** Fear limits you; faith empowers you. They aren't opposites — you can have both. Fear can be a signal to prepare, while faith gives you the courage to act despite it.",1459.309,0,,1459.177,0.0,537,314,provider,True,,,,,{},{}
+2026-10-29T11:19:22.085230+00:00,,20261029-111819,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is python?,What is python?,,0.08,0,,,,,,,False,no_documents,No processed documents. Upload files and choose Process documents.,,,{},{}
+2026-10-29T11:19:31.486823+00:00,,20261029-111819,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is python?,What is python?,,0.14,0,,,,,,,False,no_documents,No processed documents. Upload files and choose Process documents.,,,{},{}
+2026-10-30T09:55:41.878717+00:00,,20261030-094758,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,what is python?,what is python?,,695.821,0,17.836,677.568,0.0,,,,False,bad_request,bad_request: Error code: 400,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T09:56:02.669055+00:00,,20261030-094758,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,summarize the pdf,summarize the pdf,,263.133,0,11.913,250.486,0.0,,,,False,bad_request,bad_request: Error code: 400,"Tutorial_EDIT.pdf, page 59; Tutorial_EDIT.pdf, page 4; Tutorial_EDIT.pdf, page 3; Tutorial_EDIT.pdf, page 134",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T09:58:44.031972+00:00,,20261030-094758,baseline,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,,300.632,0,11.348,288.949,0.0,,,,False,auth,auth: Error code: 401,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:07:05.498686+00:00,,20261030-100421,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"Python is an easy to learn, powerful programming language with efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. It is an interpreted language, which saves time during program development because no compilation and linking is necessary [4]. Additionally, Python's elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development [1].",1870.541,0,10.358,1859.937,0.0,945,79,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9; Tutorial_EDIT.pdf, page 10",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:51:31.165586+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"Python is an easy to learn, powerful programming language that features efficient high-level data structures, a simple but effective approach to object-oriented programming, elegant syntax, dynamic typing, and an interpreted nature [1].",1496.791,0,14.008,1482.462,0.0,752,43,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:53:17.996587+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,"Python is an easy to learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax and dynamic typing, along with its interpreted nature, make it suitable for scripting and rapid application development across most platforms [1]. Because it is interpreted, source files can be run directly without explicitly creating an executable [3]. Python also enables programs to be written compactly and readably, often resulting in shorter programs compared to equivalent C, C++, or Java programs due to its high-level data types [4].",4373.357,0,11.013,4362.04,0.0,822,118,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:54:31.589978+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,what is python?,what is python?,"Python is an easy‑to‑learn, powerful programming language that features efficient high‑level data structures and a simple, effective approach to object‑oriented programming. Its elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development on most platforms [1]. Because it is interpreted, Python source files can be run directly without explicit compilation, allowing interactive experimentation and quick prototyping [3]. The language encourages concise, readable code, often resulting in shorter programs than equivalent C, C++, or Java code due to its high‑level data types and built‑in features [4].",958.082,0,10.992,946.701,0.0,971,190,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:54:52.374463+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,groq_qwen,qwen/qwen3.8-27b,what is python?,what is python?,"Python is an easy-to-learn, powerful programming language characterized by efficient high-level data structures and a simple, effective approach to object-oriented programming [1]. Its elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development across most platforms [1].
+
+Key features include:
+*   **Interpreted Language:** Python source files can be run directly without explicit compilation or linking, which saves time during development and allows for interactive experimentation [3][4].
+*   **Concise and Readable:** Programs written in Python are typically much shorter than equivalent C, C++, or Java programs due to its high-level data types [4].
+*   **Extensible:** The Python interpreter can be easily extended with new functions and data types implemented in C or C++, making it suitable as an extension language for customizable applications [2].
+*   **Availability:** The Python interpreter and extensive standard library are freely available in source or binary form for all major platforms [1].",782.018,0,11.499,770.219,0.0,1082,204,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T10:55:18.004326+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,openrouter,liquid/lfm-2.5-2.6b:free,what is python?,what is python?,,893.287,0,12.035,880.932,0.0,,,,False,rate_limit,rate_limit: Error code: 429 - Provider returned error,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T11:03:07.171272+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,openrouter,liquid/lfm-2.5-2.6b:free,what is python?,what is python?,,988.536,0,22.713,965.408,0.0,,,,False,rate_limit,rate_limit: Error code: 429 - Provider returned error,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T11:03:17.922414+00:00,,20261030-104815,baseline,,Ask Uploaded Documents,openrouter,liquid/lfm-2.5-2.6b:free,what is python?,what is python?,,486.64,0,12.139,474.109,0.0,,,,False,rate_limit,rate_limit: Error code: 429 - Provider returned error,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T12:33:31.887233+00:00,,20261030-122935,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"Python is an easy to learn, powerful programming language that features efficient high-level data structures, a simple but effective approach to object-oriented programming, elegant syntax, dynamic typing, and an interpreted nature [1].",2286.125,0,11.826,2273.876,0.0,752,43,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T12:33:52.041781+00:00,,20261030-122935,baseline,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,"Python is an easy to learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax and dynamic typing, along with its interpreted nature, make it suitable for scripting and rapid application development across most platforms [1]. Because it is interpreted, source files can be run directly without needing to explicitly create an executable [3]. Python also enables programs to be written compactly and readably, often resulting in shorter code compared to equivalent programs in C, C++, or Java [4].",3031.854,0,9.078,3022.518,0.0,822,113,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T12:34:09.519281+00:00,,20261030-122935,baseline,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,what is python?,what is python?,"Python is an easy‑to‑learn, powerful programming language that features efficient high‑level data structures, a simple but effective object‑oriented approach, elegant syntax, dynamic typing, and an interpreted nature, making it ideal for scripting and rapid application development on most platforms [1].",875.461,0,12.491,862.681,0.0,967,105,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T12:34:29.007217+00:00,,20261030-122935,baseline,,Ask Uploaded Documents,groq_qwen,openai/gpt-oss-120b,what is python?,what is python?,"Python is an easy‑to‑learn, powerful programming language that provides efficient high‑level data structures and a simple but effective approach to object‑oriented programming. Its elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development on most platforms [1].",1016.378,0,10.076,1006.018,0.0,1038,184,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-10-30T12:35:17.237673+00:00,,20261030-122935,baseline,,Ask Uploaded Documents,groq_120b,qwen/qwen3.8-27b,what is python?,what is python?,"Python is an easy-to-learn, powerful programming language characterized by efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development on most platforms [1]. As an interpreted language, Python allows source files to be run directly without explicit compilation or linking, which saves time during development and enables interactive use for experimenting with features or testing functions [3][4]. Additionally, Python enables programs to be written compactly and readably, often resulting in code that is much shorter than equivalent programs in C, C++, or Java [4].",892.498,0,21.801,870.354,0.0,1031,132,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T12:27:24.768959+00:00,,20261102-122708,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi,Hi,Hello! How can I help you today?,2905.756,0,,2905.589,0.0,39,9,provider,True,,,,,{},{}
+2026-11-02T12:27:37.245388+00:00,,20261102-122708,baseline,,General Chat,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"Python is a popular, high-level programming language known for its simplicity and readability. It looks a lot like plain English, making it great for beginners and efficient for experts. 
+
+Here are a few key things about Python:
+
+* **Versatile:** It is used in web development, data science, artificial intelligence (AI), machine learning, automation, and software testing.
+* **Beginner-Friendly:** Its clean syntax means you can write programs with fewer lines of code compared to languages like C++ or Java.
+* **Interpreted:** You can run code line-by-line as you write it, which makes testing and debugging much easier.
+* **Large Community:** Because it's so popular, there are millions of developers using it, thousands of free libraries/tools, and plenty of help available online.
+
+Are you thinking about learning Python, or do you have a specific project in mind?",2519.128,0,,2518.965,0.0,54,188,provider,True,,,,,{},{}
+2026-11-02T12:27:49.019265+00:00,,20261102-122708,baseline,,General Chat,gemini,gemini-3.5-flash-lite,where is tiruchendur?,where is tiruchendur?,"**Tiruchendur** is located in the **Thoothukudi district** (also known as Tuticorin) in the southern state of **Tamil Nadu, India**. 
+
+Here are a few quick details about its location:
+* **Geography:** It is situated on the coast of the **Bay of Bengal** (specifically along the Gulf of Mannar).
+* **Significance:** It is most famous for the ancient **Tiruchendur Murugan Temple**, which is one of the six abodes (Arupadai Veedu) of Lord Murugan and sits right on the seashore.
+* **Connectivity:** It is about 60 km from Tirunelveli and around 40 km from Thoothukudi, and it has its own railway station connected to cities like Madurai, Tirunelveli, and Chennai. 
+
+Are you planning a trip there?",2434.117,0,,1692.531,741.0,251,187,provider,True,,,,,{},{}
+2026-11-02T12:28:21.092520+00:00,,20261102-122708,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Good Evening?,Good Evening?,"Good evening to you too! 😊
+
+How can I assist you this evening? Do you have any questions, need information, or would you like to chat about something?",1280.74,0,,1280.538,0.0,480,35,provider,True,,,,,{},{}
+2026-11-02T12:28:35.066149+00:00,,20261102-122708,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is python?,What is python?,"Python is a popular, high-level programming language known for its **simplicity and readability**. It is designed to allow programmers to write clear, concise code that resembles plain English.
+
+**Key things to know about Python:**
+
+* **Versatility:** It is used across many fields, including **web development** (using frameworks like Django/Flask), **data science** (with libraries like Pandas/NumPy), **Artificial Intelligence/Machine Learning** (TensorFlow, PyTorch), **automation/scripting**, and more.
+* **Beginner-Friendly:** Its straightforward syntax makes it an excellent language for people new to programming.
+* **Interpreted:** Code is executed line-by-line, which simplifies testing and debugging.
+* **Extensive Libraries:** It has a massive ecosystem of pre-built libraries that allow developers to accomplish complex tasks without writing everything from scratch.
+
+In short, it's a powerful, versatile, and easy-to-learn tool for building almost anything digital.
+
+Do you want to know more about a specific use of Python (like data science or web development), or perhaps see a very simple code example?",3776.747,0,,3776.598,0.0,508,237,provider,True,,,,,{},{}
+2026-11-02T12:29:15.341604+00:00,,20261102-122708,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,where is Taj Mahal?,where is Taj Mahal?,"The Taj Mahal is located in **Agra**, in the state of **Uttar Pradesh**, **India**.",829.988,0,,829.785,0.0,557,22,provider,True,,,,,{},{}
+2026-11-02T12:29:27.934534+00:00,,20261102-122708,baseline,,General Chat,groq,openai/gpt-oss-20b,Hi,Hi,Hello! How can I help you today?,972.965,0,,972.785,0.0,434,33,provider,True,,,,,{},{}
+2026-11-02T12:30:15.463281+00:00,,20261102-122708,baseline,,General Chat,groq,openai/gpt-oss-20b,what is Js,what is Js,"JS is short for **JavaScript**, a programming language that runs in web browsers (and on servers via Node.js). It lets you add interactivity, manipulate web pages, and build full‑stack applications.",916.253,0,,916.131,0.0,409,73,provider,True,,,,,{},{}
+2026-11-02T12:30:25.646837+00:00,,20261102-122708,baseline,,General Chat,groq,openai/gpt-oss-20b,where is kabul?,where is kabul?,"Kabul is the capital city of **Afghanistan**, located in the eastern part of the country.",604.907,0,,604.745,0.0,227,46,provider,True,,,,,{},{}
+2026-11-02T12:30:36.336310+00:00,,20261102-122708,baseline,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi,Hi,Hello! How can I assist you today?,515.074,0,,514.912,0.0,220,32,provider,True,,,,,{},{}
+2026-11-02T12:36:20.892060+00:00,,20261102-122708,baseline,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi,Hi,Hi there! How can I help you today?,638.219,0,,638.064,0.0,220,36,provider,True,,,,,{},{}
+2026-11-02T12:36:34.198886+00:00,,20261102-122708,baseline,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi,Hi,Hello! How can I assist you today?,573.817,0,,573.575,0.0,186,42,provider,True,,,,,{},{}
+2026-11-02T12:36:46.970894+00:00,,20261102-122708,baseline,,General Chat,groq_120b,qwen/qwen3.8-27b,Hi,Hi,Hi! How can I help you today?,205.699,0,,205.561,0.0,128,10,provider,True,,,,,{},{}
+2026-11-02T12:38:05.257358+00:00,,20261102-122708,baseline,,General Chat,groq,openai/gpt-oss-20b,Hi,Hi,Hello! How can I help you today?,594.842,0,,594.738,0.0,172,36,provider,True,,,,,{},{}
+2026-11-02T12:38:14.099557+00:00,,20261102-122708,baseline,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi,Hi,Hello! Let me know if there's anything you'd like to discuss or any question I can help with.,587.55,0,,587.392,0.0,171,57,provider,True,,,,,{},{}
+2026-11-02T12:38:27.417315+00:00,,20261102-122708,baseline,,General Chat,groq_120b,qwen/qwen3.8-27b,Hi,Hi,Hi there! How can I assist you today?,416.24,0,,416.066,0.0,140,11,provider,True,,,,,{},{}
+2026-11-02T12:49:11.839263+00:00,,20261102-124900,baseline,,General Chat,gemini,gemini-3.5-flash-lite,hI,hI,Hi there! How can I help you today?,2913.928,0,,2913.781,0.0,40,10,provider,True,,,,,{},{}
+2026-11-02T16:17:00.413351+00:00,lakshmi,20261102-161607,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Hi?,Hi?,Hi! How can I help you today?,2892.881,0,,2892.766,0.0,40,9,provider,True,,,,,{},{}
+2026-11-02T16:17:14.720052+00:00,lakshmi,20261102-161607,baseline,,General Chat,gemini,gemini-3.5-flash-lite,What is python?,What is python?,"Python is a popular, high-level programming language known for its simplicity and readability. 
+
+Here are a few key things about it:
+* **Easy to Learn:** Its syntax (the way it is written) closely resembles plain English, making it great for beginners.
+* **Versatile:** It is used in web development, data science, artificial intelligence (AI), machine learning, automation, and software testing.
+* **Interpreted:** You don't need to ""compile"" your code before running it; the Python interpreter executes it line by line.
+* **Large Community:** It has a massive community of developers, meaning there are countless libraries, tools, and tutorials available.
+
+Would you like to know how to write a simple Python program?",1514.738,0,,1514.633,0.0,55,156,provider,True,,,,,{},{}
+2026-11-02T16:17:36.631876+00:00,lakshmi,20261102-161607,baseline,,General Chat,gemini,gemini-3.5-flash-lite,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra**, in the state of **Uttar Pradesh, India**. It sits on the right bank of the Yamuna River.",1077.027,0,,1076.846,0.0,218,32,provider,True,,,,,{},{}
+2026-11-02T16:17:56.913835+00:00,lakshmi,20261102-161607,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,HI?,HI?,Hi! How can I assist you today? 😊,1179.771,0,,1179.623,0.0,291,11,provider,True,,,,,{},{}
+2026-11-02T16:18:46.002249+00:00,lakshmi,20261102-161607,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is Java?,What is Java?,"Java is a high-level, class-based, object-oriented programming language. It is very popular for building large-scale, robust applications.
+
+Here are its key characteristics:
+
+* **""Write Once, Run Anywhere"" (WORA):** This is Java's most famous feature. Java code is compiled into **bytecode**, which can then run on any device that has a **Java Virtual Machine (JVM)** installed, regardless of the underlying operating system (Windows, macOS, Linux, etc.).
+* **Object-Oriented:** It organizes code around ""objects"" rather than just functions, promoting modularity and reusability.
+* **Platform Independent:** Due to the JVM, it achieves platform independence.
+* **Used For:** Enterprise-level backend systems, Android mobile app development (though Kotlin is gaining ground), big data applications, and web applications.
+
+In short, while Python is often praised for simplicity, Java is known for its **stability, performance, and massive use in large, enterprise-level systems.**
+
+Do you want to compare Java to Python, or learn about a specific use case for Java?",4976.695,0,,4976.531,0.0,294,232,provider,True,,,,,{},{}
+2026-11-02T16:19:34.186718+00:00,lakshmi,20261102-161607,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Where is Kasi?,Where is Kasi?,"""Kasi"" can refer to a few different places, as it might be a local name or a shortened form.
+
+Could you please provide a little more context? For example:
+
+1. **Are you referring to a city, town, or neighborhood?**
+2. **Do you know which country or region it is in?**
+3. **Is it related to a specific context (e.g., a movie, a business)?**
+
+If you can give me more details, I can give you an accurate location!",2075.585,0,,2075.425,0.0,370,111,provider,True,,,,,{},{}
+2026-11-02T16:20:07.778578+00:00,lakshmi,20261102-161607,baseline,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Where is Tiruchendur?,Where is Tiruchendur?,"Tiruchendur is a town located in the **Tamil Nadu** state of **India**.
+
+It is particularly famous for the **Tiruchendur Murugan Temple**, which is a very important Hindu pilgrimage site dedicated to Lord Murugan.
+
+If you need directions, information about travel to Tiruchendur, or details about the temple, please let me know!",1809.755,0,,1809.576,0.0,450,78,provider,True,,,,,{},{}
+2026-11-02T16:20:26.617131+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq,openai/gpt-oss-20b,Hello?,Hello?,Hello! How can I help you today?,928.451,0,,928.264,0.0,553,47,provider,True,,,,,{},{}
+2026-11-02T16:21:45.969713+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq,openai/gpt-oss-20b,What is variables?,What is variables?,"**Variables** are symbols (names) that stand for values in a program or mathematical expression.  
+- In **programming**, a variable holds data that can change during execution.  
+  - Example: `int age = 25;` – `age` is a variable that currently stores the number 25.  
+- In **mathematics**, a variable represents an unknown or a value that can vary.  
+  - Example: In the equation `x + 5 = 10`, `x` is a variable that can take on different values.
+
+In both cases, the variable name lets you refer to the stored value, and you can read, modify, or use it in calculations.",976.767,0,,976.655,0.0,341,176,provider,True,,,,,{},{}
+2026-11-02T16:22:29.496254+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq,openai/gpt-oss-20b,Where is Delhi?,Where is Delhi?,"Delhi is the capital city of India, located in the northern part of the country. It sits on the banks of the Yamuna River and is surrounded by the state of Haryana and the National Capital Territory of Delhi itself.",794.228,0,,793.924,0.0,380,69,provider,True,,,,,{},{}
+2026-11-02T16:24:19.683164+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,Hi?,Hi?,Hi! How can I help you today?,511.219,0,,511.098,0.0,307,10,provider,True,,,,,{},{}
+2026-11-02T16:33:48.083859+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,What is C?,What is C?,"**C** is a high-level, general-purpose, imperative programming language that was first developed in 1972 by **Dennis Ritchie** at Bell Labs.
+
+Here are the key characteristics of C:
+
+1.  **System Programming**: It is widely used for writing operating systems (like Unix and Linux), device drivers, and embedded systems because it allows direct memory manipulation and close-to-hardware control.
+2.  **Performance**: C programs are compiled into machine code, making them very fast and efficient.
+3.  **Portability**: C code can be compiled on many different platforms with little or no modification.
+4.  **Foundation**: Many other popular programming languages (such as C++, Java, Python, and JavaScript) were influenced by or derived from C.
+
+**Example of a simple C program:**
+```c
+#include <stdio.h>
+
+int main() {
+    printf(""Hello, World!\n"");
+    return 0;
+}
+```
+
+In summary, C is a foundational language in computer science known for its power, speed, and flexibility.",957.394,0,,957.246,0.0,309,228,provider,True,,,,,{},{}
+2026-11-02T16:34:19.180128+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_qwen,qwen/qwen3.8-27b,where ooty?,where ooty?,"Ooty (officially known as **Udhagamandalam**) is a hill station located in the **Nilgiri Hills** in the southern Indian state of **Tamil Nadu**.
+
+It is situated in the **Nilgiris district** and is famous for its cool climate, tea plantations, and scenic beauty. Ooty is a popular tourist destination, known for attractions like the Ooty Lake, Botanical Gardens, and the Nilgiri Mountain Railway.",657.58,0,,657.402,0.0,392,96,provider,True,,,,,{},{}
+2026-11-02T16:58:20.499797+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_120b,openai/gpt-oss-120b,Hello?,Hello?,Hello! How can I assist you today?,690.151,0,,689.999,0.0,471,34,provider,True,,,,,{},{}
+2026-11-02T16:58:47.328564+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_120b,openai/gpt-oss-120b,What is Python?,What is Python?,"**Python** is a high‑level, interpreted programming language known for its readability and simplicity. It was created by **Guido van Rossum** and first released in 1991.
+
+### Key Features
+| Feature | Description |
+|---------|-------------|
+| **Readable syntax** | Uses indentation to define code blocks, making programs easy to read and write. |
+| **Interpreted** | Code is executed line‑by‑line by the Python interpreter; no separate compilation step is required. |
+| **Dynamically typed** | Variable types are determined at runtime, so you don’t need to declare them explicitly. |
+| **Extensive standard library** | Includes modules for file I/O, networking, web services, data handling, and more. |
+| **Cross‑platform** | Runs on Windows, macOS, Linux, and many other operating systems without modification. |
+| **Large ecosystem** | Thousands of third‑party packages (via PyPI) for web development, data science, machine learning, automation, etc. |
+| **Multi‑paradigm** | Supports procedural, object‑oriented, and functional programming styles. |
+
+### Common Uses
+- **Web development** (Django, Flask)
+- **Data analysis & scientific computing** (pandas, NumPy, SciPy)
+- **Machine learning & AI** (TensorFlow, PyTorch, scikit‑learn)
+- **Automation & scripting**
+- **Desktop GUI applications** (Tkinter, PyQt)
+- **Embedded systems** (MicroPython, CircuitPython)
+
+### Simple Example
+```python
+# Print the first 10 Fibonacci numbers
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=' ')
+        a, b = b, a + b
+
+fibonacci(10)   # Output: 0 1 1 2 3 5 8 13 21 34
+```
+
+In short, Python’s combination of clear syntax, powerful libraries, and community support makes it a popular choice for beginners and experienced developers alike.",1499.791,0,,1499.685,0.0,473,479,provider,True,,,,,{},{}
+2026-11-02T16:59:12.182778+00:00,lakshmi,20261102-161607,baseline,,General Chat,groq_120b,openai/gpt-oss-120b,where is Mumbai?,where is Mumbai?,"Mumbai is a major city on the **west coast of India**.  
+
+- **State:** Maharashtra (the state’s capital)  
+- **Geographic setting:** It lies on a natural deep‑water harbor on the **Arabian Sea**, spread across a group of islands that have been merged by land reclamation.  
+- **Coordinates:** Approximately **19.07° N latitude, 72.88° E longitude**.  
+
+So, if you look at a map of India, find the long, narrow peninsula jutting into the Arabian Sea on the western side—Mumbai is located there.",1082.619,0,,1082.514,0.0,689,184,provider,True,,,,,{},{}
+2026-11-02T17:05:58.138808+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is python?,What is python?,"Python is an easy-to-learn, powerful programming language [1]. It has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax, dynamic typing, and interpreted nature make it an ideal language for scripting and rapid application development in many areas on most platforms [1].",1933.453,0,19.882,1913.36,0.0,1369,67,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T17:08:36.259612+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is for loop?,what is for loop?,,60202.444,0,7.838,60194.165,0.0,,,,False,timeout,timeout: Request timed out.,"Tutorial_EDIT.pdf, page 85; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 120; Tutorial_EDIT.pdf, page 27",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T17:09:12.512295+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,what is Pass statement?,what is Pass statement?,The answer is not in the uploaded documents.,917.539,0,5.923,911.417,0.0,1403,98,provider,True,,,"Tutorial_EDIT.pdf, page 123; Tutorial_EDIT.pdf, page 29; Tutorial_EDIT.pdf, page 71; Tutorial_EDIT.pdf, page 41",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T17:11:12.657004+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,what is if statement?,what is if statement?,"In Python, an **if statement** is a conditional construct that evaluates a Boolean expression and executes the indented block that follows it only when that expression is true. It can be followed by optional `elif` (else‑if) and `else` clauses to handle other cases.  
+
+Example from the tutorial:  
+
+```python
+for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:          # <‑‑ if statement
+            print(n, 'equals', x, '*', n//x)
+            break
+        else:
+            print(n, 'is a prime number')
+```
+
+Here, the `if n % x == 0:` line tests whether `n` is divisible by `x`; if the condition is true, the block under it runs. If the condition is false, the `else` block runs instead.  
+
+[2] (Tutorial_EDIT.pdf, page 27)",1300.36,0,6.048,1294.165,0.0,1229,449,provider,True,,,"Tutorial_EDIT.pdf, page 25; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 72; Tutorial_EDIT.pdf, page 22",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T17:11:51.826558+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,groq_qwen,qwen/qwen3.8-27b,What is Exceptions?,What is Exceptions?,"Based on the provided documents, **Exceptions** are errors that occur during the execution of a program. Key characteristics include:
+
+*   **Types and Messages:** Exceptions come in different types (e.g., `ZeroDivisionError`, `NameError`, `TypeError`), and the type name is printed as part of the error message [3]. The message also includes a stack traceback showing the context where the exception happened [3], [4].
+*   **Arguments:** An exception may have an associated value known as the exception’s argument. The presence and type of this argument depend on the specific exception type [1].
+*   **Handling:** Programs can handle selected exceptions using `try...except` statements. The `except` clause can bind a variable to the exception instance, allowing access to its arguments via the `.args` attribute or by printing the instance directly [1].
+*   **User-Defined Exceptions:** Developers can create custom exception classes by subclassing the built-in `Exception` class or a module-specific base class to handle distinct error conditions [2].
+*   **Interruptions:** User-generated interruptions, such as pressing Control-C, are signaled by raising the `KeyboardInterrupt` exception [4].",911.776,0,7.021,904.544,0.0,1150,250,provider,True,,,"Tutorial_EDIT.pdf, page 69; Tutorial_EDIT.pdf, page 71; Tutorial_EDIT.pdf, page 68; Tutorial_EDIT.pdf, page 68",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-02T17:15:23.857595+00:00,lakshmi,20261102-161607,baseline,,Ask Uploaded Documents,groq_120b,openai/gpt-oss-120b,What is set and tuples?,What is set and tuples?,"**Set**  
+A set is an unordered collection that cannot contain duplicate elements. It is useful for fast membership testing and for removing duplicate entries. Sets support mathematical operations such as union, intersection, difference, and symmetric difference. Sets are created with curly braces `{}` or with the `set()` function (the latter is required for an empty set, because `{}` creates an empty dictionary)【1†L1-L7】.
+
+**Tuple**  
+A tuple is an immutable sequence of elements, often heterogeneous, that can be accessed by indexing, unpacking, or (for namedtuples) by attribute. Because tuples cannot be modified after creation, they are useful for fixed collections of values. Empty tuples are written as `()`, and a one‑item tuple requires a trailing comma, e.g., `'hello',`【2†L1-L6】【3†L1-L5】.",1545.427,0,16.258,1528.953,0.0,1270,264,provider,True,,,"Tutorial_EDIT.pdf, page 43; Tutorial_EDIT.pdf, page 42; Tutorial_EDIT.pdf, page 42; Tutorial_EDIT.pdf, page 126",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}
+2026-11-03T06:56:36.784273+00:00,lakshmi,20261103-065321,baseline,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is python?,What is python?,"Python is an easy to learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax and dynamic typing, along with its interpreted nature, make it ideal for scripting and rapid application development on most platforms [1].
+
+Python is an interpreted language, meaning source files can be run directly without explicitly creating an executable [4]. It enables programs to be written compactly and readably, often resulting in shorter code compared to equivalent C, C++, or Java programs due to its high-level data types [4].
+
+The Python interpreter and its extensive standard library are freely available from the Python Web site [1].",4738.747,0,51.567,4686.804,0.0,1459,140,provider,True,,,"Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 9",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,{},{}

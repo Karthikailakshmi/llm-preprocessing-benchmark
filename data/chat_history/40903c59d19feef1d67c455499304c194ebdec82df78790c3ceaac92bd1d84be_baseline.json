@@ -1,0 +1,1775 @@
+[
+  {
+    "role": "user",
+    "content": "What is the difference between Respect and Disrespect?"
+  },
+  {
+    "role": "assistant",
+    "content": "At their core, **respect** and **disrespect** are opposites regarding how we value, treat, and acknowledge other people, ourselves, and our environment. \n\nHere is the breakdown of the differences:\n\n### **Respect**\nRespect is a positive feeling of admiration or deference for a person, their boundaries, their feelings, or their rights. It is built on empathy, understanding, and equality.\n\n* **Key Behaviors:**\n  * **Active Listening:** Letting others speak without interruption and trying to understand their perspective.\n  * **Boundaries:** Honoring personal space, time, privacy, and \"no.\"\n  * **Inclusivity:** Valuing diversity, differing opinions, and treating everyone with basic human dignity, regardless of status.\n  * **Accountability:** Owning up to mistakes and apologizing.\n* **The Mindset:** *\"You have value, your feelings matter, and your rights are valid.\"*\n\n### **Disrespect**\nDisrespect is a lack of courtesy, regard, or reverence. It signals that you do not value another person, their boundaries, or their dignity.\n\n* **Key Behaviors:**\n  * **Dismissiveness:** Mocking, interrupting, ignoring, or invalidating someone’s thoughts or feelings.\n  * **Boundary Violations:** Invading personal space, gossiping, breaking promises, or ignoring requests to stop a behavior.\n  * **Belittling:** Using insults, condescension, or prejudice to make someone feel small or inferior.\n  * **Entitlement:** Acting as though your time, desires, or opinions are more important than anyone else’s.\n* **The Mindset:** *\"My desires, opinions, and feelings matter more than yours; you do not matter.\"*\n\n---\n\n### **Summary of Differences**\n\n| Feature | Respect | Disrespect |\n| :--- | :--- | :--- |\n| **Foundation** | Empathy and equality | Ego, entitlement, or indifference |\n| **Communication** | Constructive, open, and polite | Condescending, dismissive, or hostile |\n| **Impact** | Builds trust, safety, and healthy relationships | Creates fear, resentment, and conflict |\n| **Example** | Disagreeing politely: *\"I see it differently, but I understand why you feel that way.\"* | Insulting someone: *\"That’s the stupidest thing I’ve ever heard.\"* |\n\nIn short, **respect** fosters connection and mutual growth, while **disrespect** creates division and emotional harm.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is the difference between Respect and Disrespect?",
+      "techniques": {},
+      "processed": "What is the difference between Respect and Disrespect?",
+      "total_ms": 3070.4079999704845,
+      "pre_ms": 0,
+      "api_ms": 3070.2591000008397,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 48,
+      "out_tok": 531,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "The definition of a **variable** depends entirely on the context you are using it in. Here are the three most common ways the word is used:\n\n---\n\n### 1. In Mathematics and Logic\nA variable is a symbol (usually a letter like $x$, $y$, or $n$) that represents an **unknown value** or a number that can change.\n* **Example:** In the equation $x + 3 = 7$, the letter **$x$** is a variable. By solving the equation, we find that $x = 4$.\n\n### 2. In Computer Programming\nA variable is like a **container or a storage box** in a computer's memory used to hold data (like a number, a word, or a true/false value) that your program might need to use or change later.\n* **Example:** \n  * `score = 10` (Here, `score` is the variable holding the number `10`).\n  * Later in the game, if the player scores a point, the code might update it to `score = 11`.\n\n### 3. In Science and Research (Statistics / Experiments)\nA variable is **any factor, trait, or condition** that can be changed, controlled, or measured in an experiment. \n* There are three main types:\n  * **Independent Variable:** The thing you *change* (e.g., the amount of water you give a plant).\n  * **Dependent Variable:** The thing you *measure* (e.g., how tall the plant grows).\n  * **Controlled Variables:** Things you *keep the same* (e.g., the amount of sunlight and soil type) so they don't mess up the experiment.\n\n---\n\n### **Summary**\nNo matter the field, a variable is essentially **something that is able to vary or change**, rather than staying fixed.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is variables?",
+      "techniques": {},
+      "processed": "what is variables?",
+      "total_ms": 2586.639799992554,
+      "pre_ms": 0,
+      "api_ms": 2586.519100004807,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 585,
+      "out_tok": 404,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is the process to put tea?"
+  },
+  {
+    "role": "assistant",
+    "content": "Making a classic cup of hot black tea is a simple process. Here is how to do it step-by-step:\n\n### **What You Need:**\n* Tea (a tea bag or loose-leaf tea)\n* Water\n* A mug or cup\n* A kettle or pot for boiling water\n* *Optional:* Milk, sugar, honey, or lemon to taste\n\n---\n\n### **The Steps:**\n\n1. **Boil the Water:**\n   Pour fresh, cold water into a kettle and bring it to a rolling boil. \n\n2. **Warm the Mug (Optional):**\n   Pour a little hot water into your mug to warm it up, then dump it out. This keeps your tea hot longer.\n\n3. **Add the Tea:**\n   Place **one tea bag** (or about one teaspoon of loose-leaf tea in a strainer) into the bottom of your mug.\n\n4. **Pour the Hot Water:**\n   Carefully pour the boiling water over the tea bag. Fill the mug, leaving a little space at the top if you plan to add milk.\n\n5. **Steep (Brew) the Tea:**\n   Let the tea sit so the flavors and color can release into the water. \n   * **Time:** Usually **3 to 5 minutes**, depending on how strong you like it. (Covering the mug with a small plate helps trap the heat).\n\n6. **Remove the Tea:**\n   Take out and discard the tea bag (or remove the tea strainer). \n\n7. **Add Extras (Optional):**\n   Stir in sugar, honey, lemon, or a splash of milk according to your preference.\n\n8. **Enjoy:**\n   Let it cool down slightly, and drink!",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is the process to put tea?",
+      "techniques": {},
+      "processed": "What is the process to put tea?",
+      "total_ms": 2338.91610003775,
+      "pre_ms": 0,
+      "api_ms": 2338.7967000016943,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 999,
+      "out_tok": 368,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "HI"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How can I help you today? 😊",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "HI",
+      "techniques": {},
+      "processed": "HI",
+      "total_ms": 1289.9628999875858,
+      "pre_ms": 0,
+      "api_ms": 1289.763499982655,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1407,
+      "out_tok": 11,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Faith?"
+  },
+  {
+    "role": "assistant",
+    "content": "Faith is a complex concept that means different things to different people, depending on whether they are speaking religiously, philosophically, or personally.\n\nHere is a breakdown of the common understandings:\n\n### 1. Religious Context\nIn most major religions (Christianity, Islam, Judaism, etc.), faith is **belief in doctrines, deities, or spiritual truths that cannot be proven solely through empirical evidence** (science or observation). It is trust in what is unseen or transcendent.\n* *Example:* Believing in God, the afterlife, or sacred texts without physical proof.\n\n### 2. Philosophical/Personal Context\nOn a broader, non-religious level, faith is **strong trust or confidence in someone, something, or a future outcome**, even when there is uncertainty or risk.\n* *Example:* Having faith in a friend to keep a secret, having faith in humanity, or having faith that your hard work will eventually pay off.\n\n### 3. Key Elements of Faith\n* **Trust:** Relying on something even when you don't fully understand it.\n* **Conviction:** A deep, settled belief.\n* **Hope:** Expectation of a positive future outcome.\n\n**In short:**\n* **Religious Faith:** Belief in the unseen divine or spiritual truths.\n* **Personal Faith:** Trust and confidence in people, systems, or future possibilities despite uncertainty.\n\n**If you have a specific context in mind** (e.g., \"What does faith mean in Christianity?\" or \"How is faith different from hope?\"), please let me know, and I can give you a more targeted answer!",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is Faith?",
+      "techniques": {},
+      "processed": "What is Faith?",
+      "total_ms": 22817.26989999879,
+      "pre_ms": 0,
+      "api_ms": 22817.110000003595,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 880,
+      "out_tok": 334,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "where is Taj Mahal?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Taj Mahal is located in **Agra, Uttar Pradesh, India**.",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "where is Taj Mahal?",
+      "techniques": {},
+      "processed": "where is Taj Mahal?",
+      "total_ms": 1218.679899990093,
+      "pre_ms": 0,
+      "api_ms": 1218.5268999892287,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 810,
+      "out_tok": 16,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is moral?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Moral** (adjective) – relating to principles of right and wrong behavior; **moral** (noun) – a principle or rule that distinguishes right from wrong.  \n\nIn everyday use, “moral” refers to the ethical standards or values that guide how we act toward others. It’s the idea that certain actions are good or bad, just or unjust, based on cultural, philosophical, or personal beliefs.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is moral?",
+      "techniques": {},
+      "processed": "What is moral?",
+      "total_ms": 868.424899992533,
+      "pre_ms": 0,
+      "api_ms": 868.2443999568932,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 509,
+      "out_tok": 119,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is OOPS concepts?"
+  },
+  {
+    "role": "assistant",
+    "content": "**OOP (Object‑Oriented Programming) concepts** are the building blocks that let you design software around real‑world entities.  \nThe core ideas are:\n\n| Concept | What it means | Why it matters |\n|---------|---------------|----------------|\n| **Class** | A blueprint that defines the data (attributes) and behavior (methods) of an object. | Lets you create many similar objects without rewriting code. |\n| **Object** | An instance of a class – a concrete entity with its own state. | Represents a real‑world thing in your program. |\n| **Encapsulation** | Bundling data and the methods that operate on it into one unit, and hiding internal details. | Protects data integrity and simplifies maintenance. |\n| **Abstraction** | Exposing only the essential features of an object, hiding the complex implementation. | Reduces complexity and lets you work at a higher level. |\n| **Inheritance** | A class can inherit attributes and methods from another class (the “parent”). | Promotes code reuse and establishes an “is‑a” relationship. |\n| **Polymorphism** | The ability of different classes to be treated as instances of the same base type, usually via method overriding or overloading. | Enables flexible, interchangeable code (e.g., a `draw()` method that behaves differently for `Circle`, `Square`, etc.). |\n\n### Additional useful ideas\n\n- **Composition / Aggregation** – building objects from other objects (has‑a relationship).  \n- **Interfaces / Abstract Classes** – define a contract that multiple classes can implement.  \n- **Method Overloading** – same method name with different parameter lists.  \n- **Method Overriding** – a subclass provides its own implementation of a parent’s method.  \n\nThese concepts together allow you to create modular, reusable, and maintainable software.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is OOPS concepts?",
+      "techniques": {},
+      "processed": "what is OOPS concepts?",
+      "total_ms": 1101.814599998761,
+      "pre_ms": 0,
+      "api_ms": 1101.682799984701,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 590,
+      "out_tok": 450,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Who are friends?"
+  },
+  {
+    "role": "assistant",
+    "content": "Friends are people with whom you share a close, personal bond built on mutual affection, trust, and support. They’re the companions you enjoy spending time with, confide in, and rely on, regardless of gender, age, or background.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "Who are friends?",
+      "techniques": {},
+      "processed": "Who are friends?",
+      "total_ms": 695.993900008034,
+      "pre_ms": 0,
+      "api_ms": 695.8421000163071,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 639,
+      "out_tok": 189,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is nvidia nemotron?"
+  },
+  {
+    "role": "assistant",
+    "content": "**NVIDIA Nemotron** is a family of large‑scale, transformer‑based language models developed by NVIDIA. The name “Nemotron” comes from “NVIDIA EMOtional TRansformer,” reflecting its focus on natural‑language understanding and generation.\n\nKey points:\n\n| Feature | Details |\n|---------|---------|\n| **Architecture** | Uses the transformer encoder‑decoder design, similar to GPT‑style models, but optimized for NVIDIA GPUs. |\n| **Scale** | Models range from a few hundred million parameters to several billion, with the largest variants approaching or exceeding 10 B parameters. |\n| **Training Data** | Trained on massive, diverse text corpora (public web data, books, code, etc.) to capture broad language patterns. |\n| **Capabilities** | Text generation, summarization, translation, question answering, code completion, and other NLP tasks. |\n| **Hardware Optimizations** | Built to run efficiently on NVIDIA GPUs (A100, H100, etc.) using mixed‑precision, tensor cores, and NVIDIA’s Megatron‑LM framework. |\n| **Use Cases** | Enterprise AI services, research, chatbots, content creation, and any application that benefits from large‑scale language understanding. |\n\nIn short, NVIDIA Nemotron is NVIDIA’s entry into the competitive field of large language models, designed to leverage their GPU technology for high‑performance, scalable NLP workloads.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is nvidia nemotron?",
+      "techniques": {},
+      "processed": "What is nvidia nemotron?",
+      "total_ms": 906.5784999984317,
+      "pre_ms": 0,
+      "api_ms": 906.4433999592438,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 674,
+      "out_tok": 321,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is padding?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Padding** is the process of adding extra, non-meaningful data to the beginning, end, or both sides of a block of data. The specific purpose and type of padding depend heavily on the context (e.g., computer science, cryptography, or physical packaging).\n\nHere are the most common contexts:\n\n### 1. In Computer Science & Data Structures\n*   **Memory Alignment:** Compilers often add padding bytes between variables in a struct or class to align them to specific memory boundaries (e.g., 4-byte or 8-byte alignment). This improves CPU access speed.\n    *   *Example:* A struct with a `char` (1 byte) followed by an `int` (4 bytes) may have 3 bytes of padding after the `char` so the `int` starts at a 4-byte boundary.\n*   **Data Transmission:** In networking (e.g., Ethernet frames), if a packet is smaller than the minimum size required by the protocol, padding is added to reach that minimum size.\n*   **Image Processing:** When applying filters (like convolution) to images, padding is added around the edges of the image to prevent the output image from being smaller than the input.\n\n### 2. In Cryptography\n*   **Block Cipher Padding:** Block ciphers (like AES) operate on fixed-size blocks (e.g., 128 bits). If the plaintext is not a multiple of the block size, padding is added to fill the last block.\n    *   *Common Schemes:* PKCS#7, PKCS#5, Zero-padding.\n    *   *Purpose:* Ensures the data fits into the block structure. The receiver knows how much padding to remove based on the scheme.\n\n### 3. In Physical Packaging & Shipping\n*   **Protective Padding:** Materials like bubble wrap, foam, or air pillows used to protect items during shipping.\n*   **Space Filling:** Adding material to fill empty space in a box to prevent items from shifting and breaking.\n\n### 4. In Audio/Video\n*   **Silence/Black Frames:** Adding silent audio or black video frames to the beginning or end of a file to meet specific duration requirements or for synchronization.\n\n### Key Takeaway\nIn technical contexts, **padding is usually filler data that is discarded or ignored by the processing system**. It exists to satisfy structural, alignment, or protocol requirements, not to convey meaningful information.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is padding?",
+      "techniques": {},
+      "processed": "What is padding?",
+      "total_ms": 1876.5167000237852,
+      "pre_ms": 0,
+      "api_ms": 1876.34670000989,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 863,
+      "out_tok": 509,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Who is ilayaraja?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Ilaiyaraaja** (full name: **S. P. V. Ilaiyaraaja**) is a legendary Indian composer, singer, actor, and music director, widely regarded as one of the most influential and prolific figures in the history of Indian cinema, particularly in Tamil, Telugu, and Hindi films.\n\nHere are the key aspects of his career and legacy:\n\n### 1. **Musical Innovation**\n*   **Fusion Pioneer:** He is famous for blending traditional Indian classical music with Western orchestral arrangements, rock, jazz, and electronic music.\n*   **Orchestral Use:** He was among the first Indian film composers to extensively use full Western orchestras (strings, brass, woodwinds) in Indian film scores, setting a new standard for cinematic sound.\n*   **Versatility:** His compositions span a wide range of genres, including devotional, romantic, action, and experimental music.\n\n### 2. **Prolific Output**\n*   He has composed music for over **1,000 films** across multiple languages, including Tamil, Telugu, Hindi, Malayalam, and Kannada.\n*   He has also composed for stage plays, television serials, and albums.\n\n### 3. **Awards and Recognition**\n*   **National Film Awards:** He has won multiple National Film Awards for Best Music Direction.\n*   **State Awards:** He has received numerous state awards, including the **Tamil Nadu State Film Award** and the **Telugu Nandi Award**.\n*   **Padma Shri:** In 2001, he was awarded the **Padma Shri**, one of India’s highest civilian honors, for his contributions to art.\n*   **Lifetime Achievement Awards:** He has received lifetime achievement awards from various film industries and organizations.\n\n### 4. **Acting and Singing**\n*   While primarily known as a composer, he has also acted in several films and sung a few songs.\n*   He is known for his distinctive, high-pitched singing voice in some of his early works.\n\n### 5. **Cultural Impact**\n*   His music is considered a cultural phenomenon in South India and beyond. Many of his songs are still popular decades after their release.\n*   He has influenced generations of composers and musicians in India.\n\n### Notable Works\nSome of his most famous compositions include:\n*   **Tamil:** *Muthu*, *Thalapathi*, *Baashha*, *Minnale*, *Kadhalan*\n*   **Hindi:** *Chameli Ki Gali*, *Dilwale Dulhania Le Jayenge* (he composed the song \"Tujhe Dekha Toh\"), *Kaho Naa Pyaar Hai*\n*   **Telugu:** *Sri Ramulamma*, *Nuvvunte Naa Jathagaru*\n\nIlaiyaraaja is often compared to global music icons like Hans Zimmer or John Williams for his orchestral prowess, but his unique blend of Indian and Western styles has made him a singular figure in world cinema music.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "Who is ilayaraja?",
+      "techniques": {},
+      "processed": "Who is ilayaraja?",
+      "total_ms": 2027.9142000363208,
+      "pre_ms": 0,
+      "api_ms": 2027.7162999846041,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 983,
+      "out_tok": 662,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is alphabets?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Alphabets** (or **the alphabet**) are a specific type of writing system used to represent the sounds of a language.\n\nHere’s a breakdown of what defines an alphabet:\n\n### 1. **Basic Definition**\nAn alphabet is a set of **letters** (symbols) where each letter typically represents a **phoneme** (a distinct sound) in a language.\n*   **Example:** In the English alphabet, the letter **\"B\"** represents the /b/ sound, and **\"A\"** can represent /æ/ (as in *cat*) or /eɪ/ (as in *day*).\n\n### 2. **Key Characteristics**\n*   **Phonetic:** Alphabets are based on sound, not meaning. This distinguishes them from **logographic** systems (like Chinese characters, where each symbol represents a word or concept) or **syllabaries** (like Japanese Hiragana, where each symbol represents a syllable).\n*   **Small Inventory:** Alphabets usually have a relatively small number of symbols (typically 20–40 letters), making them easier to learn and write compared to systems with thousands of characters.\n*   **Directionality:** Alphabets are written in a specific direction (e.g., left-to-right in English, right-to-left in Arabic or Hebrew).\n\n### 3. **Types of Alphabets**\n*   **True Alphabets:** Each letter represents a single vowel or consonant sound.\n    *   *Examples:* English, Spanish, French.\n*   **Abjads:** Originally, these systems only had letters for consonants, with vowels indicated by diacritics or context.\n    *   *Examples:* Arabic, Hebrew.\n*   **Abugidas:** Each letter represents a consonant with an inherent vowel, which can be modified with diacritics to represent other vowels.\n    *   *Examples:* Devanagari (Hindi), Thai, Ge’ez (Amharic).\n\n### 4. **History and Origin**\n*   The first true alphabet is generally considered to be the **Phoenician alphabet** (circa 1050 BCE).\n*   It evolved into the **Greek alphabet**, which added letters for vowels.\n*   The **Latin alphabet** (used for English, Spanish, French, etc.) evolved from the Etruscan alphabet, which came from the Greek alphabet.\n*   Other major alphabets include **Cyrillic** (Russian, Ukrainian), **Arabic**, **Hebrew**, and **Devanagari**.\n\n### 5. **Why Alphabets Are Important**\n*   **Ease of Learning:** Because they are phonetic, they are generally easier to learn than logographic systems.\n*   **Flexibility:** They can adapt to new words and sounds by combining existing letters.\n*   **Global Spread:** The Latin alphabet is the most widely used writing system in the world today.\n\n### Common Misconception\n*   **\"Alphabet\" vs. \"Writing System\":** People often use \"alphabet\" to mean any writing system, but technically, only systems based on phonemes are alphabets. Chinese, for example, is not an alphabet; it is a logographic system.\n*   **Number of Letters:** The English alphabet has **26 letters**. Other alphabets vary: Russian (Cyrillic) has 33, Arabic has 28, and Greek has 24.\n\nIn short, an **alphabet** is a compact, sound-based writing system that allows speakers of a language to record their speech in a standardized set of symbols.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is alphabets?",
+      "techniques": {},
+      "processed": "What is alphabets?",
+      "total_ms": 2259.9808999802917,
+      "pre_ms": 0,
+      "api_ms": 2259.809800016228,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1597,
+      "out_tok": 776,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I assist you today?",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "Hi",
+      "techniques": {},
+      "processed": "Hi",
+      "total_ms": 1074.9293999979272,
+      "pre_ms": 0,
+      "api_ms": 1074.473200016655,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1997,
+      "out_tok": 42,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is bilogy?"
+  },
+  {
+    "role": "assistant",
+    "content": "It looks like there’s a small typo—most likely you meant **biology**.  \n\n**Biology** is the scientific study of life and living organisms. It explores how organisms are structured, how they function, how they grow and develop, how they obtain energy and nutrients, how they reproduce, and how they interact with each other and their environments.  \n\nKey branches include:\n\n| Branch | Focus |\n|--------|-------|\n| **Cell Biology** | Structure and function of cells |\n| **Genetics** | Inheritance and DNA |\n| **Evolutionary Biology** | How species change over time |\n| **Ecology** | Relationships between organisms and their habitats |\n| **Physiology** | How organ systems work |\n| **Microbiology** | Study of microorganisms (bacteria, viruses, fungi) |\n| **Botany** | Plants |\n| **Zoology** | Animals |\n\nIf you were asking about a different term, let me know!",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is bilogy?",
+      "techniques": {},
+      "processed": "What is bilogy?",
+      "total_ms": 1196.4857000275515,
+      "pre_ms": 0,
+      "api_ms": 1196.3258999749087,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1512,
+      "out_tok": 246,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is if statement? in java"
+  },
+  {
+    "role": "assistant",
+    "content": "### The `if` Statement in Java  \n\nAn **`if` statement** is a control‑flow construct that lets your program execute a block of code **only when a given condition is true**. It is the basic way to make decisions in Java.\n\n---\n\n## 1. Basic Syntax  \n\n```java\nif (condition) {\n    // code to run when condition is true\n}\n```\n\n* `condition` must be a **boolean expression** (`true` or `false`).  \n* The braces `{}` are optional if the block contains a single statement, but using them is recommended for readability.\n\n---\n\n## 2. Adding an “else”  \n\n```java\nif (condition) {\n    // runs when condition is true\n} else {\n    // runs when condition is false\n}\n```\n\nThe `else` part is executed **only** when the `if` condition evaluates to `false`.\n\n---\n\n## 3. Multiple Branches – `else if`  \n\n```java\nif (cond1) {\n    // when cond1 is true\n} else if (cond2) {\n    // when cond1 is false AND cond2 is true\n} else if (cond3) {\n    // when previous conditions are false AND cond3 is true\n} else {\n    // when none of the above conditions are true\n}\n```\n\nYou can chain as many `else if` blocks as needed.\n\n---\n\n## 4. Common Patterns  \n\n### a. Simple numeric check  \n\n```java\nint age = 20;\nif (age >= 18) {\n    System.out.println(\"Adult\");\n}\n```\n\n### b. Using `else`  \n\n```java\nif (age >= 18) {\n    System.out.println(\"Adult\");\n} else {\n    System.out.println(\"Minor\");\n}\n```\n\n### c. Nested `if`  \n\n```java\nif (score >= 90) {\n    if (extraCredit) {\n        System.out.println(\"A+\");\n    } else {\n        System.out.println(\"A\");\n    }\n}\n```\n\n### d. Ternary operator (compact form)  \n\n```java\nString result = (age >= 18) ? \"Adult\" : \"Minor\";\n```\n\n---\n\n## 5. Important Points  \n\n| Point | Detail |\n|-------|--------|\n| **Boolean expression** | Anything that evaluates to `true` or `false` (`a > b`, `obj != null`, `flag && otherFlag`, method returning `boolean`). |\n| **Short‑circuit evaluation** | In logical operators (`&&`, `||`), Java stops evaluating as soon as the result is known. |\n| **No assignment in condition** | `if (x = 5)` is a compile‑time error because `=` returns an `int`, not a `boolean`. Use `==` for comparison. |\n| **Braces** | Always use `{}` even for a single statement to avoid bugs when later adding more statements. |\n| **Scope** | Variables declared inside the `{}` are local to that block. |\n\n---\n\n## 6. Full Example  \n\n```java\npublic class IfDemo {\n    public static void main(String[] args) {\n        int temperature = 72;\n\n        if (temperature > 80) {\n            System.out.println(\"It's hot outside.\");\n        } else if (temperature < 60) {\n            System.out.println(\"It's cold outside.\");\n        } else {\n            System.out.println(\"The weather is mild.\");\n        }\n    }\n}\n```\n\n**Output:** `The weather is mild.` (because 72 is between 60 and 80).\n\n---\n\n### TL;DR  \n\n- `if (condition) { … }` runs the block only when `condition` is `true`.  \n- Add `else` for the opposite case.  \n- Chain `else if` for multiple mutually‑exclusive conditions.  \n- The condition must be a boolean expression.  \n\nThat’s the essence of the `if` statement in Java!",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is if statement? in java",
+      "techniques": {},
+      "processed": "What is if statement? in java",
+      "total_ms": 2444.3904000218026,
+      "pre_ms": 0,
+      "api_ms": 2444.1587000037543,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1092,
+      "out_tok": 874,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I assist you today?",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "Hi",
+      "techniques": {},
+      "processed": "Hi",
+      "total_ms": 2768.779000034556,
+      "pre_ms": 0,
+      "api_ms": 2768.615199951455,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1226,
+      "out_tok": 10,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is FastAPI?"
+  },
+  {
+    "role": "assistant",
+    "content": "FastAPI is a Python framework used to build web APIs [1]. It is specifically designed for building APIs and is mainly used to create backend applications and services [1, 2].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is FastAPI?",
+      "techniques": {},
+      "processed": "What is FastAPI?",
+      "total_ms": 1390.862800006289,
+      "pre_ms": 0,
+      "api_ms": 1381.1910999938846,
+      "retrieval_ms": 9.42150002811104,
+      "wait_ms": 0.0,
+      "in_tok": 2098,
+      "out_tok": 37,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.7366635203361511,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 2",
+          "score": 0.7023456692695618,
+          "text": "↓ \n API \n ↓ \nBackend \n ↓ \nDatabase \nWhen a mobile application asks for product information, the API receives the request and sends \nthe required data back. \n \n2. What is FastAPI? \nFastAPI is a Python framework specifically designed for building APIs. \nExample: \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello FastAPI\"} \n \n3. What is an Endpoint? \nAn endpoint is a particular URL through which the client communicates with the server. \nExample: \nGET /students \nGET /products \nGET /employees"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 4",
+          "score": 0.5866594910621643,
+          "text": "app = FastAPI() \n \n \n@app.get(\"/\") \ndef home(): \n return {\"message\": \"Welcome to FastAPI\"} \nRun: \nuvicorn main:app --reload \n \nTrainer Practical — Greeting API \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n \n@app.get(\"/\") \ndef home(): \n return {\"message\": \"Welcome to FastAPI\"} \n \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello!\"} \nTest: \nhttp://127.0.0.1:8000/docs"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 3",
+          "score": 0.5202969312667847,
+          "text": "4. What is HTTP? \nHTTP is the communication protocol used between the client and server. \nThe client sends a request: \nClient \n ↓ \nHTTP Request \n ↓ \nServer \nThe server sends a response: \nServer \n ↓ \nHTTP Response \n ↓ \nClient \n \n5. Install FastAPI \npip install fastapi uvicorn \n \n6. Run FastAPI \nCreate: \nfastapi_demo/ \n│ \n└── main.py \nmain.py \nfrom fastapi import FastAPI"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.4188816547393799,
+          "text": "• Week 1: only FastAPI basics — GET, POST, PUT, PATCH, DELETE, parameters, request \nbody, Pydantic. \n• No database/project complexity in Week 1. \n• After the first 2–3 days, students can start doing small practical programs using the \nconcepts learned. \n• Week 2: CRUD, authentication, password hashing, JWT, protected routes, OAuth2, \nSwagger. \n• Validation/Pydantic should be taught as a simple concept, not mixed with \nauthentication. \n• For every day: main topic = ~6 lines, then subtopics = detailed but simple explanations, \nfollowed by your real-world trainer example and a different student practice example. \n• I will not change your timetable. \nFASTAPI — WEEK 1 \nDay 1 — Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web A"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is HTTP methods?"
+  },
+  {
+    "role": "assistant",
+    "content": "HTTP methods supported by FastAPI include GET, POST, PUT, PATCH, and DELETE [5]. \nSpecifically:\n* **GET** is used to retrieve data [2].\n* **POST** is used to create data [2].\n* **PUT, PATCH, and DELETE** are used to modify or remove data [2].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is HTTP methods?",
+      "techniques": {},
+      "processed": "what is HTTP methods?",
+      "total_ms": 1452.2179999621585,
+      "pre_ms": 0,
+      "api_ms": 1440.3992999577895,
+      "retrieval_ms": 11.561699968297035,
+      "wait_ms": 0.0,
+      "in_tok": 1926,
+      "out_tok": 69,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 3",
+          "score": 0.6630188226699829,
+          "text": "4. What is HTTP? \nHTTP is the communication protocol used between the client and server. \nThe client sends a request: \nClient \n ↓ \nHTTP Request \n ↓ \nServer \nThe server sends a response: \nServer \n ↓ \nHTTP Response \n ↓ \nClient \n \n5. Install FastAPI \npip install fastapi uvicorn \n \n6. Run FastAPI \nCreate: \nfastapi_demo/ \n│ \n└── main.py \nmain.py \nfrom fastapi import FastAPI"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 5",
+          "score": 0.493307501077652,
+          "text": "Student Practice — E-Commerce \nStudents create: \nGET /welcome \nGET /products \nGET /categories \n \nDay 2 — Tuesday, September 22 \nRoutes & HTTP Methods \nMain Topic Definition \n1. A route connects a URL with a Python function. \n2. Routes define what operation an API can perform. \n3. Every route has an HTTP method and a URL path. \n4. GET is used to retrieve data. \n5. POST is used to create data. \n6. PUT, PATCH and DELETE are used to modify or remove data. \nSubtopics \n1. What is Routing? \nRouting tells FastAPI which Python function should execute when a particular URL is requested. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return {\"message\": \"All students\"} \nHere: \nGET → HTTP method \n/students → route \nget_students() → function"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 9",
+          "score": 0.450545996427536,
+          "text": "GET /products \nPOST /products \nPUT /products/101 \nPATCH /products/101 \nDELETE /products/101 \n \nDay 3 — Wednesday, September 23 \nParameters — Path, Query and Request Body \nMain Topic Definition \n1. Parameters allow the client to send additional information to the API. \n2. Path parameters are values included directly in the URL. \n3. Query parameters are values sent after the ? symbol. \n4. Request body is used to send larger structured data to the server. \n5. Parameters help APIs identify, filter and process specific information. \n6. FastAPI can automatically read parameter values from the request. \nSubtopics \n1. Path Parameter \nA path parameter is a value placed inside the URL path. \nExample: \n/students/101 \nHere 101 is the student ID. \n@app.get(\"/students/{student_id}\") \ndef get_student(stu"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 9",
+          "score": 0.41124075651168823,
+          "text": "URL path. \nExample: \n/students/101 \nHere 101 is the student ID. \n@app.get(\"/students/{student_id}\") \ndef get_student(student_id: int): \n return { \n \"student_id\": student_id \n }"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.3929736018180847,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Explain API?"
+  },
+  {
+    "role": "assistant",
+    "content": "An API is a communication point between a client and a server [2]. For example, when a mobile application asks for product information, the API receives the request and sends the required data back [1]. An API allows two applications to communicate with each other [2].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "Explain API?",
+      "techniques": {},
+      "processed": "Explain API?",
+      "total_ms": 4600.04079999635,
+      "pre_ms": 0,
+      "api_ms": 4588.465699984226,
+      "retrieval_ms": 11.290399997960776,
+      "wait_ms": 0.0,
+      "in_tok": 1195,
+      "out_tok": 55,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 2",
+          "score": 0.6076851487159729,
+          "text": "↓ \n API \n ↓ \nBackend \n ↓ \nDatabase \nWhen a mobile application asks for product information, the API receives the request and sends \nthe required data back. \n \n2. What is FastAPI? \nFastAPI is a Python framework specifically designed for building APIs. \nExample: \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello FastAPI\"} \n \n3. What is an Endpoint? \nAn endpoint is a particular URL through which the client communicates with the server. \nExample: \nGET /students \nGET /products \nGET /employees"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.4913305640220642,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 3",
+          "score": 0.4889085292816162,
+          "text": "4. What is HTTP? \nHTTP is the communication protocol used between the client and server. \nThe client sends a request: \nClient \n ↓ \nHTTP Request \n ↓ \nServer \nThe server sends a response: \nServer \n ↓ \nHTTP Response \n ↓ \nClient \n \n5. Install FastAPI \npip install fastapi uvicorn \n \n6. Run FastAPI \nCreate: \nfastapi_demo/ \n│ \n└── main.py \nmain.py \nfrom fastapi import FastAPI"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 5",
+          "score": 0.43208029866218567,
+          "text": "Student Practice — E-Commerce \nStudents create: \nGET /welcome \nGET /products \nGET /categories \n \nDay 2 — Tuesday, September 22 \nRoutes & HTTP Methods \nMain Topic Definition \n1. A route connects a URL with a Python function. \n2. Routes define what operation an API can perform. \n3. Every route has an HTTP method and a URL path. \n4. GET is used to retrieve data. \n5. POST is used to create data. \n6. PUT, PATCH and DELETE are used to modify or remove data. \nSubtopics \n1. What is Routing? \nRouting tells FastAPI which Python function should execute when a particular URL is requested. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return {\"message\": \"All students\"} \nHere: \nGET → HTTP method \n/students → route \nget_students() → function"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 9",
+          "score": 0.4130156934261322,
+          "text": "GET /products \nPOST /products \nPUT /products/101 \nPATCH /products/101 \nDELETE /products/101 \n \nDay 3 — Wednesday, September 23 \nParameters — Path, Query and Request Body \nMain Topic Definition \n1. Parameters allow the client to send additional information to the API. \n2. Path parameters are values included directly in the URL. \n3. Query parameters are values sent after the ? symbol. \n4. Request body is used to send larger structured data to the server. \n5. Parameters help APIs identify, filter and process specific information. \n6. FastAPI can automatically read parameter values from the request. \nSubtopics \n1. Path Parameter \nA path parameter is a value placed inside the URL path. \nExample: \n/students/101 \nHere 101 is the student ID. \n@app.get(\"/students/{student_id}\") \ndef get_student(stu"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is pydantic model?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **Pydantic model** is a Python class that inherits from `pydantic.BaseModel`.  \nIt defines the expected structure of incoming data for an API: each attribute of the class represents a field, and the type hints specify the expected data type. FastAPI uses these models to automatically validate request bodies and return a validation error if the data does not match the defined structure.  \n\nExample from the document:\n\n```python\nfrom pydantic import BaseModel\n\nclass Student(BaseModel):\n    name: str\n    age: int\n    course: str\n```\n\nThis model tells FastAPI that a request body should contain a string `name`, an integer `age`, and a string `course` [1, 3].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is pydantic model?",
+      "techniques": {},
+      "processed": "What is pydantic model?",
+      "total_ms": 1169.8157000355422,
+      "pre_ms": 0,
+      "api_ms": 1152.4910000152886,
+      "retrieval_ms": 16.998799983412027,
+      "wait_ms": 0.0,
+      "in_tok": 1149,
+      "out_tok": 222,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 12",
+          "score": 0.5627254247665405,
+          "text": "Main Topic Definition \n1. Pydantic is used to define the structure of data in FastAPI. \n2. Pydantic models are created using Python classes. \n3. They define what fields the API expects from the client. \n4. Python type hints specify the expected type of each field. \n5. FastAPI uses Pydantic to validate incoming request data. \n6. If the data is invalid, FastAPI automatically returns a validation error. \nSubtopics \n1. Pydantic Model \nA Pydantic model defines the expected structure of incoming data. \nfrom pydantic import BaseModel \n \n \nclass Student(BaseModel): \n name: str \n age: int \n course: str \nThis means the API expects: \nname → string \nage → integer \ncourse → string \n \n2. Validation \nValidation checks whether the received data follows the expected structure and types. \nFor example: \nCorr"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 15",
+          "score": 0.3665090799331665,
+          "text": "1. Students revise the basic FastAPI application structure. \n2. Students practice creating routes and HTTP methods. \n3. Students practice path and query parameters. \n4. Students practice sending request body data. \n5. Students practice creating Pydantic models. \n6. Students combine these concepts into one small API. \nSubtopics \n1. Routes + Parameters \nStudents should be able to create: \nGET \nPOST \nPUT \nPATCH \nDELETE \nand use: \nPath parameters \nQuery parameters \nRequest body \n2. Pydantic \nStudents should create simple models for incoming API data and understand how validation \nworks. \n \nFriday Practical — Small API \nGive students one complete but simple task. \nStudent API \nThey can build:"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 13",
+          "score": 0.26565253734588623,
+          "text": "{ \n \"name\": \"Arun\", \n \"age\": 21, \n \"course\": \"Python\" \n} \nIncorrect: \n{ \n \"name\": \"Arun\", \n \"age\": \"hello\", \n \"course\": \"Python\" \n} \nFastAPI/Pydantic reports the invalid field. \n \nTrainer Practical — Student Registration \nschema.py \nfrom pydantic import BaseModel \n \n \nclass Student(BaseModel): \n name: str \n age: int \n course: str \nmain.py \nfrom fastapi import FastAPI \nfrom schema import Student"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 2",
+          "score": 0.2452821582555771,
+          "text": "↓ \n API \n ↓ \nBackend \n ↓ \nDatabase \nWhen a mobile application asks for product information, the API receives the request and sends \nthe required data back. \n \n2. What is FastAPI? \nFastAPI is a Python framework specifically designed for building APIs. \nExample: \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello FastAPI\"} \n \n3. What is an Endpoint? \nAn endpoint is a particular URL through which the client communicates with the server. \nExample: \nGET /students \nGET /products \nGET /employees"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.21247225999832153,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is CRUD operations?"
+  },
+  {
+    "role": "assistant",
+    "content": "CRUD operations are the four basic functions for managing data in a database or API:\n\n| Operation | Typical HTTP method | What it does |\n|-----------|---------------------|--------------|\n| **Create** | `POST` | Adds a new resource (e.g., `POST /students` creates a student). |\n| **Read**   | `GET` | Retrieves data (e.g., `GET /students` or `GET /students/{id}`). |\n| **Update** | `PUT` or `PATCH` | Modifies an existing resource (`PUT /students/{id}` replaces the whole record, `PATCH /students/{id}` changes part of it). |\n| **Delete** | `DELETE` | Removes a resource (`DELETE /students/{id}`). |\n\nThese four operations form the core of most RESTful APIs and are covered in the FastAPI material as “CRUD + HTTP methods” [3][4].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is CRUD operations?",
+      "techniques": {},
+      "processed": "what is CRUD operations?",
+      "total_ms": 948.6088000121526,
+      "pre_ms": 0,
+      "api_ms": 935.6479999842122,
+      "retrieval_ms": 12.60550000006333,
+      "wait_ms": 0.0,
+      "in_tok": 1257,
+      "out_tok": 277,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 6",
+          "score": 0.34145432710647583,
+          "text": "2. GET \nGET is used to retrieve information. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return { \n \"students\": [\"Arun\", \"Kumar\", \"Priya\"] \n } \nRequest: \nGET /students \n \n3. POST \nPOST is generally used to create new data. \nExample: \n@app.post(\"/students\") \ndef create_student(): \n return { \n \"message\": \"Student created\" \n } \n \n4. PUT \nPUT is generally used to update or replace an existing resource. \nExample: \n@app.put(\"/students/101\") \ndef update_student():"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 5",
+          "score": 0.31340497732162476,
+          "text": "Student Practice — E-Commerce \nStudents create: \nGET /welcome \nGET /products \nGET /categories \n \nDay 2 — Tuesday, September 22 \nRoutes & HTTP Methods \nMain Topic Definition \n1. A route connects a URL with a Python function. \n2. Routes define what operation an API can perform. \n3. Every route has an HTTP method and a URL path. \n4. GET is used to retrieve data. \n5. POST is used to create data. \n6. PUT, PATCH and DELETE are used to modify or remove data. \nSubtopics \n1. What is Routing? \nRouting tells FastAPI which Python function should execute when a particular URL is requested. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return {\"message\": \"All students\"} \nHere: \nGET → HTTP method \n/students → route \nget_students() → function"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 16",
+          "score": 0.29638469219207764,
+          "text": "POST /students \nGET /students \nGET /students/{id} \nGET /students?course=python \nPUT /students/{id} \nPATCH /students/{id} \nDELETE /students/{id} \nUse a simple Python list: \nstudents = [] \nDo not introduce database yet. \nThis keeps Week 1 focused exactly on FastAPI fundamentals. \n \nWEEK 2 — CRUD, AUTHENTICATION & SWAGGER \nHere we can introduce the next level. \nDay 6 — Monday, September 28 \nCRUD Operations \nMain topics: \n• Create \n• Read \n• Update \n• Delete \n• CRUD + HTTP methods \n• Small real-world API \nTrainer: Todo API \nStudent: Employee API"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 7",
+          "score": 0.28426215052604675,
+          "text": "return { \n \"message\": \"Student updated\" \n } \n \n5. PATCH \nPATCH is generally used when only part of a resource needs to be updated. \nExample: \n@app.patch(\"/students/101\") \ndef update_student_name(): \n return { \n \"message\": \"Student name updated\" \n } \n \n6. DELETE \nDELETE is used to remove a resource. \n@app.delete(\"/students/101\") \ndef delete_student(): \n return { \n \"message\": \"Student deleted\" \n } \n \nTrainer Practical — Student API \nfrom fastapi import FastAPI \n \napp = FastAPI()"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.2805347442626953,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Swagger?"
+  },
+  {
+    "role": "assistant",
+    "content": "Swagger is the automatic API documentation interface that FastAPI generates for you. It provides an interactive UI (Swagger UI) where you can view all endpoints, their HTTP methods, request/response schemas, and even test the API directly from the browser. This documentation is created automatically from the FastAPI code and type hints [2].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is Swagger?",
+      "techniques": {},
+      "processed": "What is Swagger?",
+      "total_ms": 876.5078999567777,
+      "pre_ms": 0,
+      "api_ms": 865.3774000122212,
+      "retrieval_ms": 10.789300024043769,
+      "wait_ms": 0.0,
+      "in_tok": 1164,
+      "out_tok": 210,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 20",
+          "score": 0.2886258661746979,
+          "text": "Swagger \nThis keeps your original timetable unchanged and avoids making the first week unnecessarily \ncomplicated."
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.2219996154308319,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 2",
+          "score": 0.16776278614997864,
+          "text": "↓ \n API \n ↓ \nBackend \n ↓ \nDatabase \nWhen a mobile application asks for product information, the API receives the request and sends \nthe required data back. \n \n2. What is FastAPI? \nFastAPI is a Python framework specifically designed for building APIs. \nExample: \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello FastAPI\"} \n \n3. What is an Endpoint? \nAn endpoint is a particular URL through which the client communicates with the server. \nExample: \nGET /students \nGET /products \nGET /employees"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 7",
+          "score": 0.14719176292419434,
+          "text": "return { \n \"message\": \"Student updated\" \n } \n \n5. PATCH \nPATCH is generally used when only part of a resource needs to be updated. \nExample: \n@app.patch(\"/students/101\") \ndef update_student_name(): \n return { \n \"message\": \"Student name updated\" \n } \n \n6. DELETE \nDELETE is used to remove a resource. \n@app.delete(\"/students/101\") \ndef delete_student(): \n return { \n \"message\": \"Student deleted\" \n } \n \nTrainer Practical — Student API \nfrom fastapi import FastAPI \n \napp = FastAPI()"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 3",
+          "score": 0.14547915756702423,
+          "text": "4. What is HTTP? \nHTTP is the communication protocol used between the client and server. \nThe client sends a request: \nClient \n ↓ \nHTTP Request \n ↓ \nServer \nThe server sends a response: \nServer \n ↓ \nHTTP Response \n ↓ \nClient \n \n5. Install FastAPI \npip install fastapi uvicorn \n \n6. Run FastAPI \nCreate: \nfastapi_demo/ \n│ \n└── main.py \nmain.py \nfrom fastapi import FastAPI"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Password Hashing?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided document context lists \"Password hashing\" as a main topic for Day 8 (Wednesday, September 30) and notes that \"passwords should not be stored as plain text\" [1]. However, the context does not provide a specific definition or explanation of what password hashing is.\n\nThe answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is Password Hashing?",
+      "techniques": {},
+      "processed": "What is Password Hashing?",
+      "total_ms": 716.4431999553926,
+      "pre_ms": 0,
+      "api_ms": 673.9769999985583,
+      "retrieval_ms": 42.07259998656809,
+      "wait_ms": 0.0,
+      "in_tok": 1269,
+      "out_tok": 71,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 17",
+          "score": 0.38986316323280334,
+          "text": "Day 7 — Tuesday, September 29 \nAuthentication \nMain topics: \n• What is authentication? \n• What is authorization? \n• Registration \n• Login \n• User credentials \n• Authentication flow \nTrainer: Login API \nStudent: E-commerce Login \n \nDay 8 — Wednesday, September 30 \nPassword Hashing + JWT \nMain topics: \n• Why passwords should not be stored as plain text \n• Password hashing \n• Password verification \n• JWT \n• Access token \n• Login → token flow \nTrainer: Employee Portal \nStudent: Todo Application \n \nDay 9 — Thursday, October 1 \nProtected Routes + OAuth2PasswordBearer \nMain topics:"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 6",
+          "score": 0.23110753297805786,
+          "text": "2. GET \nGET is used to retrieve information. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return { \n \"students\": [\"Arun\", \"Kumar\", \"Priya\"] \n } \nRequest: \nGET /students \n \n3. POST \nPOST is generally used to create new data. \nExample: \n@app.post(\"/students\") \ndef create_student(): \n return { \n \"message\": \"Student created\" \n } \n \n4. PUT \nPUT is generally used to update or replace an existing resource. \nExample: \n@app.put(\"/students/101\") \ndef update_student():"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 7",
+          "score": 0.22743076086044312,
+          "text": "return { \n \"message\": \"Student updated\" \n } \n \n5. PATCH \nPATCH is generally used when only part of a resource needs to be updated. \nExample: \n@app.patch(\"/students/101\") \ndef update_student_name(): \n return { \n \"message\": \"Student name updated\" \n } \n \n6. DELETE \nDELETE is used to remove a resource. \n@app.delete(\"/students/101\") \ndef delete_student(): \n return { \n \"message\": \"Student deleted\" \n } \n \nTrainer Practical — Student API \nfrom fastapi import FastAPI \n \napp = FastAPI()"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 3",
+          "score": 0.22209548950195312,
+          "text": "4. What is HTTP? \nHTTP is the communication protocol used between the client and server. \nThe client sends a request: \nClient \n ↓ \nHTTP Request \n ↓ \nServer \nThe server sends a response: \nServer \n ↓ \nHTTP Response \n ↓ \nClient \n \n5. Install FastAPI \npip install fastapi uvicorn \n \n6. Run FastAPI \nCreate: \nfastapi_demo/ \n│ \n└── main.py \nmain.py \nfrom fastapi import FastAPI"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 19",
+          "score": 0.21435774862766266,
+          "text": "│ \n ┌───────────┼───────────┐ \n ▼ ▼ ▼ \n Routes Parameters Pydantic \n │ │ │ \n └───────────┼───────────┘ \n ▼ \n GET POST PUT PATCH DELETE \n │ \n ▼ \n PRACTICE \nThen Week 2: \n WEEK 2 \n │ \n ▼ \n REAL API CONCEPTS \n │ \n ┌───────────┼───────────┐ \n ▼ ▼ ▼ \n CRUD Authentication JWT \n │ │ │ \n └───────────┼───────────┘ \n ▼ \n Protected Routes \n │ \n ▼"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Authentication?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is Authentication?",
+      "techniques": {},
+      "processed": "What is Authentication?",
+      "total_ms": 789.9404000490904,
+      "pre_ms": 0,
+      "api_ms": 780.7371999952011,
+      "retrieval_ms": 8.988300047349185,
+      "wait_ms": 0.0,
+      "in_tok": 1140,
+      "out_tok": 108,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 17",
+          "score": 0.4674917757511139,
+          "text": "Day 7 — Tuesday, September 29 \nAuthentication \nMain topics: \n• What is authentication? \n• What is authorization? \n• Registration \n• Login \n• User credentials \n• Authentication flow \nTrainer: Login API \nStudent: E-commerce Login \n \nDay 8 — Wednesday, September 30 \nPassword Hashing + JWT \nMain topics: \n• Why passwords should not be stored as plain text \n• Password hashing \n• Password verification \n• JWT \n• Access token \n• Login → token flow \nTrainer: Employee Portal \nStudent: Todo Application \n \nDay 9 — Thursday, October 1 \nProtected Routes + OAuth2PasswordBearer \nMain topics:"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 19",
+          "score": 0.3703944683074951,
+          "text": "│ \n ┌───────────┼───────────┐ \n ▼ ▼ ▼ \n Routes Parameters Pydantic \n │ │ │ \n └───────────┼───────────┘ \n ▼ \n GET POST PUT PATCH DELETE \n │ \n ▼ \n PRACTICE \nThen Week 2: \n WEEK 2 \n │ \n ▼ \n REAL API CONCEPTS \n │ \n ┌───────────┼───────────┐ \n ▼ ▼ ▼ \n CRUD Authentication JWT \n │ │ │ \n └───────────┼───────────┘ \n ▼ \n Protected Routes \n │ \n ▼"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 18",
+          "score": 0.3565136194229126,
+          "text": "• Protected API \n• Bearer token \n• Authorization header \n• Token verification \n• OAuth2PasswordBearer \n• 401 Unauthorized \nTrainer: Employee Profile \nStudent: Restaurant Orders \n \nDay 10 — Friday, October 2 \nSwagger + Integration \nMain topics: \n• Swagger /docs \n• Testing GET/POST/PUT/PATCH/DELETE \n• Request body testing \n• Authentication testing \n• Authorize button \n• Complete mini API \nTrainer: Restaurant API \nStudent: E-commerce / Todo / Employee / Restaurant \n \nThe important boundary between Week 1 and Week 2 \nI would teach it like this: \n WEEK 1 \n │ \n ▼ \n FASTAPI FUNDAMENTALS"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 12",
+          "score": 0.3397413492202759,
+          "text": "2. Validation \nValidation checks whether the received data follows the expected structure and types. \nFor example: \nCorrect:"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 6",
+          "score": 0.2926461696624756,
+          "text": "2. GET \nGET is used to retrieve information. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return { \n \"students\": [\"Arun\", \"Kumar\", \"Priya\"] \n } \nRequest: \nGET /students \n \n3. POST \nPOST is generally used to create new data. \nExample: \n@app.post(\"/students\") \ndef create_student(): \n return { \n \"message\": \"Student created\" \n } \n \n4. PUT \nPUT is generally used to update or replace an existing resource. \nExample: \n@app.put(\"/students/101\") \ndef update_student():"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Explain how to write api"
+  },
+  {
+    "role": "assistant",
+    "content": "To write a FastAPI API you follow these basic steps:\n\n1. **Import FastAPI and create an app instance**  \n   ```python\n   from fastapi import FastAPI\n   app = FastAPI()\n   ```  \n   (see the example on page 2 [1] and page 4 [3]).\n\n2. **Define routes (endpoints) with HTTP‑method decorators**  \n   - Use `@app.get()`, `@app.post()`, `@app.put()`, `@app.patch()`, or `@app.delete()` to bind a URL path to a Python function.  \n   - The function should accept any request data (e.g., a Pydantic model for POST bodies) and return a JSON‑serializable object (often a dict).  \n\n   Example of a simple GET endpoint:  \n   ```python\n   @app.get(\"/hello\")\n   def hello():\n       return {\"message\": \"Hello!\"}\n   ```  \n   (see page 4 [3]).\n\n   Example of a POST endpoint that receives a model:  \n   ```python\n   from pydantic import BaseModel\n\n   class Product(BaseModel):\n       name: str\n       price: float\n       category: str\n\n   @app.post(\"/products\")\n   def create_product(product: Product):\n       return {\"message\": \"Product created\", \"data\": product}\n   ```  \n   (see page 14 [4]).\n\n3. **Run the application**  \n   Use **uvicorn** (the ASGI server) to start the service:  \n   ```bash\n   uvicorn main:app --reload\n   ```  \n   The `--reload` flag restarts the server automatically on code changes.  \n   (see page 4 [3]).\n\n4. **Test the API**  \n   - Open the automatically generated Swagger UI at `http://127.0.0.1:8000/docs` to explore and interact with your endpoints.  \n   (see page 4 [3]).\n\nPutting it all together, a minimal FastAPI file (`main.py`) looks like this:\n\n```python\nfrom fastapi import FastAPI\nfrom pydantic import BaseModel\n\napp = FastAPI()\n\n@app.get(\"/\")\ndef home():\n    return {\"message\": \"Welcome to FastAPI\"}\n\n@app.get(\"/hello\")\ndef hello():\n    return {\"message\": \"Hello!\"}\n\nclass Product(BaseModel):\n    name: str\n    price: float\n    category: str\n\n@app.post(\"/products\")\ndef create_product(product: Product):\n    return {\"message\": \"Product created\", \"data\": product}\n```\n\nRun with `uvicorn main:app --reload` and you’ll have a working API with interactive documentation.  \n\n**Sources**: [1] (page 2), [3] (page 4), [4] (page 14).",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "Explain how to write api",
+      "techniques": {},
+      "processed": "Explain how to write api",
+      "total_ms": 2232.6772999949753,
+      "pre_ms": 0,
+      "api_ms": 2220.9414000390097,
+      "retrieval_ms": 11.479699984192848,
+      "wait_ms": 0.0,
+      "in_tok": 1100,
+      "out_tok": 697,
+      "sources": [
+        {
+          "ref": "contentfastapi.pdf, page 2",
+          "score": 0.33975911140441895,
+          "text": "↓ \n API \n ↓ \nBackend \n ↓ \nDatabase \nWhen a mobile application asks for product information, the API receives the request and sends \nthe required data back. \n \n2. What is FastAPI? \nFastAPI is a Python framework specifically designed for building APIs. \nExample: \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello FastAPI\"} \n \n3. What is an Endpoint? \nAn endpoint is a particular URL through which the client communicates with the server. \nExample: \nGET /students \nGET /products \nGET /employees"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 1",
+          "score": 0.32083240151405334,
+          "text": "Monday, September 21 \nFastAPI Introduction \nMain Topic Definition \n1. FastAPI is a Python framework used to build web APIs. \n2. An API allows two applications to communicate with each other. \n3. FastAPI is mainly used to create backend applications and services. \n4. It allows us to create URLs called endpoints for different operations. \n5. FastAPI supports HTTP methods such as GET, POST, PUT, PATCH and DELETE. \n6. It also provides automatic API documentation through Swagger UI. \nSubtopics \n1. What is an API? \nAn API is a communication point between a client and a server. \nFor example: \nMobile App"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 4",
+          "score": 0.2906465232372284,
+          "text": "app = FastAPI() \n \n \n@app.get(\"/\") \ndef home(): \n return {\"message\": \"Welcome to FastAPI\"} \nRun: \nuvicorn main:app --reload \n \nTrainer Practical — Greeting API \nfrom fastapi import FastAPI \n \napp = FastAPI() \n \n \n@app.get(\"/\") \ndef home(): \n return {\"message\": \"Welcome to FastAPI\"} \n \n \n@app.get(\"/hello\") \ndef hello(): \n return {\"message\": \"Hello!\"} \nTest: \nhttp://127.0.0.1:8000/docs"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 14",
+          "score": 0.2664356827735901,
+          "text": "app = FastAPI() \n \n \n@app.post(\"/students\") \ndef create_student(student: Student): \n return { \n \"message\": \"Student created\", \n \"data\": student \n } \nStudent Practice — Product API \nclass Product(BaseModel): \n name: str \n price: float \n category: str \nStudents create: \nPOST /products \nRequest: \n{ \n \"name\": \"Laptop\", \n \"price\": 55000, \n \"category\": \"Electronics\" \n} \n \nDay 5 — Friday, September 25 \nHands-on Practice Lab \nMain Topic — Week 1 FastAPI Practice"
+        },
+        {
+          "ref": "contentfastapi.pdf, page 5",
+          "score": 0.2588936686515808,
+          "text": "Student Practice — E-Commerce \nStudents create: \nGET /welcome \nGET /products \nGET /categories \n \nDay 2 — Tuesday, September 22 \nRoutes & HTTP Methods \nMain Topic Definition \n1. A route connects a URL with a Python function. \n2. Routes define what operation an API can perform. \n3. Every route has an HTTP method and a URL path. \n4. GET is used to retrieve data. \n5. POST is used to create data. \n6. PUT, PATCH and DELETE are used to modify or remove data. \nSubtopics \n1. What is Routing? \nRouting tells FastAPI which Python function should execute when a particular URL is requested. \nExample: \n@app.get(\"/students\") \ndef get_students(): \n return {\"message\": \"All students\"} \nHere: \nGET → HTTP method \n/students → route \nget_students() → function"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is java"
+  },
+  {
+    "role": "assistant",
+    "content": "Java is a popular, high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building enterprise-scale applications, mobile apps (particularly Android), desktop applications, and web services. \n\nSome key characteristics of Java include:\n* **\"Write Once, Run Anywhere\" (WORA):** Java source code is compiled into bytecode, which can run on any device equipped with a Java Virtual Machine (JVM), regardless of the computer architecture.\n* **Platform Independence:** Because of the JVM, Java programs can run on Windows, Mac, Linux, and other operating systems without needing to be rewritten.\n* **Object-Oriented:** Everything in Java (with primitive data types being the exception) is structured around objects and classes, making code modular, flexible, and reusable.\n* **Strong Memory Management:** Java handles memory allocation and garbage collection automatically, which helps prevent memory leaks.\n\n*(Note: The uploaded documents do not contain information about Java.)*",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is java",
+      "techniques": {},
+      "processed": "What is java",
+      "total_ms": 2140.507699979935,
+      "pre_ms": 0,
+      "api_ms": 2140.313599957153,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 823,
+      "out_tok": 210,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is OOPS?"
+  },
+  {
+    "role": "assistant",
+    "content": "OOPS stands for **Object-Oriented Programming System** (or paradigm). It is a programming methodology based on the concept of \"objects,\" which can contain data (fields/attributes) and code (methods/procedures).\n\nThe core principles of OOPS are:\n\n1. **Encapsulation:** Bundling the data (attributes) and the methods that operate on that data into a single unit (a class). It also involves **data hiding**, meaning the internal state of an object is protected from direct, unauthorized access from outside the object.\n2. **Abstraction:** Showing only essential information to the user and hiding the complex implementation details. For example, when you drive a car, you use the steering wheel and pedals (the essential interface) without needing to know the complex mechanics of the engine.\n3. **Inheritance:** Allowing a new class (subclass/child class) to inherit properties and methods from an existing class (superclass/parent class). This promotes code reusability.\n4. **Polymorphism:** Meaning \"many forms.\" It allows one interface to be used for different underlying forms (e.g., a single method name can behave differently depending on the object it is called upon).\n\n*(Note: The uploaded documents do not contain specific definitions or examples of OOPS.)*",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is OOPS?",
+      "techniques": {},
+      "processed": "What is OOPS?",
+      "total_ms": 15277.174699993338,
+      "pre_ms": 0,
+      "api_ms": 15276.988000026904,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 999,
+      "out_tok": 268,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is CNN algorithm?"
+  },
+  {
+    "role": "assistant",
+    "content": "**CNN (Convolutional Neural Network)** is a type of deep learning algorithm specifically designed for processing data that has a grid‑like topology, such as images, audio spectrograms, or time‑series data.  \nIt automatically learns spatial hierarchies of features by applying convolutional filters that slide over the input, followed by non‑linear activation, pooling, and finally classification or regression layers.\n\n| Stage | What it does | Key idea |\n|-------|--------------|----------|\n| **Input** | Raw data (e.g., a 2‑D image) | Treats data as a matrix of pixel values |\n| **Convolution layer** | Applies a set of learnable filters (kernels) that convolve across the input | Detects local patterns (edges, textures) |\n| **Activation (ReLU, etc.)** | Adds non‑linearity | Allows the network to learn complex functions |\n| **Pooling (max/avg)** | Down‑samples feature maps | Reduces spatial size, increases translation invariance |\n| **Stacking layers** | Repeats conv‑act‑pool blocks | Builds higher‑level, more abstract features |\n| **Fully‑connected (dense) layer** | Flattens final feature maps and maps to output | Performs classification or regression |\n| **Output layer** | Produces final prediction (softmax for classification, linear for regression) | Gives the model’s decision |\n\n### How it learns\n1. **Forward pass** – compute activations through all layers.  \n2. **Loss computation** – compare predictions to ground truth (cross‑entropy, MSE, etc.).  \n3. **Backpropagation** – compute gradients of loss w.r.t. all weights.  \n4. **Weight update** – use an optimizer (SGD, Adam, etc.) to adjust filters and fully‑connected weights.  \n5. **Repeat** over many epochs until convergence.\n\n### Typical applications\n- Image classification (e.g., ImageNet, CIFAR‑10)\n- Object detection (YOLO, Faster‑RCNN)\n- Semantic segmentation (U‑Net, SegNet)\n- Speech recognition (spectrogram inputs)\n- Time‑series forecasting (1‑D CNNs)\n\n### Why CNNs work well for images\n- **Local connectivity**: Filters capture local patterns (edges, corners).  \n- **Weight sharing**: Same filter applied across the image reduces parameters and enforces translation invariance.  \n- **Hierarchical feature learning**: Early layers learn simple features; deeper layers learn complex, abstract concepts.\n\nIn short, a CNN is a neural network that uses convolution operations to efficiently learn spatial hierarchies of features, making it the go‑to architecture for most computer‑vision tasks.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is CNN algorithm?",
+      "techniques": {},
+      "processed": "What is CNN algorithm?",
+      "total_ms": 1306.7868999787606,
+      "pre_ms": 0,
+      "api_ms": 1306.6125999903306,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1217,
+      "out_tok": 639,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is AI?"
+  },
+  {
+    "role": "assistant",
+    "content": "**AI (Artificial Intelligence)** is the branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include learning from experience, understanding natural language, recognizing patterns, solving problems, and making decisions.\n\n### Core Concepts\n1.  **Machine Learning (ML):** A subset of AI where algorithms learn patterns from data rather than being explicitly programmed.\n2.  **Deep Learning:** A subset of ML using neural networks (like CNNs) to model complex patterns, especially in unstructured data like images and text.\n3.  **Natural Language Processing (NLP):** Enables machines to understand, interpret, and generate human language.\n4.  **Computer Vision:** Allows machines to \"see\" and interpret visual information from the world.\n\n### Types of AI\n*   **Narrow AI (Weak AI):** Designed for a specific task (e.g., Siri, recommendation engines, self-driving cars). This is the only type of AI that currently exists.\n*   **General AI (Strong AI):** Hypothetical AI with human-level cognitive abilities across any domain. It does not yet exist.\n*   **Super AI:** Hypothetical AI that surpasses human intelligence in all aspects. It remains theoretical.\n\n### Common Applications\n*   **Healthcare:** Diagnosing diseases from medical images, drug discovery.\n*   **Finance:** Fraud detection, algorithmic trading.\n*   **Transportation:** Self-driving vehicles, traffic optimization.\n*   **Customer Service:** Chatbots and virtual assistants.\n*   **Creative Industries:** Generating text, images, music, and video.\n\nIn essence, AI is about building systems that can perceive their environment, reason about it, and take actions to achieve specific goals.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is AI?",
+      "techniques": {},
+      "processed": "What is AI?",
+      "total_ms": 1183.0366000067443,
+      "pre_ms": 0,
+      "api_ms": 1182.861499954015,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1158,
+      "out_tok": 363,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** is a high‑level, interpreted programming language known for its readability, simplicity, and extensive standard library. It was created by Guido van Rossum and first released in 1991.\n\n### Key Characteristics\n| Feature | Description |\n|---------|-------------|\n| **Readability** | Uses indentation to define code blocks, making the syntax clean and easy to understand. |\n| **Interpreted** | Code is executed line‑by‑line by the Python interpreter; no separate compilation step is required. |\n| **Dynamic typing** | Variable types are determined at runtime, allowing rapid prototyping. |\n| **Multi‑paradigm** | Supports procedural, object‑oriented, and functional programming styles. |\n| **Extensive ecosystem** | Thousands of third‑party packages (via PyPI) for web development, data science, AI, automation, etc. |\n| **Cross‑platform** | Runs on Windows, macOS, Linux, and many embedded systems. |\n\n### Typical Uses\n- **Web development** (Django, Flask)  \n- **Data analysis & scientific computing** (pandas, NumPy, SciPy)  \n- **Machine learning & AI** (TensorFlow, PyTorch, scikit‑learn)  \n- **Scripting & automation** (system admin tasks, build scripts)  \n- **Education** (first language for many programming courses)  \n\n### Example Code\n```python\ndef greet(name: str) -> None:\n    \"\"\"Print a friendly greeting.\"\"\"\n    print(f\"Hello, {name}!\")\n\ngreet(\"World\")\n```\n\nPython’s combination of simplicity and powerful libraries has made it one of the most popular languages worldwide.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 1364.086999965366,
+      "pre_ms": 0,
+      "api_ms": 1363.8665999751538,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1332,
+      "out_tok": 379,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** is a high-level, interpreted programming language known for its clear syntax and readability. It emphasizes code readability with its use of significant indentation, making it a popular choice for beginners and experienced developers alike.\n\nHere are some key aspects of Python:\n\n*   **Versatile:** It is used in a wide variety of domains, including web development, data science, artificial intelligence (AI), machine learning, automation, and software testing.\n*   **Easy to Learn:** Its syntax closely resembles plain English, which reduces the cost of program maintenance and makes learning faster.\n*   **Interpreted & Dynamic:** Code is executed line-by-line, and variables do not need explicit type declarations, which speeds up the development and debugging process.\n*   **Massive Ecosystem:** Python has a vast standard library and thousands of third-party packages (available via PyPI) like NumPy, Pandas, TensorFlow, and Django that extend its capabilities. \n\nIn short, Python is a powerful and flexible tool that allows developers to write clear, logical code for projects of any scale.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is python?",
+      "techniques": {},
+      "processed": "what is python?",
+      "total_ms": 15269.120200013276,
+      "pre_ms": 0,
+      "api_ms": 15268.854000023566,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1362,
+      "out_tok": 222,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "In programming, a **variable** is essentially a **named storage location** in the computer's memory used to hold a piece of data. Think of it like a labeled box where you can store different types of information (numbers, text, true/false values, etc.) and refer to that information later using the label (the variable name).\n\n### Key Concepts\n1.  **Name:** The identifier you use in your code (e.g., `user_age`, `greeting_message`).\n2.  **Value:** The actual data stored inside the variable (e.g., `30`, `\"Hello\"`, `True`).\n3.  **Assignment:** The process of putting a value into a variable, usually done with an equals sign (`=`).\n\n### Example in Python\nIn Python, you don't need to declare the *type* of the variable beforehand; Python figures it out dynamically:\n\n```python\n# 'name' is the variable name, \"Alice\" is the value (a string)\nname = \"Alice\" \n\n# 'age' is the variable name, 30 is the value (an integer)\nage = 30 \n\n# 'is_student' is the variable name, True is the value (a boolean)\nis_student = True\n\n# You can change the value later\nage = 31 \n\nprint(name)  # Output: Alice\nprint(age)   # Output: 31\n```\n\n### Data Types\nVariables hold different **data types**. Common types include:\n*   **Integers (`int`):** Whole numbers (e.g., 10, -5).\n*   **Floats (`float`):** Numbers with decimal points (e.g., 3.14, 0.5).\n*   **Strings (`str`):** Text enclosed in quotes (e.g., \"Hello World\").\n*   **Booleans (`bool`):** True or False values.\n*   **Lists, Tuples, Dictionaries:** Collections of data.\n\n**In summary:** A variable is just a convenient, named reference to a spot in memory that holds data, allowing you to manipulate and reuse that data throughout your program without having to rewrite the value every time.",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is variables?",
+      "techniques": {},
+      "processed": "What is variables?",
+      "total_ms": 22768.920900009107,
+      "pre_ms": 0,
+      "api_ms": 22768.73789995443,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1053,
+      "out_tok": 483,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Integers"
+  },
+  {
+    "role": "assistant",
+    "content": "**Integers** are whole numbers that can be positive, negative, or zero. They do **not** contain a fractional or decimal part.\n\n| Property | Example |\n|----------|---------|\n| Positive integer | 1, 42, 1000 |\n| Negative integer | –1, –42, –1000 |\n| Zero | 0 |\n\n### Key Points\n1. **No fractional part** – `5` is an integer, but `5.0` (a float) is not.\n2. **Unlimited size** – In most programming languages, integers can grow as large as the computer’s memory allows (Python’s `int` type, for example, is unbounded).\n3. **Basic arithmetic** – You can add, subtract, multiply, divide (integer division), and find remainders with integers.\n4. **Use cases** – Counting items, indexing arrays, loop counters, representing discrete quantities.\n\n### Example (Python)\n```python\na = 7          # integer\nb = -3         # negative integer\nc = 0          # zero\n\nprint(a + b)   # 4\nprint(a * b)   # -21\nprint(a // 2)  # 3  (integer division)\nprint(a % 2)   # 1  (remainder)\n```\n\nSo, an integer is simply a whole number without any decimal component.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is Integers",
+      "techniques": {},
+      "processed": "What is Integers",
+      "total_ms": 1289.4778000190854,
+      "pre_ms": 0,
+      "api_ms": 1289.2990999971516,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1169,
+      "out_tok": 330,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is For loop in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **`for` loop** in Python is used to iterate over a sequence (such as a list, tuple, string, or range) and execute a block of code once for each item in that sequence.\n\n### Basic Syntax\n```python\nfor variable in sequence:\n    # code block\n```\n\n- **`variable`** – takes on each value from the sequence in turn.\n- **`sequence`** – any iterable object (list, tuple, string, range, etc.).\n- The indented block runs for every element.\n\n### Example 1: Looping over a list\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\n\nfor fruit in fruits:\n    print(fruit)\n```\nOutput:\n```\napple\nbanana\ncherry\n```\n\n### Example 2: Using `range()` to loop a fixed number of times\n```python\nfor i in range(5):          # 0, 1, 2, 3, 4\n    print(i * 2)\n```\nOutput:\n```\n0\n2\n4\n6\n8\n```\n\n### Common Uses\n- **Iterating through collections** (lists, tuples, dictionaries, sets).\n- **Generating sequences** with `range()`.\n- **Processing items** (e.g., summing numbers, filtering data).\n\n### Quick Tip\nIf you need the index while iterating, use `enumerate()`:\n```python\nfor idx, value in enumerate(fruits):\n    print(idx, value)\n```\n\nThat’s the essence of a `for` loop in Python: a concise way to repeat actions over each element in an iterable.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is For loop in python?",
+      "techniques": {},
+      "processed": "What is For loop in python?",
+      "total_ms": 1503.4731000196189,
+      "pre_ms": 0,
+      "api_ms": 1503.2762000337243,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1113,
+      "out_tok": 374,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is functions?"
+  },
+  {
+    "role": "assistant",
+    "content": "In programming, a **function** is a reusable block of code that performs a specific task. You define it once and can call (use) it as many times as you need.\n\nThink of a function like a **machine**:\n1.  You put inputs (arguments) into it.\n2.  It processes them.\n3.  It gives you an output (return value).\n\n### Why Use Functions?\n- **Reusability:** Write code once, use it many times.\n- **Organization:** Breaks large programs into smaller, manageable pieces.\n- **Readability:** Gives a clear name to what a block of code does.\n\n### Basic Syntax in Python\n```python\ndef function_name(parameters):\n    # Code to execute\n    return result\n```\n\n- **`def`**: Keyword to define a function.\n- **`function_name`**: The name you give to the function.\n- **`parameters`**: Inputs the function expects.\n- **`return`**: Sends a result back to the caller (optional).\n\n### Example 1: A Simple Function\n```python\ndef greet(name):\n    print(f\"Hello, {name}!\")\n\n# Calling the function\ngreet(\"Alice\")\ngreet(\"Bob\")\n```\nOutput:\n```\nHello, Alice!\nHello, Bob!\n```\n\n### Example 2: A Function with a Return Value\n```python\ndef add_numbers(a, b):\n    return a + b\n\n# Store the result in a variable\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\n**Key Difference:**\n- `print()` displays the result on the screen.\n- `return` sends the result back to the code that called the function, so you can use it later.\n\n### Summary\nA function is a named, reusable block of code that takes inputs, does something, and optionally returns an output. It is one of the most important concepts in programming for writing clean, efficient code.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is functions?",
+      "techniques": {},
+      "processed": "What is functions?",
+      "total_ms": 1792.8317000041716,
+      "pre_ms": 0,
+      "api_ms": 1792.6406000042334,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1244,
+      "out_tok": 431,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Float?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Float** (short for *floating‑point number*) is a numeric data type that represents real numbers with a fractional (decimal) part. Unlike integers, which store only whole numbers, floats can store values such as 3.14, ‑0.001, 2.0, etc.\n\n---\n\n## Key Characteristics\n| Feature | Description |\n|---------|-------------|\n| **Representation** | Stored in binary using a mantissa (significand) and an exponent, allowing a wide range of values. |\n| **Precision** | Limited; typical double‑precision floats (Python’s `float`) have about 15‑17 decimal digits of precision. |\n| **Special Values** | `inf` (infinity), `-inf`, and `nan` (not‑a‑number) are defined by the IEEE‑754 standard. |\n| **Operations** | Support arithmetic (`+`, `-`, `*`, `/`, `**`), comparisons, and many math functions (`math.sqrt`, `math.sin`, …). |\n\n---\n\n## Float in Python\n\n```python\n# Creating floats\na = 3.14          # literal with a decimal point\nb = 2.0           # also a float (not an int)\nc = 1e-3          # scientific notation = 0.001\nd = float('nan') # special value: not‑a‑number\ne = float('inf') # positive infinity\n```\n\n### Common Uses\n- **Measurements** (length, weight, temperature) where fractions matter.\n- **Scientific calculations** that require a wide numeric range.\n- **Graphics / geometry** (coordinates, angles).\n\n### Important Tips\n1. **Avoid exact equality checks** with floats due to rounding errors. Use a tolerance:\n   ```python\n   import math\n   math.isclose(x, y, rel_tol=1e-9)\n   ```\n2. **Convert when needed**:\n   ```python\n   int_val = int(3.99)   # truncates to 3\n   str_val = str(2.5)    # '2.5'\n   ```\n3. **Precision limits**: `0.1 + 0.2` is not exactly `0.3` because 0.1 and 0.2 cannot be represented exactly in binary.\n   ```python\n   >>> 0.1 + 0.2\n   0.30000000000000004\n   ```\n\n---\n\n### Quick Example\n\n```python\nradius = 2.5\narea = 3.141592653589793 * radius ** 2   # πr²\nprint(f\"The area of a circle with radius {radius} is {area:.4f}\")\n```\n\nOutput:\n\n```\nThe area of a circle with radius 2.5 is 19.6349\n```\n\n---\n\n**In short:** a *float* is a number that can contain a decimal part, stored in a way that allows a huge range of values but with limited precision. It’s the go‑to type for any calculation where fractions matter.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is Float?",
+      "techniques": {},
+      "processed": "What is Float?",
+      "total_ms": 2166.2721000029705,
+      "pre_ms": 0,
+      "api_ms": 2166.082000010647,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1201,
+      "out_tok": 695,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy-to-learn, powerful programming language that features efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. It is an interpreted language, which saves considerable time during program development because no compilation and linking are necessary [4].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 1405.6631000130437,
+      "pre_ms": 0,
+      "api_ms": 1394.7981999954209,
+      "retrieval_ms": 10.533099994063377,
+      "wait_ms": 0.0,
+      "in_tok": 2278,
+      "out_tok": 57,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms.\nThe Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new fun"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6902658939361572,
+          "text": "Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new functions and data types implemented in C or C++\n(or other languages callable from C). Python is also suitable as an extension language for customizable\napplications.\nThis tutorial introduces the reader informally to the basic concepts and features of the Python language\nand system. It helps to have a Python interpreter handy for hands-on experience, but all examples are\nself-contained, so the tutorial can be read oﬀ-line as well.\nFor a description of standard objects and modules, see library-index. reference-index gives a more formal\ndeﬁnition of the language. To write extensions in C or C++, read extending-index and c-api-index. There\nare also several books covering Python"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.6850104331970215,
+          "text": "d see their results. Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)).\n\ninterpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically\n\n118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.6801798343658447,
+          "text": "your programs — or as\nexamples to start learning to program in Python. Some of these modules provide things like ﬁle I/O, system\ncalls, sockets, and even interfaces to graphical user interface toolkits like Tk.\nPython is an interpreted language, which can save you considerable time during program development\nbecause no compilation and linking is necessary. The interpreter can be used interactively, which makes it\neasy to experiment with features of the language, to write throw-away programs, or to test functions during\nbottom-up program development. It is also a handy desk calculator.\nPython enables programs to be written compactly and readably. Programs written in Python are typically\nmuch shorter than equivalent C, C++, or Java programs, for several reasons:\n• the high-level data types"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is variables?",
+      "techniques": {},
+      "processed": "What is variables?",
+      "total_ms": 1037.3912999639288,
+      "pre_ms": 0,
+      "api_ms": 1026.948300015647,
+      "retrieval_ms": 10.149300040211529,
+      "wait_ms": 0.0,
+      "in_tok": 2119,
+      "out_tok": 10,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 49",
+          "score": 0.5506083965301514,
+          "text": "ipt or in an interactive\ninstance of the interpreter. Such a ﬁle is called a module; deﬁnitions from a module can be imported into\nother modules or into the main module (the collection of variables that you have access to in a script executed\nat the top level and in calculator mode).\n\nA module is a ﬁle containing Python deﬁnitions and statements. The ﬁle name is the module name with\nthe suﬃx .py appended. Within a module, the module’s name (as a string) is available as the value of the\nglobal variable __name__. For instance, use your favorite text editor to create a ﬁle called fibo.py in the\ncurrent directory with the following contents:\n\n# Fibonacci numbers module\n\ndef fib(n): # write Fibonacci series up to n\n a, b = 0, 1\n while a < n:\n print(a, end=' ')\n a, b = b, a+b\n print()\n\ndef fib2("
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.5119231939315796,
+          "text": "Python Tutorial, Release 3.7.0\n\n Arguments are assigned to the named local variables in a function body. See the calls section for the\n rules governing this assignment. Syntactically, any expression can be used to represent an argument;\n the evaluated value is assigned to the local variable.\n\n See also the parameter glossary entry, the FAQ question on the diﬀerence between arguments and\n parameters, and PEP 362.\n\nasynchronous context manager An object which controls the environment seen in an async with state-\n ment by deﬁning __aenter__() and __aexit__() methods. Introduced by PEP 492.\n\nasynchronous generator A function which returns an asynchronous generator iterator. It looks like a\n coroutine function deﬁned with async def except that it contains yield expressions for producing a\n seri"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 53",
+          "score": 0.4902096092700958,
+          "text": "r()\n['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']\n\nNote that it lists all types of names: variables, modules, functions, etc.\n\ndir() does not list the names of built-in functions and variables. If you want a list of those, they are deﬁned\nin the standard module builtins:\n\n6.3. The dir() Function 47"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 53",
+          "score": 0.46977758407592773,
+          "text": "Python Tutorial, Release 3.7.0\n\n (continued from previous page)\n\n>>> sys.ps1 = 'C> '\nC> print('Yuck!')\nYuck!\nC>\n\nThese two variables are only deﬁned if the interpreter is in interactive mode.\n\nThe variable sys.path is a list of strings that determines the interpreter’s search path for modules. It is\ninitialized to a default path taken from the environment variable PYTHONPATH, or from a built-in default if\nPYTHONPATH is not set. You can modify it using standard list operations:\n\n>>> import sys\n>>> sys.path.append('/ufs/guido/lib/python')\n\n6.3 The dir() Function\n\nThe built-in function dir() is used to ﬁnd out which names a module deﬁnes. It returns a sorted list of\nstrings:\n\n>>> import fibo, sys\n>>> dir(fibo)\n['__name__', 'fib', 'fib2']\n>>> dir(sys)\n['__displayhook__', '__doc__', '__exceptho"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is data types?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dictionaries are a built-in data type in Python, sometimes called \"associative memories\" or \"associative arrays\" in other languages [3]. Unlike sequences that are indexed by a range of numbers, dictionaries are indexed by keys, which must be an immutable type such as strings or numbers [3]. A dictionary is best thought of as a set of key: value pairs [3].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is data types?",
+      "techniques": {},
+      "processed": "What is data types?",
+      "total_ms": 2514.895400032401,
+      "pre_ms": 0,
+      "api_ms": 2503.6784000112675,
+      "retrieval_ms": 10.860299982596189,
+      "wait_ms": 0.0,
+      "in_tok": 1903,
+      "out_tok": 79,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 130",
+          "score": 0.5577318072319031,
+          "text": "ds like _make() or _asdict(). Examples of struct sequences\n include sys.float_info and the return value of os.stat().\n\ntext encoding A codec which encodes Unicode strings to bytes.\n\ntext ﬁle A ﬁle object able to read and write str objects. Often, a text ﬁle actually accesses a byte-oriented\n datastream and handles the text encoding automatically. Examples of text ﬁles are ﬁles opened in text\n mode ('r' or 'w'), sys.stdin, sys.stdout, and instances of io.StringIO.\n\n See also binary ﬁle for a ﬁle object able to read and write bytes-like objects.\n\ntriple-quoted string A string which is bound by three instances of either a quotation mark (“) or an\n apostrophe (‘). While they don’t provide any functionality not available with single-quoted strings,\n they are useful for a number of reasons. They"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 122",
+          "score": 0.5350780487060547,
+          "text": "” which is short for formatted\n string literals. See also PEP 498.\n\nﬁle object An object exposing a ﬁle-oriented API (with methods such as read() or write()) to an underly-\n ing resource. Depending on the way it was created, a ﬁle object can mediate access to a real on-disk ﬁle\n or to another type of storage or communication device (for example standard input/output, in-memory\n buﬀers, sockets, pipes, etc.). File objects are also called ﬁle-like objects or streams.\n\n There are actually three categories of ﬁle objects: raw binary ﬁles, buﬀered binary ﬁles and text ﬁles.\n Their interfaces are deﬁned in the io module. The canonical way to create a ﬁle object is by using the\n\n116 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 44",
+          "score": 0.5228157043457031,
+          "text": "Python Tutorial, Release 3.7.0\n\n5.5 Dictionaries\n\nAnother useful data type built into Python is the dictionary (see typesmapping). Dictionaries are sometimes\nfound in other languages as “associative memories” or “associative arrays”. Unlike sequences, which are\nindexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings\nand numbers can always be keys. Tuples can be used as keys if they contain only strings, numbers, or tuples;\nif a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use\nlists as keys, since lists can be modiﬁed in place using index assignments, slice assignments, or methods like\nappend() and extend().\n\nIt is best to think of a dictionary as a set of key: value pairs, with the r"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 4",
+          "score": 0.5228076577186584,
+          "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90\n11.3 Working with Binary Data Record Layouts. . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\n11.4 Multi-threading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\n11.5 Logging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92\n11.6 Weak References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n11.7 Tools for Working with Lists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n11.8 Decimal Floating Point Arithmetic. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\n12 Virtual Environments and Packages 97\n12.1 Introduction . . . . . . . . . ."
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is For loop in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **for loop** in Python is a control‑flow statement that iterates over the items of any sequence (such as a list, tuple, string, dictionary, or file) in the order they appear.  \nWhen the loop starts, Python calls `iter()` on the container to obtain an iterator object. The iterator’s `__next__()` method is then called repeatedly to fetch each element; when no more elements remain, a `StopIteration` exception terminates the loop.  \n\nTypical usage:\n\n```python\nwords = ['cat', 'window', 'defenestrate']\nfor w in words:\n    print(w, len(w))\n```\n\nThis prints each word and its length, one element per iteration [2][4].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is For loop in python?",
+      "techniques": {},
+      "processed": "What is For loop in python?",
+      "total_ms": 840.8557000220753,
+      "pre_ms": 0,
+      "api_ms": 829.0732000023127,
+      "retrieval_ms": 11.392499960493296,
+      "wait_ms": 0.0,
+      "in_tok": 1190,
+      "out_tok": 240,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 45",
+          "score": 0.663742184638977,
+          "text": "Python Tutorial, Release 3.7.0\n\n5.6 Looping Techniques\n\nWhen looping through dictionaries, the key and corresponding value can be retrieved at the same time using\nthe items() method.\n\n>>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n>>> for k, v in knights.items():\n... print(k, v)\n...\ngallahad the pure\nrobin the brave\n\nWhen looping through a sequence, the position index and corresponding value can be retrieved at the same\ntime using the enumerate() function.\n\n>>> for i, v in enumerate(['tic', 'tac', 'toe']):\n... print(i, v)\n...\n0 tic\n1 tac\n2 toe\n\nTo loop over two or more sequences at the same time, the entries can be paired with the zip() function.\n\n>>> questions = ['name', 'quest', 'favorite color']\n>>> answers = ['lancelot', 'the holy grail', 'blue']\n>>> for q, a in zip(quest"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 85",
+          "score": 0.6411766409873962,
+          "text": "most container objects can be looped over using a for statement:\n\nfor element in [1, 2, 3]:\n print(element)\nfor element in (1, 2, 3):\n print(element)\nfor key in {'one':1, 'two':2}:\n print(key)\nfor char in \"123\":\n print(char)\nfor line in open(\"myfile.txt\"):\n print(line, end='')\n\nThis style of access is clear, concise, and convenient. The use of iterators pervades and uniﬁes Python.\nBehind the scenes, the for statement calls iter() on the container object. The function returns an iterator\nobject that deﬁnes the method __next__() which accesses elements in the container one at a time. When\nthere are no more elements, __next__() raises a StopIteration exception which tells the for loop to\nterminate. You can call the __next__() method using the next() built-in function; this example shows how\ni"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 26",
+          "score": 0.6081339716911316,
+          "text": "Python Tutorial, Release 3.7.0\n\nIf you need to modify the sequence you are iterating over while inside the loop (for example to duplicate\nselected items), it is recommended that you ﬁrst make a copy. Iterating over a sequence does not implicitly\nmake a copy. The slice notation makes this especially convenient:\n\n>>> for w in words[:]: # Loop over a slice copy of the entire list.\n... if len(w) > 6:\n... words.insert(0, w)\n...\n>>> words\n['defenestrate', 'cat', 'window', 'defenestrate']\n\nWith for w in words:, the example would attempt to create an inﬁnite list, inserting defenestrate over\nand over again.\n\n4.3 The range() Function\n\nIf you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It\ngenerates arithmetic progressions:\n\n>>> for i in range(5):\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.6012912392616272,
+          "text": "n. An if … elif … elif … sequence is a substitute for the\nswitch or case statements found in other languages.\n\n4.2 for Statements\n\nThe for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended):\n\n>>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n...\ncat 3\nwindow 6\ndefenestrate 12\n\n 19"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is integers?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is integers?",
+      "techniques": {},
+      "processed": "What is integers?",
+      "total_ms": 778.4281999920495,
+      "pre_ms": 0,
+      "api_ms": 766.037099994719,
+      "retrieval_ms": 12.091899989172816,
+      "wait_ms": 0.0,
+      "in_tok": 1268,
+      "out_tok": 144,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.6269162893295288,
+          "text": "CHAPTER\nFIFTEEN\nFLOATING POINT ARITHMETIC: ISSUES AND LIMITATIONS\nFloating-point numbers are represented in computer hardware as base 2 (binary) fractions. For example,\nthe decimal fraction\n0.125\nhas value 1/10 + 2/100 + 5/1000, and in the same way the binary fraction\n0.001\nhas value 0/2 + 0/4 + 1/8. These two fractions have identical values, the only real diﬀerence being that the\nﬁrst is written in base 10 fractional notation, and the second in base 2.\nUnfortunately, most decimal fractions cannot be represented exactly as binary fractions. A consequence is\nthat, in general, the decimal ﬂoating-point numbers you enter are only approximated by the binary ﬂoating-\npoint numbers actually stored in the machine.\nThe problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 121",
+          "score": 0.5727745294570923,
+          "text": "arguments of even compatible types would have to be normalized to the same value by the programmer,\n e.g., float(3)+4.5 rather than just 3+4.5.\n\ncomplex number An extension of the familiar real number system in which all numbers are expressed as\n a sum of a real part and an imaginary part. Imaginary numbers are real multiples of the imaginary\n unit (the square root of -1), often written i in mathematics or j in engineering. Python has built-in\n support for complex numbers, which are written with this latter notation; the imaginary part is written\n with a j suﬃx, e.g., 3+1j. To get access to complex equivalents of the math module, use cmath. Use\n of complex numbers is a fairly advanced mathematical feature. If you’re not aware of a need for them,\n it’s almost certain you can safely ignore t"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.5698122978210449,
+          "text": "ation. On most machines today, ﬂoats are\napproximated using a binary fraction with the numerator using the ﬁrst 53 bits starting with the most\nsigniﬁcant bit and with the denominator as a power of two. In the case of 1/10, the binary fraction is\n3602879701896397 / 2 ** 55 which is close to but not exactly equal to the true value of 1/10.\nMany users are not aware of the approximation because of the way values are displayed. Python only prints\na decimal approximation to the true decimal value of the binary approximation stored by the machine. On\nmost machines, if Python were to print the true decimal value of the binary approximation stored for 0.1, it\nwould have to display\n105"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.568326473236084,
+          "text": "bers actually stored in the machine.\nThe problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3. You can approximate\nthat as a base 10 fraction:\n0.3\nor, better,\n0.33\nor, better,\n0.333\nand so on. No matter how many digits you’re willing to write down, the result will never be exactly 1/3,\nbut will be an increasingly better approximation of 1/3.\nIn the same way, no matter how many base 2 digits you’re willing to use, the decimal value 0.1 cannot be\nrepresented exactly as a base 2 fraction. In base 2, 1/10 is the inﬁnitely repeating fraction\n0.0001100110011001100110011001100110011001100110011...\nStop at any ﬁnite number of bits, and you get an approximation. On most machines today, ﬂoats are\napproximated using a binary fraction with the numerator using the ﬁrst 53 bits"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is integers?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is integers?",
+      "techniques": {},
+      "processed": "What is integers?",
+      "total_ms": 750.3782999701798,
+      "pre_ms": 0,
+      "api_ms": 738.3382000261918,
+      "retrieval_ms": 11.767600022722036,
+      "wait_ms": 0.0,
+      "in_tok": 1268,
+      "out_tok": 65,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.6269162893295288,
+          "text": "CHAPTER\nFIFTEEN\nFLOATING POINT ARITHMETIC: ISSUES AND LIMITATIONS\nFloating-point numbers are represented in computer hardware as base 2 (binary) fractions. For example,\nthe decimal fraction\n0.125\nhas value 1/10 + 2/100 + 5/1000, and in the same way the binary fraction\n0.001\nhas value 0/2 + 0/4 + 1/8. These two fractions have identical values, the only real diﬀerence being that the\nﬁrst is written in base 10 fractional notation, and the second in base 2.\nUnfortunately, most decimal fractions cannot be represented exactly as binary fractions. A consequence is\nthat, in general, the decimal ﬂoating-point numbers you enter are only approximated by the binary ﬂoating-\npoint numbers actually stored in the machine.\nThe problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 121",
+          "score": 0.5727745294570923,
+          "text": "arguments of even compatible types would have to be normalized to the same value by the programmer,\n e.g., float(3)+4.5 rather than just 3+4.5.\n\ncomplex number An extension of the familiar real number system in which all numbers are expressed as\n a sum of a real part and an imaginary part. Imaginary numbers are real multiples of the imaginary\n unit (the square root of -1), often written i in mathematics or j in engineering. Python has built-in\n support for complex numbers, which are written with this latter notation; the imaginary part is written\n with a j suﬃx, e.g., 3+1j. To get access to complex equivalents of the math module, use cmath. Use\n of complex numbers is a fairly advanced mathematical feature. If you’re not aware of a need for them,\n it’s almost certain you can safely ignore t"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.5698122978210449,
+          "text": "ation. On most machines today, ﬂoats are\napproximated using a binary fraction with the numerator using the ﬁrst 53 bits starting with the most\nsigniﬁcant bit and with the denominator as a power of two. In the case of 1/10, the binary fraction is\n3602879701896397 / 2 ** 55 which is close to but not exactly equal to the true value of 1/10.\nMany users are not aware of the approximation because of the way values are displayed. Python only prints\na decimal approximation to the true decimal value of the binary approximation stored by the machine. On\nmost machines, if Python were to print the true decimal value of the binary approximation stored for 0.1, it\nwould have to display\n105"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.568326473236084,
+          "text": "bers actually stored in the machine.\nThe problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3. You can approximate\nthat as a base 10 fraction:\n0.3\nor, better,\n0.33\nor, better,\n0.333\nand so on. No matter how many digits you’re willing to write down, the result will never be exactly 1/3,\nbut will be an increasingly better approximation of 1/3.\nIn the same way, no matter how many base 2 digits you’re willing to use, the decimal value 0.1 cannot be\nrepresented exactly as a base 2 fraction. In base 2, 1/10 is the inﬁnitely repeating fraction\n0.0001100110011001100110011001100110011001100110011...\nStop at any ﬁnite number of bits, and you get an approximation. On most machines today, ﬂoats are\napproximated using a binary fraction with the numerator using the ﬁrst 53 bits"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is float data type?"
+  },
+  {
+    "role": "assistant",
+    "content": "The **float** data type in Python represents real numbers using binary floating‑point arithmetic. It stores a value as a binary fraction (a mantissa and an exponent) with limited precision, which can lead to small rounding errors in calculations. Python provides methods such as `float.hex()` and `float.as_integer_ratio()` to inspect the exact binary representation of a float and to reconstruct it precisely. These tools are useful for debugging, ensuring cross‑platform consistency, and converting between binary and decimal representations [1][3].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is float data type?",
+      "techniques": {},
+      "processed": "What is float data type?",
+      "total_ms": 945.6044000107795,
+      "pre_ms": 0,
+      "api_ms": 935.4032999835908,
+      "retrieval_ms": 9.878600016236305,
+      "wait_ms": 0.0,
+      "in_tok": 1105,
+      "out_tok": 183,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 113",
+          "score": 0.6081206798553467,
+          "text": "37115888337719 / 1125899906842624\nTrue\n\nThe float.hex() method expresses a ﬂoat in hexadecimal (base 16), again giving the exact value stored by\nyour computer:\n\n>>> x.hex()\n'0x1.921f9f01b866ep+1'\n\nThis precise hexadecimal representation can be used to reconstruct the ﬂoat value exactly:\n\n>>> x == float.fromhex('0x1.921f9f01b866ep+1')\nTrue\n\nSince the representation is exact, it is useful for reliably porting values across diﬀerent versions of Python\n(platform independence) and exchanging data with other languages that support the same format (such as\nJava and C99).\n\nAnother helpful tool is the math.fsum() function which helps mitigate loss-of-precision during summation.\nIt tracks “lost digits” as values are added onto a running total. That can make a diﬀerence in overall accuracy\nso that th"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 100",
+          "score": 0.5661359429359436,
+          "text": "cimal ﬂoating point arithmetic. Compared to the\nbuilt-in float implementation of binary ﬂoating point, the class is especially helpful for\n\n • ﬁnancial applications and other uses which require exact decimal representation,\n\n • control over precision,\n\n • control over rounding to meet legal or regulatory requirements,\n\n • tracking of signiﬁcant decimal places, or\n\n • applications where the user expects the results to match calculations done by hand.\n\nFor example, calculating a 5% tax on a 70 cent phone charge gives diﬀerent results in decimal ﬂoating point\nand binary ﬂoating point. The diﬀerence becomes signiﬁcant if the results are rounded to the nearest cent:\n\n>>> from decimal import *\n>>> round(Decimal('0.70') * Decimal('1.05'), 2)\nDecimal('0.74')\n>>> round(.70 * 1.05, 2)\n0.73\n\n94 Chapt"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 113",
+          "score": 0.5287866592407227,
+          "text": "rational numbers (so the numbers like 1/3 can be represented exactly).\n\nIf you are a heavy user of ﬂoating point operations you should take a look at the Numerical Python package\nand many other packages for mathematical and statistical operations supplied by the SciPy project. See\n<https://scipy.org>.\n\nPython provides tools that may help on those rare occasions when you really do want to know the exact\nvalue of a ﬂoat. The float.as_integer_ratio() method expresses the value of a ﬂoat as a fraction:\n\n>>> x = 3.14159\n>>> x.as_integer_ratio()\n(3537115888337719, 1125899906842624)\n\nSince the ratio is exact, it can be used to losslessly recreate the original value:\n\n>>> x == 3537115888337719 / 1125899906842624\nTrue\n\nThe float.hex() method expresses a ﬂoat in hexadecimal (base 16), again giving t"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.5206575393676758,
+          "text": "often refers to these as “read-\n write bytes-like objects”. Example mutable buﬀer objects include bytearray and a memoryview of a\n bytearray. Other operations require the binary data to be stored in immutable objects (“read-only\n bytes-like objects”); examples of these include bytes and a memoryview of a bytes object.\n\n114 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is float data type?"
+  },
+  {
+    "role": "assistant",
+    "content": "The **float** data type in Python represents real numbers using binary floating‑point arithmetic. It stores a value as a binary fraction (mantissa) and an exponent, giving an approximate decimal value that can be inspected exactly with methods such as `float.hex()` (which shows the exact hexadecimal representation) and `float.as_integer_ratio()` (which expresses the float as an exact fraction) [1][3]. These tools let you reconstruct the original value precisely and are useful for tasks like cross‑platform data exchange and debugging floating‑point precision issues.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is float data type?",
+      "techniques": {},
+      "processed": "What is float data type?",
+      "total_ms": 931.0003999853507,
+      "pre_ms": 0,
+      "api_ms": 917.0983000076376,
+      "retrieval_ms": 13.481399975717068,
+      "wait_ms": 0.0,
+      "in_tok": 1058,
+      "out_tok": 210,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 113",
+          "score": 0.6081206798553467,
+          "text": "37115888337719 / 1125899906842624\nTrue\n\nThe float.hex() method expresses a ﬂoat in hexadecimal (base 16), again giving the exact value stored by\nyour computer:\n\n>>> x.hex()\n'0x1.921f9f01b866ep+1'\n\nThis precise hexadecimal representation can be used to reconstruct the ﬂoat value exactly:\n\n>>> x == float.fromhex('0x1.921f9f01b866ep+1')\nTrue\n\nSince the representation is exact, it is useful for reliably porting values across diﬀerent versions of Python\n(platform independence) and exchanging data with other languages that support the same format (such as\nJava and C99).\n\nAnother helpful tool is the math.fsum() function which helps mitigate loss-of-precision during summation.\nIt tracks “lost digits” as values are added onto a running total. That can make a diﬀerence in overall accuracy\nso that th"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 100",
+          "score": 0.5661359429359436,
+          "text": "cimal ﬂoating point arithmetic. Compared to the\nbuilt-in float implementation of binary ﬂoating point, the class is especially helpful for\n\n • ﬁnancial applications and other uses which require exact decimal representation,\n\n • control over precision,\n\n • control over rounding to meet legal or regulatory requirements,\n\n • tracking of signiﬁcant decimal places, or\n\n • applications where the user expects the results to match calculations done by hand.\n\nFor example, calculating a 5% tax on a 70 cent phone charge gives diﬀerent results in decimal ﬂoating point\nand binary ﬂoating point. The diﬀerence becomes signiﬁcant if the results are rounded to the nearest cent:\n\n>>> from decimal import *\n>>> round(Decimal('0.70') * Decimal('1.05'), 2)\nDecimal('0.74')\n>>> round(.70 * 1.05, 2)\n0.73\n\n94 Chapt"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 113",
+          "score": 0.5287866592407227,
+          "text": "rational numbers (so the numbers like 1/3 can be represented exactly).\n\nIf you are a heavy user of ﬂoating point operations you should take a look at the Numerical Python package\nand many other packages for mathematical and statistical operations supplied by the SciPy project. See\n<https://scipy.org>.\n\nPython provides tools that may help on those rare occasions when you really do want to know the exact\nvalue of a ﬂoat. The float.as_integer_ratio() method expresses the value of a ﬂoat as a fraction:\n\n>>> x = 3.14159\n>>> x.as_integer_ratio()\n(3537115888337719, 1125899906842624)\n\nSince the ratio is exact, it can be used to losslessly recreate the original value:\n\n>>> x == 3537115888337719 / 1125899906842624\nTrue\n\nThe float.hex() method expresses a ﬂoat in hexadecimal (base 16), again giving t"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.5206575393676758,
+          "text": "often refers to these as “read-\n write bytes-like objects”. Example mutable buﬀer objects include bytearray and a memoryview of a\n bytearray. Other operations require the binary data to be stored in immutable objects (“read-only\n bytes-like objects”); examples of these include bytes and a memoryview of a bytes object.\n\n114 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Functions?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided context does not contain a specific definition of \"Functions.\" However, it mentions functions in the following ways:\n\n*   **Lambda Expressions:** Described as \"small anonymous functions\" created with the `lambda` keyword that are syntactically restricted to a single expression and serve as syntactic sugar for normal function definitions [2].\n*   **Class Definitions:** Function definitions inside a class have a \"peculiar form of argument list\" dictated by method calling conventions [1].\n*   **`dir()` Function:** Lists names including \"functions\" among variables, modules, etc. [4].\n*   **Extension Modules:** Modules written in C or C++ that interact with the core and user code [3].\n\nThe answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is Functions?",
+      "techniques": {},
+      "processed": "What is Functions?",
+      "total_ms": 1027.0357000408694,
+      "pre_ms": 0,
+      "api_ms": 1014.631099998951,
+      "retrieval_ms": 12.016599997878075,
+      "wait_ms": 0.0,
+      "in_tok": 1098,
+      "out_tok": 160,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 78",
+          "score": 0.5641806125640869,
+          "text": "itions, but other statements\nare allowed, and sometimes useful — we’ll come back to this later. The function deﬁnitions inside a class\nnormally have a peculiar form of argument list, dictated by the calling conventions for methods — again,\nthis is explained later.\n\nWhen a class deﬁnition is entered, a new namespace is created, and used as the local scope — thus, all\nassignments to local variables go into this new namespace. In particular, function deﬁnitions bind the name\nof the new function here.\n\nWhen a class deﬁnition is left normally (via the end), a class object is created. This is basically a wrapper\naround the contents of the namespace created by the class deﬁnition; we’ll learn more about class objects\nin the next section. The original local scope (the one in eﬀect just before the"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 33",
+          "score": 0.5413267612457275,
+          "text": "four million volts through it. E's bleedin' demised !\n\n4.7.5 Lambda Expressions\n\nSmall anonymous functions can be created with the lambda keyword. This function returns the sum of its\ntwo arguments: lambda a, b: a+b. Lambda functions can be used wherever function objects are required.\nThey are syntactically restricted to a single expression. Semantically, they are just syntactic sugar for a\nnormal function deﬁnition. Like nested function deﬁnitions, lambda functions can reference variables from\nthe containing scope:\n\n>>> def make_incrementor(n):\n... return lambda x: x + n\n...\n>>> f = make_incrementor(42)\n>>> f(0)\n42\n>>> f(1)\n43\n\nThe above example uses a lambda expression to return a function. Another use is to pass a small function\nas an argument:\n\n4.7. More on Deﬁning Functions 27"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 122",
+          "score": 0.5394638776779175,
+          "text": "mon to many other languages such as C.\n\nexpression A piece of syntax which can be evaluated to some value. In other words, an expression is\n an accumulation of expression elements like literals, names, attribute access, operators or function\n calls which all return a value. In contrast to many other languages, not all language constructs are\n expressions. There are also statements which cannot be used as expressions, such as if. Assignments\n are also statements, not expressions.\n\nextension module A module written in C or C++, using Python’s C API to interact with the core and\n with user code.\n\nf-string String literals preﬁxed with 'f' or 'F' are commonly called “f-strings” which is short for formatted\n string literals. See also PEP 498.\n\nﬁle object An object exposing a ﬁle-oriented API (wi"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 53",
+          "score": 0.5317991375923157,
+          "text": "r()\n['__builtins__', '__name__', 'a', 'fib', 'fibo', 'sys']\n\nNote that it lists all types of names: variables, modules, functions, etc.\n\ndir() does not list the names of built-in functions and variables. If you want a list of those, they are deﬁned\nin the standard module builtins:\n\n6.3. The dir() Function 47"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is LLM?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided context does not contain a definition or information about \"LLM\" (Large Language Model).",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is LLM?",
+      "techniques": {},
+      "processed": "What is LLM?",
+      "total_ms": 1245.882499999425,
+      "pre_ms": 0,
+      "api_ms": 1245.7555000000866,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 483,
+      "out_tok": 21,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided context does not contain a definition or information about \"Python.\"",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 524.6685000020079,
+      "pre_ms": 0,
+      "api_ms": 524.5475999981863,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 393,
+      "out_tok": 15,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "Hi?",
+      "techniques": {},
+      "processed": "Hi?",
+      "total_ms": 559.9766000013915,
+      "pre_ms": 0,
+      "api_ms": 559.8660000032396,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 286,
+      "out_tok": 10,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is LLM ?"
+  },
+  {
+    "role": "assistant",
+    "content": "LLM stands for **Large Language Model**.\n\nIn simple terms, it is a type of artificial intelligence (AI) program that has been trained on massive amounts of text data (books, articles, websites, etc.). This training allows it to:\n\n* **Understand** human language (context, nuance, intent).\n* **Generate** human-like text (articles, emails, code, stories).\n* **Answer** questions accurately based on its training data.\n* **Translate** between languages.\n* **Summarize** long documents.\n\n**Key characteristics:**\n\n* **Large:** They have billions of parameters (variables the model learns during training).\n* **Language:** Their primary function is processing and generating natural human language.\n* **Model:** They are complex mathematical structures (often based on the Transformer architecture) that predict the next most probable word in a sequence.\n\nExamples of LLMs include GPT-4 (used in ChatGPT), LaMDA, and Llama.\n\nDo you have any specific questions about how LLMs work, what they can do, or how to use them?",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is LLM ?",
+      "techniques": {},
+      "processed": "What is LLM ?",
+      "total_ms": 4576.477700000396,
+      "pre_ms": 0,
+      "api_ms": 4576.326100002916,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 139,
+      "out_tok": 226,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  }
+]

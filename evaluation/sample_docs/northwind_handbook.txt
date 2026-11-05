@@ -1,0 +1,19 @@
+Northwind Labs Employee Handbook (sample document for evaluation)
+
+1. Working arrangements
+Employees may work remotely up to 3 days per week. Team leads set the on-site days for each team. Core collaboration hours are 10:00 to 15:00 local time.
+
+2. Leave
+Full-time employees receive 24 days of paid annual leave per calendar year. Unused leave of up to 5 days can be carried over to the next year. Sick leave is tracked separately and does not reduce annual leave.
+
+3. Expenses
+Expense claims must be submitted within 30 days of the purchase date. Claims above 200 euros need written approval from a manager before the purchase.
+
+4. IT support
+IT support is available Monday to Friday, 09:00 to 17:00 IST. Urgent outages outside these hours are reported through the on-call phone line listed on the intranet.
+
+5. Security
+Passwords must be at least 14 characters long and are rotated every 180 days. Laptops are refreshed every 36 months. Multi-factor authentication is required for all company accounts.
+
+6. Onboarding
+Every new hire is paired with an onboarding buddy for their first 90 days.

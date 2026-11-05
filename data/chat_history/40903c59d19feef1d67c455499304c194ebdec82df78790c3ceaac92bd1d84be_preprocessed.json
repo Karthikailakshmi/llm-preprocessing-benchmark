@@ -1,0 +1,2342 @@
+[
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Hi",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "Hi",
+      "total_ms": 1640.1192999910563,
+      "pre_ms": 430.76430005021393,
+      "api_ms": 1209.1047000139952,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 43,
+      "out_tok": 9,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.009400013368576765,
+        "text_cleaning": 0.16820000018924475,
+        "data_filtering": 0.01160003012046218,
+        "deduplication": 0.04840001929551363,
+        "tokenization": 430.4907000041567,
+        "truncation": 0.023900007363408804,
+        "prompt_formatting": 0.01209997572004795
+      },
+      "details": {
+        "query_tokens_estimate": 1,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What do you think about LLM Preprocessing"
+  },
+  {
+    "role": "assistant",
+    "content": "LLM preprocessing (often referred to as data curation, cleaning, and tokenization for Large Language Models) is **one of the most critical factors** determining the success, safety, and efficiency of an AI model. \n\nHere is my breakdown of why it matters, current trends, and the biggest challenges:\n\n### 1. Quality Over Quantity (The \"Garbage In, Garbage Out\" Rule)\nIn the early days of LLMs, the philosophy was simply to scrape as much of the internet as possible (Common Crawl, etc.). Today, we know that raw internet data is full of spam, hate speech, duplicate text, and low-quality code. \n* **Deduplication:** Removing duplicate documents is crucial to prevent the model from memorizing exact phrases (which hurts generalization) and to save compute.\n* **Filtering:** Using classifiers to filter out toxic content, low-quality HTML artifacts, and machine-generated gibberish. High-end models like Llama and GPT-4 rely heavily on rigorous filtering pipelines.\n\n### 2. The Multi-Modal and Code Expansion\nPreprocessing is no longer just about cleaning English text. Modern LLM preprocessing involves:\n* **Code tokenization:** Ensuring programming languages retain their exact indentation and syntax structure.\n* **Multilingual balancing:** Deliberately up-sampling low-resource languages so the model doesn't just speak English.\n* **Vision/Audio alignment:** Preparing image-text pairs or audio transcripts with proper synchronization for multi-modal models.\n\n### 3. Synthetic Data and the \"Data Wall\"\nWe are rapidly approaching the limits of naturally occurring human text on the internet. A major frontier in preprocessing/data generation now involves **synthetic data**—using stronger LLMs to generate training data, translate text, or create reasoning steps (like in OpenAI's Q* or chain-of-thought datasets). Filtering and cleaning this synthetic data is a new engineering discipline in itself.\n\n### 4. Tokenization Efficiency\nHow text is chopped up into tokens (sub-words) affects everything from context window capacity to non-English performance. Better tokenizers (like those using Byte-Pair Encoding) reduce the number of tokens required to represent a sentence, making the model faster and cheaper to run.\n\n### Summary\nLLM preprocessing is less about \"cleaning data\" and more about **shaping the worldview and capabilities of the AI**. You can have the best transformer architecture in the world, but if your preprocessing pipeline is sloppy, your LLM will hallucinate more, exhibit biased behavior, and underperform. It is the unglamorous, heavy-lifting foundation of modern AI. \n\nWhat specific aspect of LLM preprocessing are you most interested in—data filtering, tokenization, or synthetic data?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What do you think about LLM Preprocessing",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What do you think about LLM Preprocessing",
+      "total_ms": 3279.140800004825,
+      "pre_ms": 0.46200008364394307,
+      "api_ms": 3278.38159998646,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 63,
+      "out_tok": 571,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.01850002445280552,
+        "text_cleaning": 0.05460000829771161,
+        "data_filtering": 0.056200020480901,
+        "deduplication": 0.04160002572461963,
+        "tokenization": 0.25340000865980983,
+        "truncation": 0.028399983420968056,
+        "prompt_formatting": 0.009300012607127428
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is audio preprocessing in 5 lines?"
+  },
+  {
+    "role": "assistant",
+    "content": "Audio preprocessing cleans raw sound data for AI models.\nIt involves **resampling** (standardizing sample rate) and **normalization** (consistent volume).\nNoise reduction and silence trimming remove unwanted artifacts.\nThe audio is then typically converted into a numerical representation, like **Mel-spectrograms**.\nThis standardized feature set allows models (like Whisper) to accurately process speech.",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "what is audio preprocessing in 5 lines?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is audio preprocessing in 5 lines?",
+      "total_ms": 1950.0926000182517,
+      "pre_ms": 0.8106000022962689,
+      "api_ms": 1948.9943999797106,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 674,
+      "out_tok": 78,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.021899992134422064,
+        "text_cleaning": 0.06260001100599766,
+        "data_filtering": 0.055100012104958296,
+        "deduplication": 0.04469999112188816,
+        "tokenization": 0.5492999916896224,
+        "truncation": 0.06799999391660094,
+        "prompt_formatting": 0.009000010322779417
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is audio preprocessing in 5 lines?"
+  },
+  {
+    "role": "assistant",
+    "content": "Audio preprocessing prepares raw sound for AI models.  \n1. **Resampling** – standardize the sample rate (e.g., 16 kHz).  \n2. **Normalization** – adjust volume to a consistent level.  \n3. **Noise reduction** – filter out background hiss or clicks.  \n4. **Silence trimming** – remove long gaps of silence.  \n5. **Feature extraction** – convert to Mel‑spectrograms or MFCCs for model input.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is audio preprocessing in 5 lines?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is audio preprocessing in 5 lines?",
+      "total_ms": 878.1939999898896,
+      "pre_ms": 0.8858000510372221,
+      "api_ms": 876.9304999732412,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 809,
+      "out_tok": 123,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.022499996703118086,
+        "text_cleaning": 0.07639999967068434,
+        "data_filtering": 0.0619000056758523,
+        "deduplication": 0.0467000063508749,
+        "tokenization": 0.5939999828115106,
+        "truncation": 0.07080001523718238,
+        "prompt_formatting": 0.013500044587999582
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is audio preprocessing in 5 lines?"
+  },
+  {
+    "role": "assistant",
+    "content": "Audio preprocessing cleans and standardizes raw sound for AI models.\nIt involves resampling to a consistent rate and normalizing volume levels.\nNoise reduction and silence trimming remove unwanted artifacts and gaps.\nThe signal is then converted into numerical features like Mel-spectrograms.\nThis prepares the data for accurate speech recognition or analysis.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "what is audio preprocessing in 5 lines?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is audio preprocessing in 5 lines?",
+      "total_ms": 542.668100039009,
+      "pre_ms": 0.9593999711796641,
+      "api_ms": 541.423799993936,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 884,
+      "out_tok": 68,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.016599951777607203,
+        "text_cleaning": 0.048600020818412304,
+        "data_filtering": 0.048600020818412304,
+        "deduplication": 0.029699993319809437,
+        "tokenization": 0.6521999603137374,
+        "truncation": 0.15380000695586205,
+        "prompt_formatting": 0.00990001717582345
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is audio preprocessing in 5 lines?"
+  },
+  {
+    "role": "assistant",
+    "content": "1. **Resampling** – convert all audio to a common sample rate (e.g., 16 kHz).  \n2. **Normalization** – adjust amplitude so volumes are consistent across clips.  \n3. **Noise reduction** – filter out background hiss, clicks, or other unwanted sounds.  \n4. **Silence trimming** – remove leading/trailing and long silent sections.  \n5. **Feature extraction** – transform the cleaned signal into representations like Mel‑spectrograms or MFCCs for model input.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "what is audio preprocessing in 5 lines?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is audio preprocessing in 5 lines?",
+      "total_ms": 911.3551999907941,
+      "pre_ms": 0.3723000409081578,
+      "api_ms": 910.7694000122137,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 417,
+      "out_tok": 161,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.013499986380338669,
+        "text_cleaning": 0.031800009310245514,
+        "data_filtering": 0.05460000829771161,
+        "deduplication": 0.01680001150816679,
+        "tokenization": 0.2142000012099743,
+        "truncation": 0.036699988413602114,
+        "prompt_formatting": 0.004700035788118839
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Explain any theorem from maths?"
+  },
+  {
+    "role": "assistant",
+    "content": "**The Fundamental Theorem of Calculus (FTC)**  \n\n*Statement (in two parts)*  \n\n1. **First Part (FTC I)** – If \\(f\\) is a continuous real‑valued function on an interval \\([a,b]\\) and we define  \n   \\[\n   F(x)=\\int_{a}^{x} f(t)\\,dt\\qquad (a\\le x\\le b),\n   \\]  \n   then \\(F\\) is differentiable on \\((a,b)\\) and its derivative is the original function:  \n   \\[\n   F'(x)=f(x).\n   \\]  \n\n2. **Second Part (FTC II)** – If \\(f\\) is continuous on \\([a,b]\\) and \\(F\\) is any antiderivative of \\(f\\) (i.e., \\(F'=f\\)), then the definite integral of \\(f\\) over \\([a,b]\\) can be computed by evaluating \\(F\\) at the endpoints:  \n   \\[\n   \\int_{a}^{b} f(x)\\,dx = F(b)-F(a).\n   \\]\n\n*Why it matters*  \n- It links the two central operations of calculus—**differentiation** (finding rates of change) and **integration** (accumulating quantities).  \n- Before the FTC, differentiation and integration were seen as separate tools; the theorem shows they are inverse processes.\n\n*Intuition*  \n- Imagine \\(f(t)\\) as a speed function. The integral \\(\\int_{a}^{x} f(t)dt\\) gives the distance traveled from time \\(a\\) to \\(x\\). The rate at which that distance changes with respect to \\(x\\) is exactly the speed at \\(x\\), i.e., \\(f(x)\\). That’s FTC I.  \n- Conversely, if you know a function \\(F\\) whose slope at each point equals the speed, then the total distance between \\(a\\) and \\(b\\) is just the change in \\(F\\): height at \\(b\\) minus height at \\(a\\). That’s FTC II.\n\n*Sketch of proof (FTC I)*  \n1. Define \\(F(x)=\\int_{a}^{x} f(t)dt\\).  \n2. For a small increment \\(h\\), write  \n   \\[\n   F(x+h)-F(x)=\\int_{x}^{x+h} f(t)dt.\n   \\]  \n3. By the **Mean Value Theorem for integrals**, because \\(f\\) is continuous on \\([x,x+h]\\), there exists some \\(c\\in[x,x+h]\\) with  \n   \\[\n   \\int_{x}^{x+h} f(t)dt = f(c)\\,h.\n   \\]  \n4. Divide by \\(h\\) and let \\(h\\to0\\). Continuity of \\(f\\) forces \\(c\\to x\\), so \\(f(c)\\to f(x)\\). Hence  \n   \\[\n   \\lim_{h\\to0}\\frac{F(x+h)-F(x)}{h}=f(x),\n   \\]  \n   which is precisely \\(F'(x)=f(x)\\).\n\n*Sketch of proof (FTC II)*  \n1. Let \\(F\\) be any antiderivative of \\(f\\) (\\(F'=f\\)).  \n2. Consider the function \\(G(x)=\\int_{a}^{x} f(t)dt\\). By FTC I, \\(G'(x)=f(x)=F'(x)\\).  \n3. Thus \\(H(x)=F(x)-G(x)\\) has derivative \\(H'(x)=0\\), so \\(H\\) is constant: \\(F(x)=G(x)+C\\).  \n4. Evaluate at \\(x=a\\): \\(F(a)=G(a)+C\\) but \\(G(a)=0\\), so \\(C=F(a)\\).  \n5. Therefore \\(G(b)=F(b)-F(a)\\), i.e., \\(\\int_{a}^{b} f(x)dx = F(b)-F(a)\\).\n\n*Applications*  \n- Computing areas, volumes, work, probability distributions, solving differential equations, and virtually every field that uses calculus.\n\nIn short, the Fundamental Theorem of Calculus tells us that **integration undoes differentiation and vice‑versa**, providing a powerful shortcut for evaluating definite integrals.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "Explain any theorem from maths?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "Explain any theorem from maths?",
+      "total_ms": 3015.43050003238,
+      "pre_ms": 0.3155999584123492,
+      "api_ms": 3014.8887999821454,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 446,
+      "out_tok": 1011,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.015600002370774746,
+        "text_cleaning": 0.029499991796910763,
+        "data_filtering": 0.03920000744983554,
+        "deduplication": 0.017300015315413475,
+        "tokenization": 0.19489997066557407,
+        "truncation": 0.014599994756281376,
+        "prompt_formatting": 0.004499976057559252
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "pythogarous theorem"
+  },
+  {
+    "role": "assistant",
+    "content": "The Pythagorean Theorem is a fundamental principle in Euclidean geometry that describes the relationship between the three sides of a **right-angled triangle**.\n\n**The Theorem:**\nIn a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle, usually denoted as $c$) is equal to the sum of the squares of the lengths of the other two sides (the legs, usually denoted as $a$ and $b$).\n\n**Formula:**\n$$a^2 + b^2 = c^2$$\n\n**Example:**\nIf a right triangle has legs of length 3 and 4, the hypotenuse $c$ is:\n$$3^2 + 4^2 = c^2$$\n$$9 + 16 = c^2$$\n$$25 = c^2$$\n$$c = 5$$\n\n**Key Points:**\n1. **Applies ONLY to right-angled triangles.** It does not hold true for acute or obtuse triangles.\n2. **Inverse Use:** If you know two sides of a right triangle, you can always find the third.\n3. **Pythagorean Triples:** Sets of three positive integers $(a, b, c)$ that satisfy the theorem (e.g., (3, 4, 5), (5, 12, 13)).\n\n**In Python:**\nYou can easily calculate the hypotenuse using the `math` module:\n\n```python\nimport math\n\na = 3\nb = 4\n\n# Using the theorem directly\nc_squared = a**2 + b**2\nc = math.sqrt(c_squared)\n\nprint(f\"The hypotenuse is: {c}\") # Output: 5.0\n```",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "pythogarous theorem",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "pythogarous theorem",
+      "total_ms": 14178.497400018387,
+      "pre_ms": 0.2519999979995191,
+      "api_ms": 14178.084300016053,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1284,
+      "out_tok": 376,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.011999974958598614,
+        "text_cleaning": 0.02400000812485814,
+        "data_filtering": 0.01680001150816679,
+        "deduplication": 0.011699972674250603,
+        "tokenization": 0.16160000814124942,
+        "truncation": 0.020899984519928694,
+        "prompt_formatting": 0.00500003807246685
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy to learn, powerful programming language [3]. It is a real programming language that offers more structure and support for large programs compared to shell scripts or batch files [1]. Python has efficient high-level data structures, such as flexible arrays and dictionaries, and supports a simple but effective approach to object-oriented programming [3, 1]. It is an interpreted language, meaning source files can be run directly without explicitly creating an executable [2]. Python's elegant syntax and dynamic typing make it ideal for scripting and rapid application development across most platforms [3].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 6938.285599986557,
+      "pre_ms": 2.3903001565486193,
+      "api_ms": 6923.394499986898,
+      "retrieval_ms": 12.190100038424134,
+      "wait_ms": 0.0,
+      "in_tok": 2300,
+      "out_tok": 117,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7427985668182373,
+          "text": "Python is simple to use, but it is a real programming language, oﬀering much more structure and support\nfor large programs than shell scripts or batch ﬁles can oﬀer. On the other hand, Python also oﬀers much\nmore error checking than C, and, being avery-high-level language, it has high-level data types built in, such\nas ﬂexible arrays and dictionaries. Because of its more general data types Python is applicable to a much\nlarger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those\nlanguages. Python allows you to split your program into modules that can be reused in other Python programs. It\ncomes with a large collection of standard modules that you can use as the basis of your programs — or as\nexamples to start learning to program in Python."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.7102259397506714,
+          "text": "Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)). interpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically 118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 128",
+          "score": 0.6861091256141663,
+          "text": "See PEP 411 for more details. provisional package See provisional API. Python 3000 Nickname for the Python 3.x release line (coined long ago when the release of version 3 was\n something in the distant future.) This is also abbreviated “Py3k”. Pythonic An idea or piece of code which closely follows the most common idioms of the Python language,\n rather than implementing code using concepts common to other languages. For example, a common\n idiom in Python is to loop over all elements of an iterable using a for statement. Many other languages\n don’t have this type of construct, so people unfamiliar with Python sometimes use a numerical counter\n instead: for i in range(len(food)):\n print(food[i]) 122 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.00990001717582345,
+        "text_cleaning": 0.027300033252686262,
+        "data_filtering": 0.012100033927708864,
+        "deduplication": 0.2577000414021313,
+        "tokenization": 0.1811000402085483,
+        "truncation": 1.8708999850787222,
+        "prompt_formatting": 0.03130000550299883
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is for loop in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **for loop** in Python is a control‑flow statement that iterates over the items of any sequence (such as a list, string, or dictionary) in the order they appear. Unlike C or Pascal, it does not require an explicit counter or step; it simply visits each element one by one.  \n\nExample:  \n\n```python\nwords = ['cat', 'window', 'defenestrate']\nfor w in words:\n    print(w, len(w))\n```\n\nOutput:  \n\n```\ncat 3\nwindow 6\ndefenestrate 12\n```\n\nThe loop automatically handles the iteration, and you can also retrieve indices or key/value pairs using helpers like `enumerate()` or `items()` for dictionaries [2][1].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is for loop in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is for loop in python?",
+      "total_ms": 1149.0247000474483,
+      "pre_ms": 2.924300089944154,
+      "api_ms": 1126.5593999996781,
+      "retrieval_ms": 18.932899984065443,
+      "wait_ms": 0.0,
+      "in_tok": 2366,
+      "out_tok": 238,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 45",
+          "score": 0.6674211025238037,
+          "text": "Python Tutorial, Release 3.7.0 5.6 Looping Techniques When looping through dictionaries, the key and corresponding value can be retrieved at the same time using\nthe items() method. >>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n>>> for k, v in knights.items():\n... print(k, v)\n... gallahad the pure\nrobin the brave When looping through a sequence, the position index and corresponding value can be retrieved at the same\ntime using the enumerate() function. >>> for i, v in enumerate(['tic', 'tac', 'toe']):\n... print(i, v)\n... 0 tic\n1 tac\n2 toe To loop over two or more sequences at the same time, the entries can be paired with the zip() function."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.657004177570343,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 26",
+          "score": 0.6130365133285522,
+          "text": "Python Tutorial, Release 3.7.0 If you need to modify the sequence you are iterating over while inside the loop (for example to duplicate\nselected items), it is recommended that you ﬁrst make a copy. Iterating over a sequence does not implicitly\nmake a copy. The slice notation makes this especially convenient: >>> for w in words[:]: # Loop over a slice copy of the entire list. ... if len(w) > 6:\n... words.insert(0, w)\n... >>> words\n['defenestrate', 'cat', 'window', 'defenestrate'] With for w in words:, the example would attempt to create an inﬁnite list, inserting defenestrate over\nand over again. 4.3 The range() Function If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It\ngenerates arithmetic progressions: >>> for i in range(5):\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 119",
+          "score": 0.5998313426971436,
+          "text": "APPENDIX A GLOSSARY >>> The default Python prompt of the interactive shell. Often seen for code examples which can be executed\n interactively in the interpreter. ... The default Python prompt of the interactive shell when entering code for an indented code block, when\n within a pair of matching left and right delimiters (parentheses, square brackets, curly braces or triple\n quotes), or after specifying a decorator. 2to3 A tool that tries to convert Python 2.x code to Python 3.x code by handling most of the incompati-\n bilities which can be detected by parsing the source and traversing the parse tree. 2to3 is available in the standard library as lib2to3; a standalone entry point is provided as Tools/\n scripts/2to3. See 2to3-reference."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.014199991710484028,
+        "text_cleaning": 0.08169998181983829,
+        "data_filtering": 0.07130001904442906,
+        "deduplication": 0.1629000180400908,
+        "tokenization": 0.3883000463247299,
+        "truncation": 2.1782999974675477,
+        "prompt_formatting": 0.027600035537034273
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the provided document context, **variables** are defined in the following ways:\n\n1.  **Main Module Context:** The \"main module\" is described as \"the collection of variables that you have access to in a script executed at the top level and in calculator mode\" [1].\n2.  **Function Context:** Arguments passed to a function are assigned to \"named local variables\" within the function body [2].\n3.  **Global Context:** Within a module, the module's name is available as the value of the global variable `__name__` [1].\n4.  **Interpreter Context:** Specific variables like `sys.ps1` and `sys.path` are defined when the interpreter is in interactive mode, where `sys.path` is a list of strings determining the search path for modules [4].\n\nThe documents do not provide a general definition of what a variable is in terms of data storage or types, but rather describe their role in modules, functions, and the interpreter environment.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "what is variables?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is variables?",
+      "total_ms": 823.3321000006981,
+      "pre_ms": 2.198200032580644,
+      "api_ms": 811.2141999881715,
+      "retrieval_ms": 9.561899991240352,
+      "wait_ms": 0.0,
+      "in_tok": 1542,
+      "out_tok": 209,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 49",
+          "score": 0.5543948411941528,
+          "text": "Such a ﬁle is called a module; deﬁnitions from a module can be imported into\nother modules or into the main module (the collection of variables that you have access to in a script executed\nat the top level and in calculator mode). A module is a ﬁle containing Python deﬁnitions and statements. The ﬁle name is the module name with\nthe suﬃx .py appended. Within a module, the module’s name (as a string) is available as the value of the\nglobal variable __name__. For instance, use your favorite text editor to create a ﬁle called fibo.py in the\ncurrent directory with the following contents: # Fibonacci numbers module def fib(n): # write Fibonacci series up to n\n a, b = 0, 1\n while a < n:\n print(a, end=' ')\n a, b = b, a+b\n print()"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.5115957856178284,
+          "text": "Python Tutorial, Release 3.7.0 Arguments are assigned to the named local variables in a function body. See the calls section for the\n rules governing this assignment. Syntactically, any expression can be used to represent an argument;\n the evaluated value is assigned to the local variable. See also the parameter glossary entry, the FAQ question on the diﬀerence between arguments and\n parameters, and PEP 362. asynchronous context manager An object which controls the environment seen in an async with state-\n ment by deﬁning __aenter__() and __aexit__() methods. Introduced by PEP 492. asynchronous generator A function which returns an asynchronous generator iterator."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.496873140335083,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 53",
+          "score": 0.4703425168991089,
+          "text": "Python Tutorial, Release 3.7.0 (continued from previous page) >>> sys.ps1 = 'C> '\nC> print('Yuck!')\nYuck! C> These two variables are only deﬁned if the interpreter is in interactive mode. The variable sys.path is a list of strings that determines the interpreter’s search path for modules. It is\ninitialized to a default path taken from the environment variable PYTHONPATH, or from a built-in default if\nPYTHONPATH is not set. You can modify it using standard list operations: >>> import sys\n>>> sys.path.append('/ufs/guido/lib/python') 6.3 The dir() Function The built-in function dir() is used to ﬁnd out which names a module deﬁnes. It returns a sorted list of\nstrings:"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.014599994756281376,
+        "text_cleaning": 0.04190002800896764,
+        "data_filtering": 0.0171000137925148,
+        "deduplication": 0.35069999285042286,
+        "tokenization": 0.2484000287950039,
+        "truncation": 1.4948999742045999,
+        "prompt_formatting": 0.03060000017285347
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "in programming?"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the provided document context, **variables** in programming are characterized by the following:\n\n1.  **No Declarations Necessary:** In Python, \"no variable or argument declarations are necessary\" [4].\n2.  **Local Variables:** Arguments passed to a function are assigned to \"named local variables\" [2].\n3.  **Global Variables:** A module's name is available as the value of the global variable `__name__` [1].\n4.  **Main Module Variables:** The main module is described as \"the collection of variables that you have access to in a script executed at the top level and in calculator mode\" [1].\n5.  **State Saving:** In generators, \"local variables and execution state are automatically saved between calls\" [2].\n6.  **Assignment Rules:** Unlike C, \"assignment cannot occur inside expressions\" in Python, which helps avoid errors where `=` is typed when `==` was intended [3].",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "in programming?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "in programming?",
+      "total_ms": 873.5530999838375,
+      "pre_ms": 2.3372998111881316,
+      "api_ms": 860.1025000098161,
+      "retrieval_ms": 10.679900005925447,
+      "wait_ms": 0.0,
+      "in_tok": 1326,
+      "out_tok": 202,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.5325484275817871,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 87",
+          "score": 0.5064722299575806,
+          "text": "Python Tutorial, Release 3.7.0\n>>> for char in reverse('golf'):\n... print(char)\n... f\nl\no\ng\nAnything that can be done with generators can also be done with class-based iterators as described in the\nprevious section. What makes generators so compact is that the__iter__() and __next__() methods are\ncreated automatically. Another key feature is that the local variables and execution state are automatically saved between calls. This made the function easier to write and much more clear than an approach using instance variables like\nself.index and self.data. In addition to automatic method creation and saving program state, when generators terminate, they au-\ntomatically raise StopIteration."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 46",
+          "score": 0.5027996897697449,
+          "text": "Note that in Python, unlike C, assignment cannot occur inside expressions. C programmers may grumble\nabout this, but it avoids a common class of problems encountered in C programs: typing = in an expression\nwhen == was intended. 5.8 Comparing Sequences and Other Types Sequence objects may be compared to other objects with the same sequence type. The comparison uses lex-\nicographical ordering: ﬁrst the ﬁrst two items are compared, and if they diﬀer this determines the outcome\nof the comparison; if they are equal, the next two items are compared, and so on, until either sequence is\nexhausted. If two items to be compared are themselves sequences of the same type, the lexicographical com-\nparison is carried out recursively."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.500071108341217,
+          "text": "It is also a handy desk calculator. Python enables programs to be written compactly and readably. Programs written in Python are typically\nmuch shorter than equivalent C, C++, or Java programs, for several reasons:\n• the high-level data types allow you to express complex operations in a single statement;\n• statement grouping is done by indentation instead of beginning and ending brackets;\n• no variable or argument declarations are necessary. Python is extensible: if you know how to program in C it is easy to add a new built-in function or module\nto the interpreter, either to perform critical operations at maximum speed, or to link Python programs to\nlibraries that may only be available in binary form (such as a vendor-speciﬁc graphics library). Once you\n3"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.01309998333454132,
+        "text_cleaning": 0.040499959141016006,
+        "data_filtering": 0.01699995482340455,
+        "deduplication": 0.30479993438348174,
+        "tokenization": 0.1379000023007393,
+        "truncation": 1.7624000320211053,
+        "prompt_formatting": 0.061599945183843374
+      },
+      "details": {
+        "query_tokens_estimate": 3,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is break and continue statements?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Break** and **continue** are loop‑control statements in Python.\n\n* **`break`** – Immediately exits the *innermost* `for` or `while` loop, stopping any further iteration of that loop.  \n  *Example from the tutorial*: the `break` inside the inner loop stops searching for a factor once one is found. [1]\n\n* **`continue`** – Skips the rest of the current loop body and jumps to the next iteration of the loop (i.e., it proceeds to the next value in the loop’s sequence or re‑evaluates the loop condition). The tutorial notes that a `continue` statement can also cause the `finally` clause of a `try` statement to be executed when leaving the loop. [2][3]",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is break and continue statements?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is break and continue statements?",
+      "total_ms": 1183.02679999033,
+      "pre_ms": 2.6088000158779323,
+      "api_ms": 1168.6426000087522,
+      "retrieval_ms": 11.388299986720085,
+      "wait_ms": 0.0,
+      "in_tok": 1455,
+      "out_tok": 261,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.5945038795471191,
+          "text": "Later we will see more functions that return iterables and take iterables as argument. 4.4 break and continue Statements, and else Clauses on Loops The break statement, like in C, breaks out of the innermost enclosing for or while loop. Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers: >>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.5503524541854858,
+          "text": "The\nfinally clause is also executed “on the way out” when any other clause of the try statement is left via a\nbreak, continue or return statement. A more complicated example: >>> def divide(x, y):\n... try:\n... result = x / y\n... except ZeroDivisionError:\n... print(\"division by zero!\")\n... else:\n... print(\"result is\", result)\n... finally:\n... print(\"executing finally clause\")\n... >>> divide(2, 1)\nresult is 2.0\nexecuting finally clause\n>>> divide(2, 0)\ndivision by zero! executing finally clause\n>>> divide(\"2\", \"1\")\nexecuting finally clause\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\n File \"<stdin>\", line 3, in divide\nTypeError: unsupported operand type(s) for /: 'str' and 'str' As you can see, the finally clause is executed in any event."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.4314930737018585,
+          "text": "Python Tutorial, Release 3.7.0 8.6 Deﬁning Clean-up Actions The try statement has another optional clause which is intended to deﬁne clean-up actions that must be\nexecuted under all circumstances. For example: >>> try:\n... raise KeyboardInterrupt\n... finally:\n... print('Goodbye, world!')\n... Goodbye, world! KeyboardInterrupt\nTraceback (most recent call last):\n File \"<stdin>\", line 2, in <module> A ﬁnally clause is always executed before leaving the try statement, whether an exception has occurred or\nnot. When an exception has occurred in the try clause and has not been handled by an except clause (or it\nhas occurred in an except or else clause), it is re-raised after the finally clause has been executed."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 85",
+          "score": 0.4164275527000427,
+          "text": "When\nthere are no more elements, __next__() raises a StopIteration exception which tells the for loop to\nterminate. You can call the __next__() method using the next() built-in function; this example shows how\nit all works: >>> s = 'abc'\n>>> it = iter(s)\n>>> it (continues on next page) 9.7. Odds and Ends 79"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.009400013368576765,
+        "text_cleaning": 0.056200020480901,
+        "data_filtering": 0.02629996743053198,
+        "deduplication": 0.2970999921672046,
+        "tokenization": 0.27000001864507794,
+        "truncation": 1.929700025357306,
+        "prompt_formatting": 0.020099978428333998
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is programming in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is programming in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is programming in python?",
+      "total_ms": 5903.089499974158,
+      "pre_ms": 1.9746999605558813,
+      "api_ms": 5891.485200030729,
+      "retrieval_ms": 9.238700033165514,
+      "wait_ms": 0.0,
+      "in_tok": 1353,
+      "out_tok": 9,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7382076978683472,
+          "text": "Python is simple to use, but it is a real programming language, oﬀering much more structure and support\nfor large programs than shell scripts or batch ﬁles can oﬀer. On the other hand, Python also oﬀers much\nmore error checking than C, and, being avery-high-level language, it has high-level data types built in, such\nas ﬂexible arrays and dictionaries. Because of its more general data types Python is applicable to a much\nlarger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those\nlanguages. Python allows you to split your program into modules that can be reused in other Python programs. It\ncomes with a large collection of standard modules that you can use as the basis of your programs — or as\nexamples to start learning to program in Python."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7124056220054626,
+          "text": "It is also a handy desk calculator. Python enables programs to be written compactly and readably. Programs written in Python are typically\nmuch shorter than equivalent C, C++, or Java programs, for several reasons:\n• the high-level data types allow you to express complex operations in a single statement;\n• statement grouping is done by indentation instead of beginning and ending brackets;\n• no variable or argument declarations are necessary. Python is extensible: if you know how to program in C it is easy to add a new built-in function or module\nto the interpreter, either to perform critical operations at maximum speed, or to link Python programs to\nlibraries that may only be available in binary form (such as a vendor-speciﬁc graphics library). Once you\n3"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.70341956615448,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.7029233574867249,
+          "text": "Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)). interpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically 118 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.029499991796910763,
+        "text_cleaning": 0.03549997927621007,
+        "data_filtering": 0.049200025387108326,
+        "deduplication": 0.3130999975837767,
+        "tokenization": 0.17670000670477748,
+        "truncation": 1.3471999554894865,
+        "prompt_formatting": 0.023500004317611456
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is looping statements?"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the provided documents, looping statements include `for` and `while` loops [1, 4]. \n\n* **`for` statement:** Iterates over the items of any sequence (such as a list or a string) in the order that they appear [4].\n* **`while` statement:** Continues to execute as long as its condition remains true [1].\n\nLoop statements may also include an `else` clause, which is executed when the loop terminates through the exhaustion of a list (with `for`) or when the condition becomes false (with `while`), but not when the loop is terminated by a `break` statement [1].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "what is looping statements?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is looping statements?",
+      "total_ms": 7807.225900003687,
+      "pre_ms": 2.063699997961521,
+      "api_ms": 7791.682299983222,
+      "retrieval_ms": 13.14469997305423,
+      "wait_ms": 0.0,
+      "in_tok": 1493,
+      "out_tok": 137,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.5926989316940308,
+          "text": "Later we will see more functions that return iterables and take iterables as argument. 4.4 break and continue Statements, and else Clauses on Loops The break statement, like in C, breaks out of the innermost enclosing for or while loop. Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers: >>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 3",
+          "score": 0.5514770746231079,
+          "text": ". . . . . . 38\n 5.6 Looping Techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39\n 5.7 More on Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n 5.8 Comparing Sequences and Other Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 6 Modules 43\n 6.1 More on Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44\n 6.2 Standard Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\n 6.3 The dir() Function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\n 6.4 Packages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 85",
+          "score": 0.5430756211280823,
+          "text": "9.8 Iterators By now you have probably noticed that most container objects can be looped over using a for statement: for element in [1, 2, 3]:\n print(element)\nfor element in (1, 2, 3):\n print(element)\nfor key in {'one':1, 'two':2}:\n print(key)\nfor char in \"123\":\n print(char)\nfor line in open(\"myfile.txt\"):\n print(line, end='') This style of access is clear, concise, and convenient. The use of iterators pervades and uniﬁes Python. Behind the scenes, the for statement calls iter() on the container object. The function returns an iterator\nobject that deﬁnes the method __next__() which accesses elements in the container one at a time. When\nthere are no more elements, __next__() raises a StopIteration exception which tells the for loop to\nterminate."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.5426488518714905,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.014100049156695604,
+        "text_cleaning": 0.04440004704520106,
+        "data_filtering": 0.04299997817724943,
+        "deduplication": 0.11229998199269176,
+        "tokenization": 0.1542000100016594,
+        "truncation": 1.6701999702490866,
+        "prompt_formatting": 0.025499961338937283
+      },
+      "details": {
+        "query_tokens_estimate": 5,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is the purpose of variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided document context does not explicitly state the purpose of variables. It mentions that arguments are assigned to named local variables in a function body [1] and discusses how assignments bind names to objects in the innermost scope [4].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "what is the purpose of variables?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is the purpose of variables?",
+      "total_ms": 2606.0828999616206,
+      "pre_ms": 4.168700077570975,
+      "api_ms": 2584.927699994296,
+      "retrieval_ms": 16.470600035972893,
+      "wait_ms": 0.0,
+      "in_tok": 1152,
+      "out_tok": 46,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.5260892510414124,
+          "text": "Python Tutorial, Release 3.7.0 Arguments are assigned to the named local variables in a function body. See the calls section for the\n rules governing this assignment. Syntactically, any expression can be used to represent an argument;\n the evaluated value is assigned to the local variable. See also the parameter glossary entry, the FAQ question on the diﬀerence between arguments and\n parameters, and PEP 362. asynchronous context manager An object which controls the environment seen in an async with state-\n ment by deﬁning __aenter__() and __aexit__() methods. Introduced by PEP 492. asynchronous generator A function which returns an asynchronous generator iterator."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.5162612199783325,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 49",
+          "score": 0.5143778324127197,
+          "text": "Such a ﬁle is called a module; deﬁnitions from a module can be imported into\nother modules or into the main module (the collection of variables that you have access to in a script executed\nat the top level and in calculator mode). A module is a ﬁle containing Python deﬁnitions and statements. The ﬁle name is the module name with\nthe suﬃx .py appended. Within a module, the module’s name (as a string) is available as the value of the\nglobal variable __name__. For instance, use your favorite text editor to create a ﬁle called fibo.py in the\ncurrent directory with the following contents: # Fibonacci numbers module def fib(n): # write Fibonacci series up to n\n a, b = 0, 1\n while a < n:\n print(a, end=' ')\n a, b = b, a+b\n print()"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 77",
+          "score": 0.48257914185523987,
+          "text": "(In\nfact, local variables are already determined statically.) A special quirk of Python is that – if no global statement is in eﬀect – assignments to names always go into\nthe innermost scope. Assignments do not copy data — they just bind names to objects. The same is true for\ndeletions: the statement del x removes the binding of x from the namespace referenced by the local scope. In fact, all operations that introduce new names use the local scope: in particular, import statements and\nfunction deﬁnitions bind the module or function name in the local scope."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.016400008462369442,
+        "text_cleaning": 0.044599990360438824,
+        "data_filtering": 0.063000014051795,
+        "deduplication": 0.33430004259571433,
+        "tokenization": 1.8105999915860593,
+        "truncation": 1.8465000321157277,
+        "prompt_formatting": 0.05329999839887023
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is chatgpt?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is chatgpt?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is chatgpt?",
+      "total_ms": 986.2780999974348,
+      "pre_ms": 3.180100000463426,
+      "api_ms": 973.0066999909468,
+      "retrieval_ms": 9.636200033128262,
+      "wait_ms": 0.0,
+      "in_tok": 1091,
+      "out_tok": 115,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.392536997795105,
+          "text": "Some of these modules provide things like ﬁle I/O, system\ncalls, sockets, and even interfaces to graphical user interface toolkits like Tk. Python is an interpreted language, which can save you considerable time during program development\nbecause no compilation and linking is necessary. The interpreter can be used interactively, which makes it\neasy to experiment with features of the language, to write throw-away programs, or to test functions during\nbottom-up program development. It is also a handy desk calculator. Python enables programs to be written compactly and readably."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 97",
+          "score": 0.3701041340827942,
+          "text": "11.4 Multi-threading Threading is a technique for decoupling tasks which are not sequentially dependent. Threads can be used to\nimprove the responsiveness of applications that accept user input while other tasks run in the background. A related use case is running I/O in parallel with computations in another thread. The following code shows how the high level threading module can run tasks in background while the main\nprogram continues to run: import threading, zipfile class AsyncZip(threading.Thread):\n def __init__(self, infile, outfile):\n threading.Thread.__init__(self)\n self.infile = infile\n self.outfile = outfile (continues on next page) 11.3. Working with Binary Data Record Layouts 91"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 131",
+          "score": 0.3612236976623535,
+          "text": "See function annotation, PEP 484 and PEP 526, which describe this functionality. virtual environment A cooperatively isolated runtime environment that allows Python users and appli-\n cations to install and upgrade Python distribution packages without interfering with the behaviour of\n other Python applications running on the same system. See also venv. virtual machine A computer deﬁned entirely in software. Python’s virtual machine executes the bytecode\n emitted by the bytecode compiler. Zen of Python Listing of Python design principles and philosophies that are helpful in understanding and\n using the language. The listing can be found by typing “import this” at the interactive prompt. 125"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 42",
+          "score": 0.359302818775177,
+          "text": ">>> t = 12345, 54321, 'hello!'\n>>> t[0]\n12345\n>>> t\n(12345, 54321, 'hello!')\n>>> # Tuples may be nested:\n... u = t, (1, 2, 3, 4, 5)\n>>> u\n((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))\n>>> # Tuples are immutable:\n... t[0] = 88888\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: 'tuple' object does not support item assignment\n>>> # but they can contain mutable objects:\n... v = ([1, 2, 3], [3, 2, 1])\n>>> v\n([1, 2, 3], [3, 2, 1]) As you see, on output tuples are always enclosed in parentheses, so that nested tuples are interpreted\ncorrectly; they may be input with or without surrounding parentheses, although often parentheses are\nnecessary anyway (if the tuple is part of a larger expression)."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.012599979527294636,
+        "text_cleaning": 0.042000028770416975,
+        "data_filtering": 0.026799971237778664,
+        "deduplication": 0.27570000384002924,
+        "tokenization": 0.1867999671958387,
+        "truncation": 2.6091000181622803,
+        "prompt_formatting": 0.027100031729787588
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "ok, what is function in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, a function is a block of code defined with the `def` keyword that can be called with arguments. The arguments are assigned to named local variables inside the function body, and the function may return a value. For example:\n\n```python\ndef function(a):\n    pass\n```\n\nHere, `function` is a function that takes one argument `a` and currently does nothing. When called, the argument value is bound to the local variable `a` inside the function body [3].",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "ok, what is function in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "ok, what is function in python?",
+      "total_ms": 1198.912099993322,
+      "pre_ms": 1.943600014783442,
+      "api_ms": 1183.9357999851927,
+      "retrieval_ms": 12.66469998518005,
+      "wait_ms": 0.0,
+      "in_tok": 1067,
+      "out_tok": 305,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.6603430509567261,
+          "text": "Python Tutorial, Release 3.7.0 Arguments are assigned to the named local variables in a function body. See the calls section for the\n rules governing this assignment. Syntactically, any expression can be used to represent an argument;\n the evaluated value is assigned to the local variable. See also the parameter glossary entry, the FAQ question on the diﬀerence between arguments and\n parameters, and PEP 362. asynchronous context manager An object which controls the environment seen in an async with state-\n ment by deﬁning __aenter__() and __aexit__() methods. Introduced by PEP 492. asynchronous generator A function which returns an asynchronous generator iterator."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.638340175151825,
+          "text": "Python Tutorial, Release 3.7.0 generic function A function composed of multiple functions implementing the same operation for diﬀerent\n types. Which implementation should be used during a call is determined by the dispatch algorithm. See also the single dispatch glossary entry, the functools.singledispatch() decorator, and PEP\n 443. GIL See global interpreter lock. global interpreter lock The mechanism used by the CPython interpreter to assure that only one thread\n executes Python bytecode at a time. This simpliﬁes the CPython implementation by making the object\n model (including critical built-in types such as dict) implicitly safe against concurrent access."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 32",
+          "score": 0.6212388277053833,
+          "text": "Python Tutorial, Release 3.7.0 >>> def function(a):\n... pass\n... >>> function(0, a=0)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: function() got multiple values for keyword argument 'a' When a ﬁnal formal parameter of the form **name is present, it receives a dictionary (see typesmapping)\ncontaining all keyword arguments except for those corresponding to a formal parameter. This may be\ncombined with a formal parameter of the form *name (described in the next subsection) which receives\na tuple containing the positional arguments beyond the formal parameter list. (*name must occur before\n**name.) For example, if we deﬁne a function like this:"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 79",
+          "score": 0.6078180074691772,
+          "text": "Python Tutorial, Release 3.7.0 Class instantiation uses function notation. Just pretend that the class object is a parameterless function\nthat returns a new instance of the class. For example (assuming the above class): x = MyClass() creates a new instance of the class and assigns this object to the local variable x. The instantiation operation (“calling” a class object) creates an empty object. Many classes like to create\nobjects with instances customized to a speciﬁc initial state. Therefore a class may deﬁne a special method\nnamed __init__(), like this: def __init__(self):\n self.data = [] When a class deﬁnes an __init__() method, class instantiation automatically invokes __init__() for the\nnewly-created class instance. So in this example, a new, initialized instance can be obtained by:"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.011899974197149277,
+        "text_cleaning": 0.0447999918833375,
+        "data_filtering": 0.04250003257766366,
+        "deduplication": 0.24730002041906118,
+        "tokenization": 0.15400000847876072,
+        "truncation": 1.4191999798640609,
+        "prompt_formatting": 0.023900007363408804
+      },
+      "details": {
+        "query_tokens_estimate": 8,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy-to-learn, powerful programming language that offers efficient high-level data structures and a simple but effective approach to object-oriented programming [3]. It is a real programming language that provides more structure and support for large programs than shell scripts or batch files, and it includes high-level data types such as flexible arrays and dictionaries [1]. Python is an interpreted language, meaning source files can be run directly without explicitly creating an executable [2]. Its elegant syntax, dynamic typing, and interpreted nature make it ideal for scripting and rapid application development [3].",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "what is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is python?",
+      "total_ms": 794.3429999868385,
+      "pre_ms": 1.681000052485615,
+      "api_ms": 781.3479999895208,
+      "retrieval_ms": 10.912600031588227,
+      "wait_ms": 0.0,
+      "in_tok": 990,
+      "out_tok": 113,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7446147203445435,
+          "text": "Python is simple to use, but it is a real programming language, oﬀering much more structure and support\nfor large programs than shell scripts or batch ﬁles can oﬀer. On the other hand, Python also oﬀers much\nmore error checking than C, and, being avery-high-level language, it has high-level data types built in, such\nas ﬂexible arrays and dictionaries. Because of its more general data types Python is applicable to a much\nlarger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those\nlanguages. Python allows you to split your program into modules that can be reused in other Python programs. It\ncomes with a large collection of standard modules that you can use as the basis of your programs — or as\nexamples to start learning to program in Python."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.7125906944274902,
+          "text": "Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)). interpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically 118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.7003410458564758,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 128",
+          "score": 0.687384843826294,
+          "text": "See PEP 411 for more details. provisional package See provisional API. Python 3000 Nickname for the Python 3.x release line (coined long ago when the release of version 3 was\n something in the distant future.) This is also abbreviated “Py3k”. Pythonic An idea or piece of code which closely follows the most common idioms of the Python language,\n rather than implementing code using concepts common to other languages. For example, a common\n idiom in Python is to loop over all elements of an iterable using a for statement. Many other languages\n don’t have this type of construct, so people unfamiliar with Python sometimes use a numerical counter\n instead: for i in range(len(food)):\n print(food[i]) 122 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.014400051441043615,
+        "text_cleaning": 0.04150002496317029,
+        "data_filtering": 0.018200022168457508,
+        "deduplication": 0.15320000238716602,
+        "tokenization": 0.2654999843798578,
+        "truncation": 1.1561000137589872,
+        "prompt_formatting": 0.03209995338693261
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is break and continue statements?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is break and continue statements?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is break and continue statements?",
+      "total_ms": 2090.15260002343,
+      "pre_ms": 1.4609000063501298,
+      "api_ms": 2075.950799975544,
+      "retrieval_ms": 12.396900041494519,
+      "wait_ms": 0.0,
+      "in_tok": 1128,
+      "out_tok": 562,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.5945038795471191,
+          "text": "Later we will see more functions that return iterables and take iterables as argument. 4.4 break and continue Statements, and else Clauses on Loops The break statement, like in C, breaks out of the innermost enclosing for or while loop. Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers: >>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.5503524541854858,
+          "text": "The\nfinally clause is also executed “on the way out” when any other clause of the try statement is left via a\nbreak, continue or return statement. A more complicated example: >>> def divide(x, y):\n... try:\n... result = x / y\n... except ZeroDivisionError:\n... print(\"division by zero!\")\n... else:\n... print(\"result is\", result)\n... finally:\n... print(\"executing finally clause\")\n... >>> divide(2, 1)\nresult is 2.0\nexecuting finally clause\n>>> divide(2, 0)\ndivision by zero! executing finally clause\n>>> divide(\"2\", \"1\")\nexecuting finally clause\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\n File \"<stdin>\", line 3, in divide\nTypeError: unsupported operand type(s) for /: 'str' and 'str' As you can see, the finally clause is executed in any event."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.4314930737018585,
+          "text": "Python Tutorial, Release 3.7.0 8.6 Deﬁning Clean-up Actions The try statement has another optional clause which is intended to deﬁne clean-up actions that must be\nexecuted under all circumstances. For example: >>> try:\n... raise KeyboardInterrupt\n... finally:\n... print('Goodbye, world!')\n... Goodbye, world! KeyboardInterrupt\nTraceback (most recent call last):\n File \"<stdin>\", line 2, in <module> A ﬁnally clause is always executed before leaving the try statement, whether an exception has occurred or\nnot. When an exception has occurred in the try clause and has not been handled by an except clause (or it\nhas occurred in an except or else clause), it is re-raised after the finally clause has been executed."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 85",
+          "score": 0.4164275527000427,
+          "text": "When\nthere are no more elements, __next__() raises a StopIteration exception which tells the for loop to\nterminate. You can call the __next__() method using the next() built-in function; this example shows how\nit all works: >>> s = 'abc'\n>>> it = iter(s)\n>>> it (continues on next page) 9.7. Odds and Ends 79"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.012699980288743973,
+        "text_cleaning": 0.04549999721348286,
+        "data_filtering": 0.04269997589290142,
+        "deduplication": 0.12780004180967808,
+        "tokenization": 0.14260003808885813,
+        "truncation": 1.0637000086717308,
+        "prompt_formatting": 0.02589996438473463
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is break and continue statement in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "The **break** statement in Python terminates the innermost enclosing `for` or `while` loop immediately, causing execution to continue with the first statement after that loop. It works the same way as in C — it “breaks out” of the loop [1].\n\nThe provided documents do not contain a description of the **continue** statement.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "what is break and continue statement in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is break and continue statement in python?",
+      "total_ms": 1674.0137000451796,
+      "pre_ms": 2.2696000523865223,
+      "api_ms": 1656.0749000054784,
+      "retrieval_ms": 15.297100006137043,
+      "wait_ms": 0.0,
+      "in_tok": 1204,
+      "out_tok": 351,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.6582795977592468,
+          "text": "Later we will see more functions that return iterables and take iterables as argument. 4.4 break and continue Statements, and else Clauses on Loops The break statement, like in C, breaks out of the innermost enclosing for or while loop. Loop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers: >>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.5830579400062561,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.5728892683982849,
+          "text": "The\nfinally clause is also executed “on the way out” when any other clause of the try statement is left via a\nbreak, continue or return statement. A more complicated example: >>> def divide(x, y):\n... try:\n... result = x / y\n... except ZeroDivisionError:\n... print(\"division by zero!\")\n... else:\n... print(\"result is\", result)\n... finally:\n... print(\"executing finally clause\")\n... >>> divide(2, 1)\nresult is 2.0\nexecuting finally clause\n>>> divide(2, 0)\ndivision by zero! executing finally clause\n>>> divide(\"2\", \"1\")\nexecuting finally clause\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\n File \"<stdin>\", line 3, in divide\nTypeError: unsupported operand type(s) for /: 'str' and 'str' As you can see, the finally clause is executed in any event."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.5641598701477051,
+          "text": "Python Tutorial, Release 3.7.0 8.6 Deﬁning Clean-up Actions The try statement has another optional clause which is intended to deﬁne clean-up actions that must be\nexecuted under all circumstances. For example: >>> try:\n... raise KeyboardInterrupt\n... finally:\n... print('Goodbye, world!')\n... Goodbye, world! KeyboardInterrupt\nTraceback (most recent call last):\n File \"<stdin>\", line 2, in <module> A ﬁnally clause is always executed before leaving the try statement, whether an exception has occurred or\nnot. When an exception has occurred in the try clause and has not been handled by an except clause (or it\nhas occurred in an except or else clause), it is re-raised after the finally clause has been executed."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.019799976143985987,
+        "text_cleaning": 0.05460000829771161,
+        "data_filtering": 0.0475000124424696,
+        "deduplication": 0.27790002059191465,
+        "tokenization": 0.22200000239536166,
+        "truncation": 1.6196000506170094,
+        "prompt_formatting": 0.02819998189806938
+      },
+      "details": {
+        "query_tokens_estimate": 9,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is java?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is java?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is java?",
+      "total_ms": 7047.325399995316,
+      "pre_ms": 0.6161000928841531,
+      "api_ms": 7046.39390000375,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 275,
+      "out_tok": 9,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.017700018361210823,
+        "text_cleaning": 0.04150002496317029,
+        "data_filtering": 0.019600032828748226,
+        "deduplication": 0.02700003096833825,
+        "tokenization": 0.4512000014074147,
+        "truncation": 0.051499984692782164,
+        "prompt_formatting": 0.007599999662488699
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Hi",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "Hi",
+      "total_ms": 1093.9302999759093,
+      "pre_ms": 0.46660000225529075,
+      "api_ms": 1093.1249999557622,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 165,
+      "out_tok": 9,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.01750001683831215,
+        "text_cleaning": 0.04579999949783087,
+        "data_filtering": 0.019099970813840628,
+        "deduplication": 0.027300033252686262,
+        "tokenization": 0.30180002795532346,
+        "truncation": 0.047799956519156694,
+        "prompt_formatting": 0.007299997378140688
+      },
+      "details": {
+        "query_tokens_estimate": 1,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is java?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Java** is a popular, high-level, object-oriented programming language developed by Sun Microsystems (which is now owned by Oracle) in 1995. \n\nKey features of Java include:\n* **Platform Independence (\"Write Once, Run Anywhere\"):** Java code is compiled into bytecode, which can run on any device equipped with a Java Virtual Machine (JVM), regardless of the computer architecture.\n* **Object-Oriented:** Everything in Java is structured around objects and classes, making it modular, reusable, and easy to maintain.\n* **Robust and Secure:** It has built-in security features and manages memory automatically (via Garbage Collection), reducing the chances of crashes and memory leaks.\n* **Widespread Use:** It is widely used for building enterprise-level software, Android mobile applications, web servers, and big data technologies.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is java?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is java?",
+      "total_ms": 6647.051299980376,
+      "pre_ms": 0.6300999084487557,
+      "api_ms": 1467.6476999884471,
+      "retrieval_ms": null,
+      "wait_ms": 5177.999999956228,
+      "in_tok": 162,
+      "out_tok": 176,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.015099998563528061,
+        "text_cleaning": 0.04079996142536402,
+        "data_filtering": 0.01839996548369527,
+        "deduplication": 0.025399960577487946,
+        "tokenization": 0.32220000866800547,
+        "truncation": 0.2001000102609396,
+        "prompt_formatting": 0.008100003469735384
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is OOPS concepts?"
+  },
+  {
+    "role": "assistant",
+    "content": "**OOPS** stands for **Object-Oriented Programming System** (or concepts). It is a programming paradigm based on the concept of \"objects,\" which can contain data (fields/attributes) and code (methods/procedures).\n\nThe four fundamental pillars of OOPS are:\n\n1. **Encapsulation:**\n    * **Concept:** Bundling the data (variables) and the methods that operate on that data into a single unit (a class). It also involves **data hiding**, meaning the internal state of an object is protected from direct, unauthorized access from outside the class.\n    * **Example:** Using `private` access modifiers for variables and providing public \"getter\" and \"setter\" methods to control how the data is accessed or modified.\n\n2. **Abstraction:**\n    * **Concept:** Showing only essential information to the user and hiding the complex, internal implementation details. It focuses on *what* an object does rather than *how* it does it.\n    * **Example:** When you drive a car, you use the steering wheel and pedals (the essential interface); you don't need to know the complex mechanics of the engine or transmission (the hidden implementation). This is often achieved using **Abstract Classes** and **Interfaces**.\n\n3. **Inheritance:**\n    * **Concept:** Allowing a new class (subclass/child class) to inherit properties (attributes and methods) from an existing class (superclass/parent class). This promotes **code reusability**.\n    * **Example:** A `Dog` class and a `Cat` class can both inherit from a general `Animal` class, automatically gaining properties like `eat()` and `sleep()`.\n\n4. **Polymorphism:**\n    * **Concept:** Meaning \"many forms.\" It allows a single interface (like a method name) to be used for different underlying forms or data types.\n    * **Types:**\n        * **Compile-time Polymorphism (Method Overloading):** Having multiple methods in the same class with the same name but different parameters.\n        * **Runtime Polymorphism (Method Overriding):** A subclass providing a specific implementation for a method that is already defined in its superclass.\n\n**In summary:** OOPS helps developers write code that is more organized, reusable, maintainable, and easier to manage, especially for large, complex applications.",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is OOPS concepts?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is OOPS concepts?",
+      "total_ms": 29263.261599990074,
+      "pre_ms": 0.6281000096350908,
+      "api_ms": 29262.27279996965,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 294,
+      "out_tok": 490,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.013899989426136017,
+        "text_cleaning": 0.042599975131452084,
+        "data_filtering": 0.04340003943070769,
+        "deduplication": 0.026799971237778664,
+        "tokenization": 0.34420000156387687,
+        "truncation": 0.14900002861395478,
+        "prompt_formatting": 0.008200004231184721
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is CNN?"
+  },
+  {
+    "role": "assistant",
+    "content": "**CNN** stands for **Convolutional Neural Network** – a type of deep learning model that excels at processing data with a grid‑like topology, such as images, audio spectrograms, or time‑series.\n\n### Core ideas\n\n| Component | What it does | Why it matters |\n|-----------|--------------|----------------|\n| **Convolutional layers** | Slide a small filter (kernel) over the input, computing dot products to produce feature maps. | Learns local patterns (edges, textures) regardless of their position. |\n| **Pooling layers** | Down‑sample feature maps (e.g., max‑pooling). | Reduces spatial dimensions, adds translation invariance, and lowers computation. |\n| **Fully connected layers** | Classic dense layers that interpret the extracted features for classification or regression. | Combines high‑level features into final predictions. |\n| **Activation functions** (ReLU, LeakyReLU, etc.) | Introduce non‑linearity. | Enables the network to learn complex mappings. |\n| **Batch normalization / dropout** | Stabilize training and prevent overfitting. | Improves generalization. |\n\n### Typical architecture\n\n```\nInput image\n   ↓\nConv → ReLU → Pool\n   ↓\nConv → ReLU → Pool\n   ↓\nFlatten\n   ↓\nFully connected → Softmax (for classification)\n```\n\n### Common applications\n\n- **Computer vision**: image classification, object detection, segmentation, facial recognition.\n- **Audio processing**: speech recognition, music genre classification.\n- **Medical imaging**: tumor detection, disease diagnosis.\n- **Video analysis**: action recognition, event detection.\n\n### Why CNNs are powerful\n\n1. **Parameter sharing** – the same filter is applied across the whole input, drastically reducing the number of parameters compared to a fully connected network.\n2. **Local connectivity** – early layers capture local features; deeper layers capture increasingly abstract concepts.\n3. **Translation invariance** – pooling and convolution make the network robust to small shifts in the input.\n\nIn short, a CNN is a deep neural network architecture that automatically learns hierarchical spatial features, making it the go‑to choice for many pattern‑recognition tasks.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is CNN?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is CNN?",
+      "total_ms": 1029.847600031644,
+      "pre_ms": 0.3899001167155802,
+      "api_ms": 1029.1366999736056,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 815,
+      "out_tok": 509,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.014000048395246267,
+        "text_cleaning": 0.0418000272475183,
+        "data_filtering": 0.017300015315413475,
+        "deduplication": 0.026100024115294218,
+        "tokenization": 0.1667000469751656,
+        "truncation": 0.11689995881170034,
+        "prompt_formatting": 0.007099995855242014
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is AI?"
+  },
+  {
+    "role": "assistant",
+    "content": "**AI** stands for **Artificial Intelligence**. It is the branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence.\n\n### Core Capabilities\nAI systems can:\n*   **Learn** from data (Machine Learning)\n*   **Reason** and solve problems\n*   **Perceive** their environment (e.g., vision, speech)\n*   **Make decisions** or take actions\n*   **Understand and generate language** (Natural Language Processing)\n\n### Main Types of AI\n\n1.  **Narrow AI (Weak AI):**\n    *   Designed for a specific task.\n    *   Examples: Voice assistants (Siri, Alexa), recommendation systems (Netflix, Spotify), image recognition, self-driving cars.\n    *   *This is the only type of AI that currently exists.*\n\n2.  **General AI (Strong AI):**\n    *   Hypothetical AI that can understand, learn, and apply knowledge across any domain, similar to human cognitive abilities.\n    *   *Not yet achieved.*\n\n3.  **Super AI:**\n    *   Hypothetical AI that surpasses human intelligence in all aspects, including creativity, problem-solving, and social skills.\n    *   *Theoretical and not yet realized.*\n\n### Key Technologies Underpinning AI\n*   **Machine Learning (ML):** Algorithms that improve automatically through experience.\n*   **Deep Learning:** A subset of ML using neural networks with many layers (like CNNs and Transformers).\n*   **Natural Language Processing (NLP):** Enables machines to understand and generate human language.\n*   **Computer Vision:** Enables machines to interpret and analyze visual information.\n\n### Common Applications\n*   Healthcare (diagnosis, drug discovery)\n*   Finance (fraud detection, algorithmic trading)\n*   Transportation (autonomous vehicles)\n*   Customer service (chatbots)\n*   Creative industries (generative art, music, text)\n\nIn essence, AI is not a single technology but a broad field focused on building systems that can mimic, augment, or automate aspects of human intelligence.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is AI?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is AI?",
+      "total_ms": 1449.439300049562,
+      "pre_ms": 0.3181000938639045,
+      "api_ms": 1448.8195999874733,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1247,
+      "out_tok": 446,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.01190003240481019,
+        "text_cleaning": 0.03940000897273421,
+        "data_filtering": 0.01650000922381878,
+        "deduplication": 0.026100024115294218,
+        "tokenization": 0.17150002531707287,
+        "truncation": 0.045900000259280205,
+        "prompt_formatting": 0.006799993570894003
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** is a high‑level, interpreted programming language known for its readability and simplicity. It uses clear, indentation‑based syntax, which makes code easy to write and understand.\n\n### Key characteristics\n| Feature | Description |\n|---------|-------------|\n| **Readable syntax** | Minimal punctuation; code looks like plain English. |\n| **Interpreted** | Runs directly from source without a separate compilation step. |\n| **Dynamically typed** | Variable types are determined at runtime. |\n| **Extensive standard library** | Modules for file I/O, networking, web services, data handling, etc. |\n| **Cross‑platform** | Works on Windows, macOS, Linux, and many other systems. |\n| **Open source** | Free to use, modify, and distribute under the Python Software Foundation License. |\n\n### Common uses\n- **Web development** (Django, Flask)\n- **Data science & analytics** (pandas, NumPy, SciPy)\n- **Machine learning & AI** (TensorFlow, PyTorch, scikit‑learn)\n- **Automation & scripting** (system admin tasks, testing)\n- **Scientific computing** (simulation, bioinformatics)\n- **Desktop GUI apps** (Tkinter, PyQt)\n- **Education** (introductory programming courses)\n\n### Example code (Hello, World!)\n```python\nprint(\"Hello, World!\")\n```\n\nIn short, Python is a versatile, beginner‑friendly language that powers everything from simple scripts to large‑scale web services and cutting‑edge AI research.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 1433.7063999846578,
+      "pre_ms": 0.1661999267525971,
+      "api_ms": 1433.3607000298798,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1522,
+      "out_tok": 379,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.008999952115118504,
+        "text_cleaning": 0.02169999061152339,
+        "data_filtering": 0.009100011084228754,
+        "deduplication": 0.010599964298307896,
+        "tokenization": 0.09929999941959977,
+        "truncation": 0.012500036973506212,
+        "prompt_formatting": 0.003999972250312567
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** is a high-level, interpreted programming language known for its clean, readable syntax that resembles plain English. It is widely used because it allows developers to write code with fewer lines than many other languages.\n\n### Key Features\n* **Easy to Learn and Read:** Uses indentation and straightforward syntax, making it great for beginners.\n* **Interpreted:** Code is executed line by line, which makes debugging easier.\n* **Dynamically Typed:** You don't need to explicitly declare the data type of a variable before using it.\n* **Extensive Ecosystem:** Features a massive library of built-in modules and third-party packages (via PyPI).\n* **Multi-paradigm:** Supports procedural, object-oriented, and functional programming.\n\n### Common Applications\n* **Artificial Intelligence & Machine Learning:** The leading language for AI development (using libraries like TensorFlow, PyTorch, and scikit-learn).\n* **Data Science & Analysis:** Heavily used for data manipulation and visualization (using pandas, NumPy, and Matplotlib).\n* **Web Development:** Used for backend development with frameworks like Django and Flask.\n* **Automation & Scripting:** Perfect for writing scripts to automate repetitive tasks, file management, and web scraping.\n\n### Example Code\n```python\n# A simple function to greet someone\ndef greet(name):\n    return f\"Hello, {name}!\"\n\nprint(greet(\"Python\"))\n```\n\nIn short, Python is a versatile, powerful, and beginner-friendly language used in almost every tech domain today.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 2061.4074000041,
+      "pre_ms": 0.5926000303588808,
+      "api_ms": 2060.4991000145674,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1284,
+      "out_tok": 323,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.014999997802078724,
+        "text_cleaning": 0.03980001201853156,
+        "data_filtering": 0.01780001912266016,
+        "deduplication": 0.026900030206888914,
+        "tokenization": 0.43840002035722136,
+        "truncation": 0.047399953473359346,
+        "prompt_formatting": 0.007299997378140688
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is functions in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, a **function** is a named, reusable block of code designed to perform a specific, single task.\n\nInstead of writing the same set of instructions multiple times throughout your program, you define it once as a function and then \"call\" that function whenever you need the task performed.\n\n### Why use functions?\n1.  **Reusability:** Write code once, use it many times.\n2.  **Modularity:** Breaks large, complex programs into smaller, manageable, and testable pieces.\n3.  **Readability:** Makes the main logic of your program much cleaner and easier to follow.\n\n### How to Define and Use a Function\n\nYou define a function using the `def` keyword:\n\n```python\n# 1. Defining the function\ndef greet(name):\n    \"\"\"This function takes a name and returns a greeting.\"\"\"\n    message = f\"Hello, {name}! Welcome to Python.\"\n    return message  # The 'return' keyword sends a value back\n\n# 2. Calling the function\ngreeting_for_alice = greet(\"Alice\")\ngreeting_for_bob = greet(\"Bob\")\n\n# 3. Using the returned value\nprint(greeting_for_alice)  # Output: Hello, Alice! Welcome to Python.\nprint(greeting_for_bob)    # Output: Hello, Bob! Welcome to Python.\n```\n\n### Key Concepts\n\n*   **`def`:** The keyword used to *define* a function.\n*   **Parameters/Arguments:** Variables listed inside the parentheses (`name` in the example) that allow the function to accept input data.\n*   **`return`:** A keyword that specifies the value the function should output back to the part of the code that called it. If a function doesn't have a `return` statement, it implicitly returns `None`.\n\n### Example with No Return Value (Side Effect)\nSometimes a function just performs an action (like printing) and doesn't need to send a specific value back:\n\n```python\ndef print_separator():\n    print(\"--------------------\") # This performs an action (side effect)\n\nprint_separator() # Output: --------------------\n```",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "what is functions in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "what is functions in python?",
+      "total_ms": 29320.0680000009,
+      "pre_ms": 0.3703999100252986,
+      "api_ms": 29319.35770000564,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1198,
+      "out_tok": 466,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.013199984095990658,
+        "text_cleaning": 0.044199987314641476,
+        "data_filtering": 0.04509999416768551,
+        "deduplication": 0.02829998265951872,
+        "tokenization": 0.18390000332146883,
+        "truncation": 0.04859996261075139,
+        "prompt_formatting": 0.007099995855242014
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is for loop in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **`for` loop** in Python is a control‑flow statement that lets you iterate over a sequence (such as a list, tuple, string, or any iterable object) and execute a block of code once for each element in that sequence.\n\n---\n\n### Basic Syntax\n\n```python\nfor variable in iterable:\n    # code block\n```\n\n* **`variable`** – a name you choose; it will hold the current item from the iterable during each iteration.\n* **`iterable`** – any object that can return its members one at a time (lists, strings, ranges, dictionaries, etc.).\n\n---\n\n### Example 1 – Iterating over a list\n\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\n\nfor fruit in fruits:\n    print(fruit)\n```\n\n**Output**\n\n```\napple\nbanana\ncherry\n```\n\n---\n\n### Example 2 – Using `range()` to loop a fixed number of times\n\n```python\nfor i in range(5):          # 0, 1, 2, 3, 4\n    print(f\"Iteration {i}\")\n```\n\n**Output**\n\n```\nIteration 0\nIteration 1\nIteration 2\nIteration 3\nIteration 4\n```\n\n---\n\n### Example 3 – Looping over a dictionary\n\n```python\nperson = {\"name\": \"Alice\", \"age\": 30}\n\nfor key in person:          # iterates over keys\n    print(key, person[key])\n```\n\n**Output**\n\n```\nname Alice\nage 30\n```\n\n---\n\n### Common Uses\n\n* **Processing collections** – summing numbers, filtering items, transforming data.\n* **Generating sequences** – creating lists, matrices, or other structures.\n* **Reading files** – iterating over lines in a file object.\n* **Nested loops** – iterating over multi‑dimensional data (e.g., rows and columns of a matrix).\n\n---\n\n### Key Points\n\n1. **No explicit counter** – the loop variable automatically takes each value from the iterable.\n2. **`break` / `continue`** – can be used inside the loop to exit early or skip to the next iteration.\n3. **`else` clause** – optional; runs if the loop completes normally (no `break`).\n\n```python\nfor n in range(10):\n    if n == 5:\n        break\nelse:\n    print(\"Completed without break\")   # This line is skipped because of the break\n```\n\n---\n\n**In short:** a `for` loop in Python lets you traverse any iterable, executing a block of code for each element, making it a powerful tool for repetitive tasks and data manipulation.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is for loop in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is for loop in python?",
+      "total_ms": 1453.0448999721557,
+      "pre_ms": 0.5444000125862658,
+      "api_ms": 1452.186900016386,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1225,
+      "out_tok": 606,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.01309998333454132,
+        "text_cleaning": 0.042599975131452084,
+        "data_filtering": 0.042199972085654736,
+        "deduplication": 0.027300033252686262,
+        "tokenization": 0.26350002735853195,
+        "truncation": 0.14830002328380942,
+        "prompt_formatting": 0.007399998139590025
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is integer in data types?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, an **integer** (often abbreviated as `int`) is a data type that represents whole numbers. It includes positive numbers, negative numbers, and zero, but **does not** include fractions or decimals.\n\n### Key Characteristics\n*   **No Decimal Point:** Integers are whole numbers (e.g., `42`, `-7`, `0`).\n*   **Arbitrary Precision:** In Python 3, integers can be as large as your computer’s memory allows. There is no fixed upper limit (unlike some other languages where integers might overflow).\n*   **Immutable:** Once an integer object is created, its value cannot be changed. If you perform an operation that results in a new value, a new integer object is created.\n\n### Examples\n\n```python\n# Valid integers\na = 10\nb = -5\nc = 0\nd = 12345678901234567890  # Python handles very large integers easily\n\n# Check the type\nprint(type(a))  # Output: <class 'int'>\n```\n\n### What is NOT an Integer?\n*   **Floats:** Numbers with decimal points (e.g., `3.14`, `-0.5`) are of type `float`, not `int`.\n*   **Strings:** Numbers enclosed in quotes (e.g., `\"10\"`) are strings, not integers.\n\n### Common Operations\nYou can perform standard arithmetic operations on integers:\n\n```python\nx = 10\ny = 3\n\nprint(x + y)  # Addition: 13\nprint(x - y)  # Subtraction: 7\nprint(x * y)  # Multiplication: 30\nprint(x // y) # Floor Division: 3 (returns an integer)\nprint(x % y)  # Modulus: 1 (remainder)\nprint(x ** y) # Exponentiation: 1000\n```\n\n### Converting to Integer\nYou can convert other types to integers using the `int()` function:\n\n```python\n# From string\nnum = int(\"42\")   # Result: 42\n\n# From float (truncates the decimal part)\nnum = int(3.99)   # Result: 3\nnum = int(-3.99)  # Result: -3\n```\n\n### Summary\nAn **integer** in Python is a data type for whole numbers without decimal points. It is one of the most fundamental and commonly used data types for counting, indexing, and mathematical operations.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is integer in data types?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is integer in data types?",
+      "total_ms": 1822.4780000164174,
+      "pre_ms": 0.45350007712841034,
+      "api_ms": 1821.6976000112481,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1493,
+      "out_tok": 554,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.012800039257854223,
+        "text_cleaning": 0.042700034100562334,
+        "data_filtering": 0.043300038669258356,
+        "deduplication": 0.02819998189806938,
+        "tokenization": 0.26139995316043496,
+        "truncation": 0.05740002961829305,
+        "prompt_formatting": 0.007700000423938036
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is float in data types?"
+  },
+  {
+    "role": "assistant",
+    "content": "### Float – the “real‑number” data type in Python\n\nA **float** (short for *floating‑point number*) is Python’s built‑in type for representing numbers that have a fractional part, i.e., numbers with a decimal point or expressed in scientific notation.\n\n```python\ntype(3.14)          # <class 'float'>\ntype(-0.001)        # <class 'float'>\ntype(2e5)           # <class 'float'>  (2 × 10⁵ = 200 000.0)\n```\n\n---\n\n## Key characteristics\n\n| Property | Details |\n|----------|---------|\n| **Representation** | Stored in binary using the IEEE‑754 double‑precision format (64 bits). |\n| **Range** | Roughly `‑1.8 × 10³⁰⁸` to `+1.8 × 10³⁰⁸`. Values outside this range become `inf` (infinity) or raise an overflow error. |\n| **Precision** | About 15‑17 decimal digits of precision. Not all decimal fractions can be represented exactly (e.g., `0.1` becomes `0.10000000000000000555…`). |\n| **Immutability** | Like all built‑in numeric types, a float object cannot be changed after creation; operations produce new float objects. |\n| **Arithmetic** | Supports the usual arithmetic operators (`+`, `-`, `*`, `/`, `//`, `%`, `**`). Division `/` always returns a float, even when the result is mathematically integral. |\n\n---\n\n## Common ways to create a float\n\n```python\n# Literal with a decimal point\na = 3.5\n\n# Scientific notation (exponent)\nb = 6.02e23      # 6.02 × 10²³\n\n# Converting from other types\nc = float(10)    # 10.0\nd = float(\"2.718\")  # 2.718\n```\n\n---\n\n## Typical operations\n\n```python\nx = 7.5\ny = 2.0\n\nprint(x + y)   # 9.5\nprint(x - y)   # 5.5\nprint(x * y)   # 15.0\nprint(x / y)   # 3.75   (always a float)\nprint(x // y)  # 3.0    (floor division, result is still a float)\nprint(x % y)   # 1.5\nprint(x ** y)  # 56.25\n```\n\n### Comparison\n\n```python\nprint(1.0 == 1)          # True  (int is coerced to float for the comparison)\nprint(0.1 + 0.2 == 0.3)  # False – floating‑point rounding error\n```\n\n---\n\n## Dealing with rounding errors\n\nBecause many decimal fractions cannot be represented exactly, direct equality checks can be unreliable. Use a tolerance (or the `math.isclose` helper) instead:\n\n```python\nimport math\n\na = 0.1 + 0.2\nb = 0.3\n\nprint(a == b)                     # False\nprint(math.isclose(a, b, rel_tol=1e-9))  # True\n```\n\n---\n\n## Converting between floats and other types\n\n| Conversion | Example |\n|------------|---------|\n| **int → float** | `float(5)` → `5.0` |\n| **float → int** (truncates toward zero) | `int(3.9)` → `3` |\n| **float → str** | `str(2.5)` → `'2.5'` |\n| **str → float** (must be a valid literal) | `float(\"1.23e-4\")` → `0.000123` |\n\n---\n\n## When to use a float\n\n* **Measurements** – lengths, weights, temperatures, etc., where fractional values are expected.\n* **Scientific calculations** – physics, chemistry, finance (though for exact decimal arithmetic, the `decimal.Decimal` type is often preferred).\n* **Graphics / geometry** – coordinates, angles, scaling factors.\n\n---\n\n### Quick cheat‑sheet\n\n```python\n# Creation\nf1 = 3.14\nf2 = 1e-3          # 0.001\nf3 = float(\"2.5\")\n\n# Basic ops\ns = f1 + f2\nd = f1 - f2\np = f1 * f2\nq = f1 / f2        # always float\nr = f1 // f2       # floor division, result is float\nm = f1 % f2\ne = f1 ** 2\n\n# Comparison with tolerance\nimport math\nmath.isclose(f1, 3.1400000001, rel_tol=1e-9)\n```\n\n---\n\n**Bottom line:** a *float* is Python’s way of representing real numbers with a fractional part. It offers a wide range and decent precision, but you must be aware of the inherent binary rounding errors and use tolerance‑based comparisons when exact equality matters.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is float in data types?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is float in data types?",
+      "total_ms": 3438.120800012257,
+      "pre_ms": 0.33249997068196535,
+      "api_ms": 3437.4413999612443,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 1681,
+      "out_tok": 1140,
+      "sources": [],
+      "step_ms": {
+        "normalization": 0.013499986380338669,
+        "text_cleaning": 0.04269997589290142,
+        "data_filtering": 0.04469999112188816,
+        "deduplication": 0.02629996743053198,
+        "tokenization": 0.15969999367371202,
+        "truncation": 0.038300000596791506,
+        "prompt_formatting": 0.007300055585801601
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy‑to‑learn, powerful high‑level programming language. It provides efficient high‑level data structures, a simple yet effective object‑oriented approach, elegant syntax, and dynamic typing. Because it is interpreted, Python is well suited for scripting and rapid application development across many platforms. It also offers strong structure, error checking, built‑in high‑level types (such as flexible arrays and dictionaries), and a modular system that lets programs be split into reusable components【3†source: Tutorial_EDIT.pdf, page 7】. Additionally, Python’s extensive standard library and support for large programs make it applicable to a wide range of problem domains【1†source: Tutorial_EDIT.pdf, page 9】.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 1464.6011000149883,
+      "pre_ms": 3.8880000938661397,
+      "api_ms": 1449.5898999739438,
+      "retrieval_ms": 10.569600039161742,
+      "wait_ms": 0.0,
+      "in_tok": 3021,
+      "out_tok": 285,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7427985668182373,
+          "text": "Python is simple to use, but it is a real programming language, oﬀering much more structure and support\nfor large programs than shell scripts or batch ﬁles can oﬀer. On the other hand, Python also oﬀers much\nmore error checking than C, and, being avery-high-level language, it has high-level data types built in, such\nas ﬂexible arrays and dictionaries. Because of its more general data types Python is applicable to a much\nlarger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those\nlanguages. Python allows you to split your program into modules that can be reused in other Python programs. It\ncomes with a large collection of standard modules that you can use as the basis of your programs — or as\nexamples to start learning to program in Python."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.7102259397506714,
+          "text": "Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)). interpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically 118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 128",
+          "score": 0.6861091256141663,
+          "text": "See PEP 411 for more details. provisional package See provisional API. Python 3000 Nickname for the Python 3.x release line (coined long ago when the release of version 3 was\n something in the distant future.) This is also abbreviated “Py3k”. Pythonic An idea or piece of code which closely follows the most common idioms of the Python language,\n rather than implementing code using concepts common to other languages. For example, a common\n idiom in Python is to loop over all elements of an iterable using a for statement. Many other languages\n don’t have this type of construct, so people unfamiliar with Python sometimes use a numerical counter\n instead: for i in range(len(food)):\n print(food[i]) 122 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.015700003132224083,
+        "text_cleaning": 0.04339998122304678,
+        "data_filtering": 0.019899976905435324,
+        "deduplication": 0.33570005325600505,
+        "tokenization": 0.2392000169493258,
+        "truncation": 3.201400046236813,
+        "prompt_formatting": 0.03270001616328955
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is  python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy-to-learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming [3]. Its elegant syntax, dynamic typing, and interpreted nature make it an ideal language for scripting and rapid application development across many areas and platforms [3]. Additionally, it offers more structure and error checking than shell scripts, batch files, or C, and includes high-level built-in data types such as flexible arrays and dictionaries [1].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is  python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is python?",
+      "total_ms": 11806.780299986713,
+      "pre_ms": 2.443999983370304,
+      "api_ms": 11791.947299963795,
+      "retrieval_ms": 11.965800018515438,
+      "wait_ms": 0.0,
+      "in_tok": 2690,
+      "out_tok": 101,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.7427985668182373,
+          "text": "Python is simple to use, but it is a real programming language, oﬀering much more structure and support\nfor large programs than shell scripts or batch ﬁles can oﬀer. On the other hand, Python also oﬀers much\nmore error checking than C, and, being avery-high-level language, it has high-level data types built in, such\nas ﬂexible arrays and dictionaries. Because of its more general data types Python is applicable to a much\nlarger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those\nlanguages. Python allows you to split your program into modules that can be reused in other Python programs. It\ncomes with a large collection of standard modules that you can use as the basis of your programs — or as\nexamples to start learning to program in Python."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.7102259397506714,
+          "text": "Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)). interpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically 118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms. The Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 128",
+          "score": 0.6861091256141663,
+          "text": "See PEP 411 for more details. provisional package See provisional API. Python 3000 Nickname for the Python 3.x release line (coined long ago when the release of version 3 was\n something in the distant future.) This is also abbreviated “Py3k”. Pythonic An idea or piece of code which closely follows the most common idioms of the Python language,\n rather than implementing code using concepts common to other languages. For example, a common\n idiom in Python is to loop over all elements of an iterable using a for statement. Many other languages\n don’t have this type of construct, so people unfamiliar with Python sometimes use a numerical counter\n instead: for i in range(len(food)):\n print(food[i]) 122 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.013299984857439995,
+        "text_cleaning": 0.04220003029331565,
+        "data_filtering": 0.017900019884109497,
+        "deduplication": 0.24209998082369566,
+        "tokenization": 0.20160002168267965,
+        "truncation": 1.8987999646924436,
+        "prompt_formatting": 0.028099981136620045
+      },
+      "details": {
+        "query_tokens_estimate": 4,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Functions in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A function in Python is a series of statements that returns some value to a caller [3]. It can also accept zero or more arguments which may be used in the execution of its body [3].\n\nFunction annotations can be used to indicate the expected type for a function parameter or its return value, for example: `def sum_two_numbers(a: int, b: int) -> int: return a + b` [3].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is Functions in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is Functions in python?",
+      "total_ms": 6962.6658000051975,
+      "pre_ms": 3.934300097171217,
+      "api_ms": 6946.4372000074945,
+      "retrieval_ms": 11.877599987201393,
+      "wait_ms": 0.0,
+      "in_tok": 2248,
+      "out_tok": 91,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.669751763343811,
+          "text": "Python Tutorial, Release 3.7.0 Arguments are assigned to the named local variables in a function body. See the calls section for the\n rules governing this assignment. Syntactically, any expression can be used to represent an argument;\n the evaluated value is assigned to the local variable. See also the parameter glossary entry, the FAQ question on the diﬀerence between arguments and\n parameters, and PEP 362. asynchronous context manager An object which controls the environment seen in an async with state-\n ment by deﬁning __aenter__() and __aexit__() methods. Introduced by PEP 492. asynchronous generator A function which returns an asynchronous generator iterator."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.6590871810913086,
+          "text": "Python Tutorial, Release 3.7.0 generic function A function composed of multiple functions implementing the same operation for diﬀerent\n types. Which implementation should be used during a call is determined by the dispatch algorithm. See also the single dispatch glossary entry, the functools.singledispatch() decorator, and PEP\n 443. GIL See global interpreter lock. global interpreter lock The mechanism used by the CPython interpreter to assure that only one thread\n executes Python bytecode at a time. This simpliﬁes the CPython implementation by making the object\n model (including critical built-in types such as dict) implicitly safe against concurrent access."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 123",
+          "score": 0.6238080859184265,
+          "text": "See PEP 238. function A series of statements which returns some value to a caller. It can also be passed zero or more\n arguments which may be used in the execution of the body. See also parameter, method, and the\n function section. function annotation An annotation of a function parameter or return value. Function annotations are usually used for type hints: for example this function is expected to take two\n int arguments and is also expected to have an int return value: def sum_two_numbers(a: int, b: int) -> int:\n return a + b Function annotation syntax is explained in section function. See variable annotation and PEP 484, which describe this functionality."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 32",
+          "score": 0.6236901879310608,
+          "text": "Python Tutorial, Release 3.7.0 >>> def function(a):\n... pass\n... >>> function(0, a=0)\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\nTypeError: function() got multiple values for keyword argument 'a' When a ﬁnal formal parameter of the form **name is present, it receives a dictionary (see typesmapping)\ncontaining all keyword arguments except for those corresponding to a formal parameter. This may be\ncombined with a formal parameter of the form *name (described in the next subsection) which receives\na tuple containing the positional arguments beyond the formal parameter list. (*name must occur before\n**name.) For example, if we deﬁne a function like this:"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.013899989426136017,
+        "text_cleaning": 0.04499999340623617,
+        "data_filtering": 0.04539999645203352,
+        "deduplication": 0.1292000524699688,
+        "tokenization": 0.48510002670809627,
+        "truncation": 3.1843000324442983,
+        "prompt_formatting": 0.031400006264448166
+      },
+      "details": {
+        "query_tokens_estimate": 6,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is for loop in python?"
+  },
+  {
+    "role": "assistant",
+    "content": "A **for** loop in Python iterates over the items of any sequence (such as a list or a string) in the order they appear.  \nUnlike C or Pascal, it does not require an arithmetic progression or explicit step/stop conditions; it simply walks through each element of the sequence.  \n\nExample from the tutorial:  \n\n```python\nwords = ['cat', 'window', 'defenestrate']\nfor w in words:\n    print(w, len(w))\n```\n\nOutput:  \n\n```\ncat 3\nwindow 6\ndefenestrate 12\n```\n\nThe loop can also be used with slices or other iterable objects, and if you need to modify the sequence while iterating, it’s recommended to iterate over a copy (e.g., `words[:]`) to avoid unintended behavior.  \n\nSources: [2], [3]",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is for loop in python?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is for loop in python?",
+      "total_ms": 1905.6945000193082,
+      "pre_ms": 3.6882999702356756,
+      "api_ms": 1889.5591999753378,
+      "retrieval_ms": 12.003500014543533,
+      "wait_ms": 0.0,
+      "in_tok": 1283,
+      "out_tok": 233,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 45",
+          "score": 0.6662278771400452,
+          "text": "Python Tutorial, Release 3.7.0 5.6 Looping Techniques When looping through dictionaries, the key and corresponding value can be retrieved at the same time using\nthe items() method. >>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n>>> for k, v in knights.items():\n... print(k, v)\n... gallahad the pure\nrobin the brave When looping through a sequence, the position index and corresponding value can be retrieved at the same\ntime using the enumerate() function. >>> for i, v in enumerate(['tic', 'tac', 'toe']):\n... print(i, v)\n... 0 tic\n1 tac\n2 toe To loop over two or more sequences at the same time, the entries can be paired with the zip() function."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.6561073660850525,
+          "text": "4.2 for Statements The for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended): >>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n... cat 3\nwindow 6\ndefenestrate 12 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 26",
+          "score": 0.6125588417053223,
+          "text": "Python Tutorial, Release 3.7.0 If you need to modify the sequence you are iterating over while inside the loop (for example to duplicate\nselected items), it is recommended that you ﬁrst make a copy. Iterating over a sequence does not implicitly\nmake a copy. The slice notation makes this especially convenient: >>> for w in words[:]: # Loop over a slice copy of the entire list. ... if len(w) > 6:\n... words.insert(0, w)\n... >>> words\n['defenestrate', 'cat', 'window', 'defenestrate'] With for w in words:, the example would attempt to create an inﬁnite list, inserting defenestrate over\nand over again. 4.3 The range() Function If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy. It\ngenerates arithmetic progressions: >>> for i in range(5):\n..."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 119",
+          "score": 0.6011064052581787,
+          "text": "APPENDIX A GLOSSARY >>> The default Python prompt of the interactive shell. Often seen for code examples which can be executed\n interactively in the interpreter. ... The default Python prompt of the interactive shell when entering code for an indented code block, when\n within a pair of matching left and right delimiters (parentheses, square brackets, curly braces or triple\n quotes), or after specifying a decorator. 2to3 A tool that tries to convert Python 2.x code to Python 3.x code by handling most of the incompati-\n bilities which can be detected by parsing the source and traversing the parse tree. 2to3 is available in the standard library as lib2to3; a standalone entry point is provided as Tools/\n scripts/2to3. See 2to3-reference."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.012499978765845299,
+        "text_cleaning": 0.04190002800896764,
+        "data_filtering": 0.04179996903985739,
+        "deduplication": 0.1275999820791185,
+        "tokenization": 0.14349998673424125,
+        "truncation": 3.270600049290806,
+        "prompt_formatting": 0.05039997631683946
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is integer in data types?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is integer in data types?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is integer in data types?",
+      "total_ms": 338.129400042817,
+      "pre_ms": 3.855900140479207,
+      "api_ms": 322.59689999045804,
+      "retrieval_ms": 11.225699970964342,
+      "wait_ms": 0.0,
+      "in_tok": 1416,
+      "out_tok": 10,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 64",
+          "score": 0.5563185811042786,
+          "text": ">>> f.write('This is a test\\n')\n15 Other types of objects need to be converted – either to a string (in text mode) or a bytes object (in binary\nmode) – before writing them: >>> value = ('the answer', 42)\n>>> s = str(value) # convert the tuple to string\n>>> f.write(s)\n18 f.tell() returns an integer giving the ﬁle object’s current position in the ﬁle represented as number of bytes\nfrom the beginning of the ﬁle when in binary mode and an opaque number when in text mode. To change the ﬁle object’s position, use f.seek(offset, from_what). The position is computed from\nadding oﬀset to a reference point; the reference point is selected by the from_what argument."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.5471011996269226,
+          "text": "CHAPTER\nFIFTEEN\nFLOATING POINT ARITHMETIC: ISSUES AND LIMITATIONS\nFloating-point numbers are represented in computer hardware as base 2 (binary) fractions. For example,\nthe decimal fraction\n0.125\nhas value 1/10 + 2/100 + 5/1000, and in the same way the binary fraction\n0.001\nhas value 0/2 + 0/4 + 1/8. These two fractions have identical values, the only real diﬀerence being that the\nﬁrst is written in base 10 fractional notation, and the second in base 2. Unfortunately, most decimal fractions cannot be represented exactly as binary fractions. A consequence is\nthat, in general, the decimal ﬂoating-point numbers you enter are only approximated by the binary ﬂoating-\npoint numbers actually stored in the machine. The problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 112",
+          "score": 0.5402016639709473,
+          "text": "For more pleasant output, you may wish to use string formatting to produce a limited number of signiﬁcant\ndigits: >>> format(math.pi, '.12g') # give 12 significant digits\n'3.14159265359' >>> format(math.pi, '.2f') # give 2 digits after the point\n'3.14' >>> repr(math.pi)\n'3.141592653589793' It’s important to realize that this is, in a real sense, an illusion: you’re simply rounding the display of the\ntrue machine value. One illusion may beget another. For example, since 0.1 is not exactly 1/10, summing three values of 0.1 may\nnot yield exactly 0.3, either: >>> .1 + .1 + .1 == .3\nFalse Also, since the 0.1 cannot get any closer to the exact value of 1/10 and 0.3 cannot get any closer to the exact\nvalue of 3/10, then pre-rounding with round() function cannot help:"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 130",
+          "score": 0.5300784707069397,
+          "text": "Examples of struct sequences\n include sys.float_info and the return value of os.stat(). text encoding A codec which encodes Unicode strings to bytes. text ﬁle A ﬁle object able to read and write str objects. Often, a text ﬁle actually accesses a byte-oriented\n datastream and handles the text encoding automatically. Examples of text ﬁles are ﬁles opened in text\n mode ('r' or 'w'), sys.stdin, sys.stdout, and instances of io.StringIO. See also binary ﬁle for a ﬁle object able to read and write bytes-like objects. triple-quoted string A string which is bound by three instances of either a quotation mark (“) or an\n apostrophe (‘). While they don’t provide any functionality not available with single-quoted strings,\n they are useful for a number of reasons."
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.012400036212056875,
+        "text_cleaning": 0.041300023440271616,
+        "data_filtering": 0.04569999873638153,
+        "deduplication": 0.15740003436803818,
+        "tokenization": 0.15000003622844815,
+        "truncation": 3.395700012333691,
+        "prompt_formatting": 0.05339999916031957
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is float in datatypes?"
+  },
+  {
+    "role": "assistant",
+    "content": "The provided documents do not contain a general definition of the `float` data type. However, they mention that Python provides tools to determine the exact value of a float, such as the `float.as_integer_ratio()` method, which expresses the value of a float as a fraction, and the `float.hex()` method, which expresses a float in hexadecimal (base 16) [1].",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is float in datatypes?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is float in datatypes?",
+      "total_ms": 763.835999998264,
+      "pre_ms": 3.6355999764055014,
+      "api_ms": 747.5919999997132,
+      "retrieval_ms": 12.098999985028058,
+      "wait_ms": 0.0,
+      "in_tok": 1120,
+      "out_tok": 80,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 113",
+          "score": 0.5226892232894897,
+          "text": "If you are a heavy user of ﬂoating point operations you should take a look at the Numerical Python package\nand many other packages for mathematical and statistical operations supplied by the SciPy project. See\n<https://scipy.org>. Python provides tools that may help on those rare occasions when you really do want to know the exact\nvalue of a ﬂoat. The float.as_integer_ratio() method expresses the value of a ﬂoat as a fraction: >>> x = 3.14159\n>>> x.as_integer_ratio()\n(3537115888337719, 1125899906842624) Since the ratio is exact, it can be used to losslessly recreate the original value: >>> x == 3537115888337719 / 1125899906842624\nTrue The float.hex() method expresses a ﬂoat in hexadecimal (base 16), again giving the exact value stored by\nyour computer: >>> x.hex()\n'0x1.921f9f01b866ep+1'"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 119",
+          "score": 0.5186650156974792,
+          "text": "See 2to3-reference. abstract base class Abstract base classes complement duck-typing by providing a way to deﬁne interfaces\n when other techniques like hasattr() would be clumsy or subtly wrong (for example with magic\n methods). ABCs introduce virtual subclasses, which are classes that don’t inherit from a class but\n are still recognized by isinstance() and issubclass(); see the abc module documentation. Python\n comes with many built-in ABCs for data structures (in the collections.abc module), numbers (in\n the numbers module), streams (in the io module), import ﬁnders and loaders (in the importlib.abc\n module). You can create your own ABCs with the abc module."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 79",
+          "score": 0.5047993063926697,
+          "text": "data attributes correspond to “instance variables” in Smalltalk, and to “data members” in C++. Data\nattributes need not be declared; like local variables, they spring into existence when they are ﬁrst assigned\nto. For example, if x is the instance of MyClass created above, the following piece of code will print the\nvalue 16, without leaving a trace: x.counter = 1\nwhile x.counter < 10:\n x.counter = x.counter * 2\nprint(x.counter)\ndel x.counter The other kind of instance attribute reference is a method. A method is a function that “belongs to” an\nobject. (In Python, the term method is not unique to class instances: other object types can have methods\nas well. For example, list objects have methods called append, insert, remove, sort, and so on."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 48",
+          "score": 0.5044921636581421,
+          "text": "Python Tutorial, Release 3.7.0\n42 Chapter 5. Data Structures"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.014399993233382702,
+        "text_cleaning": 0.04409998655319214,
+        "data_filtering": 0.042899977415800095,
+        "deduplication": 0.27379998937249184,
+        "tokenization": 0.1727000344544649,
+        "truncation": 3.0596000142395496,
+        "prompt_formatting": 0.028099981136620045
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is integer in datatypes?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is integer in datatypes?",
+      "techniques": {
+        "text_cleaning": true,
+        "normalization": true,
+        "tokenization": true,
+        "data_filtering": true,
+        "deduplication": true,
+        "prompt_formatting": true,
+        "truncation": true,
+        "chunking": true,
+        "padding": false
+      },
+      "processed": "What is integer in datatypes?",
+      "total_ms": 669.6154000237584,
+      "pre_ms": 3.7571999127976596,
+      "api_ms": 653.0760999885388,
+      "retrieval_ms": 12.344200047664344,
+      "wait_ms": 0.0,
+      "in_tok": 1293,
+      "out_tok": 81,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 111",
+          "score": 0.5401397347450256,
+          "text": "CHAPTER\nFIFTEEN\nFLOATING POINT ARITHMETIC: ISSUES AND LIMITATIONS\nFloating-point numbers are represented in computer hardware as base 2 (binary) fractions. For example,\nthe decimal fraction\n0.125\nhas value 1/10 + 2/100 + 5/1000, and in the same way the binary fraction\n0.001\nhas value 0/2 + 0/4 + 1/8. These two fractions have identical values, the only real diﬀerence being that the\nﬁrst is written in base 10 fractional notation, and the second in base 2. Unfortunately, most decimal fractions cannot be represented exactly as binary fractions. A consequence is\nthat, in general, the decimal ﬂoating-point numbers you enter are only approximated by the binary ﬂoating-\npoint numbers actually stored in the machine. The problem is easier to understand at ﬁrst in base 10. Consider the fraction 1/3."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 64",
+          "score": 0.5399425029754639,
+          "text": ">>> f.write('This is a test\\n')\n15 Other types of objects need to be converted – either to a string (in text mode) or a bytes object (in binary\nmode) – before writing them: >>> value = ('the answer', 42)\n>>> s = str(value) # convert the tuple to string\n>>> f.write(s)\n18 f.tell() returns an integer giving the ﬁle object’s current position in the ﬁle represented as number of bytes\nfrom the beginning of the ﬁle when in binary mode and an opaque number when in text mode. To change the ﬁle object’s position, use f.seek(offset, from_what). The position is computed from\nadding oﬀset to a reference point; the reference point is selected by the from_what argument."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 130",
+          "score": 0.5282148122787476,
+          "text": "Examples of struct sequences\n include sys.float_info and the return value of os.stat(). text encoding A codec which encodes Unicode strings to bytes. text ﬁle A ﬁle object able to read and write str objects. Often, a text ﬁle actually accesses a byte-oriented\n datastream and handles the text encoding automatically. Examples of text ﬁles are ﬁles opened in text\n mode ('r' or 'w'), sys.stdin, sys.stdout, and instances of io.StringIO. See also binary ﬁle for a ﬁle object able to read and write bytes-like objects. triple-quoted string A string which is bound by three instances of either a quotation mark (“) or an\n apostrophe (‘). While they don’t provide any functionality not available with single-quoted strings,\n they are useful for a number of reasons."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 112",
+          "score": 0.516854465007782,
+          "text": "For more pleasant output, you may wish to use string formatting to produce a limited number of signiﬁcant\ndigits: >>> format(math.pi, '.12g') # give 12 significant digits\n'3.14159265359' >>> format(math.pi, '.2f') # give 2 digits after the point\n'3.14' >>> repr(math.pi)\n'3.141592653589793' It’s important to realize that this is, in a real sense, an illusion: you’re simply rounding the display of the\ntrue machine value. One illusion may beget another. For example, since 0.1 is not exactly 1/10, summing three values of 0.1 may\nnot yield exactly 0.3, either: >>> .1 + .1 + .1 == .3\nFalse Also, since the 0.1 cannot get any closer to the exact value of 1/10 and 0.3 cannot get any closer to the exact\nvalue of 3/10, then pre-rounding with round() function cannot help:"
+        }
+      ],
+      "step_ms": {
+        "normalization": 0.013199984095990658,
+        "text_cleaning": 0.04529999569058418,
+        "data_filtering": 0.04439998883754015,
+        "deduplication": 0.15199999324977398,
+        "tokenization": 0.14519999967887998,
+        "truncation": 3.3276999602094293,
+        "prompt_formatting": 0.029399991035461426
+      },
+      "details": {
+        "query_tokens_estimate": 7,
+        "token_method": "approx:cl100k_base"
+      },
+      "warnings": []
+    }
+  }
+]

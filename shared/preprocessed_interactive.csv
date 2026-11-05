@@ -1,0 +1,333 @@
+timestamp_utc,username,run_id,variant,case_id,mode,provider,model_id,question_original,question_processed,answer,total_ms,preprocessing_ms,retrieval_ms,api_ms,rate_limit_wait_ms,input_tokens,output_tokens,token_source,success,error_type,error_message,retrieved_sources,embedding_backend,techniques_enabled,preprocessing_step_ms
+2026-10-30T12:48:26.236338+00:00,,20261030-122935,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,Hi,Hi,Hello! How can I help you today?,10742.863,9256.856,,1485.654,0.0,310,9,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.017, ""text_cleaning"": 0.405, ""data_filtering"": 0.022, ""deduplication"": 0.134, ""tokenization"": 9256.214, ""truncation"": 0.055, ""prompt_formatting"": 0.011}"
+2026-10-30T12:49:41.703267+00:00,,20261030-122935,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"Python is a popular, high-level programming language known for its simplicity and readability. It looks a lot like plain English, making it great for beginners and efficient for professionals. 
+
+It is widely used in many different fields, including:
+* **Web Development:** Building the back-end of websites (using frameworks like Django or Flask).
+* **Data Science & Machine Learning:** Analyzing massive amounts of data and training AI models (using libraries like Pandas, NumPy, and TensorFlow).
+* **Automation:** Writing scripts to automate repetitive tasks, like renaming hundreds of files or scraping data from the web.
+* **Software Prototyping:** Building quick working models of applications. 
+
+In short, Python is versatile, powerful, and one of the most in-demand programming languages in the world today.",3540.867,1.102,,3539.421,0.0,263,164,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.018, ""text_cleaning"": 0.072, ""data_filtering"": 0.031, ""deduplication"": 0.051, ""tokenization"": 0.773, ""truncation"": 0.15, ""prompt_formatting"": 0.006}"
+2026-10-30T12:51:45.378322+00:00,,20261030-122935,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,,60221.394,0.534,,60220.213,0.0,,,,False,timeout,timeout: Request timed out.,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.015, ""text_cleaning"": 0.047, ""data_filtering"": 0.023, ""deduplication"": 0.037, ""tokenization"": 0.348, ""truncation"": 0.054, ""prompt_formatting"": 0.009}"
+2026-10-30T12:58:56.611322+00:00,,20261030-122935,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,"Python is a high-level, interpreted, and versatile programming language known for its clear and readable syntax. This simplicity makes it very beginner-friendly while remaining powerful enough for complex applications.
+
+**Key characteristics:**
+
+* **Readability:** Its syntax emphasizes clean, English-like code, which reduces development time and makes code easier to maintain.
+* **Interpreted:** Code is executed line-by-line by an interpreter, meaning you don't need a lengthy compilation step before running it.
+* **Versatile:** It is used across numerous domains, including:
+    * **Web Development** (Django, Flask)
+    * **Data Science & AI** (Pandas, NumPy, TensorFlow)
+    * **Automation & Scripting** (System administration tasks)
+    * **Software Testing**
+
+If you are looking to learn programming, Python is often recommended as a starting point due to its gentle learning curve.
+
+Do you have a specific use case in mind (e.g., data analysis, building a website, automation)? Knowing that can help me give you more targeted information!",5598.342,0.381,,5597.701,0.0,404,227,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.014, ""text_cleaning"": 0.032, ""data_filtering"": 0.017, ""deduplication"": 0.015, ""tokenization"": 0.238, ""truncation"": 0.056, ""prompt_formatting"": 0.01}"
+2026-10-30T12:59:48.525990+00:00,,20261030-122935,preprocessed,,General Chat,groq,openai/gpt-oss-20b,what is python?,what is python?,"Python is a high‑level, interpreted programming language known for its clear, readable syntax. It’s widely used for web development, data science, automation, scripting, and many other tasks, making it both beginner‑friendly and powerful for complex projects.",1036.574,0.416,,1035.919,0.0,539,126,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.035, ""data_filtering"": 0.018, ""deduplication"": 0.016, ""tokenization"": 0.295, ""truncation"": 0.031, ""prompt_formatting"": 0.008}"
+2026-10-30T13:01:02.157126+00:00,,20261030-122935,preprocessed,,General Chat,groq_qwen,openai/gpt-oss-120b,what is python?,what is python?,"**Python** is a high‑level, interpreted programming language that emphasizes readability and simplicity. Its clean, English‑like syntax makes it easy for beginners to learn, while its extensive standard library and rich ecosystem of third‑party packages (e.g., Django, Flask, Pandas, NumPy, TensorFlow) enable it to be used for a wide range of tasks such as:
+
+- Web and API development  
+- Data analysis, scientific computing, and machine learning  
+- Automation and scripting of system tasks  
+- Prototyping and general‑purpose software development  
+
+Because Python code is executed by an interpreter rather than compiled, you can write and run programs quickly without a separate build step. Its cross‑platform nature (Windows, macOS, Linux) and strong community support make it one of the most popular languages today.",961.145,0.618,,960.186,0.0,583,214,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.018, ""text_cleaning"": 0.048, ""data_filtering"": 0.037, ""deduplication"": 0.032, ""tokenization"": 0.408, ""truncation"": 0.066, ""prompt_formatting"": 0.01}"
+2026-10-30T13:01:15.877923+00:00,,20261030-122935,preprocessed,,General Chat,groq_120b,qwen/qwen3.8-27b,what is python?,what is python?,"Python is a high-level, interpreted programming language known for its clear and readable syntax. It is widely used for web development, data science, automation, artificial intelligence, and scripting.
+
+Key features include:
+- **Readability:** Code looks similar to English, making it easy to learn and maintain.
+- **Versatility:** Supports multiple programming paradigms (procedural, object-oriented, functional).
+- **Large Ecosystem:** Has a vast standard library and many third-party packages.
+- **Cross-Platform:** Runs on Windows, macOS, and Linux.
+
+It is often recommended as a first programming language due to its simplicity and broad applicability.",677.204,0.614,,676.328,0.0,550,137,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.012, ""text_cleaning"": 0.049, ""data_filtering"": 0.019, ""deduplication"": 0.019, ""tokenization"": 0.444, ""truncation"": 0.061, ""prompt_formatting"": 0.009}"
+2026-11-02T07:58:22.627333+00:00,,20261102-075749,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,HI,HI,Hello! How can I help you today?,4565.297,1154.457,,3410.592,0.0,43,9,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.021, ""text_cleaning"": 0.193, ""data_filtering"": 0.011, ""deduplication"": 0.045, ""tokenization"": 1154.15, ""truncation"": 0.029, ""prompt_formatting"": 0.008}"
+2026-11-02T07:58:40.304190+00:00,,20261102-075749,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,What is Python?,What is Python?,"**Python** is a popular, high-level programming language known for its clear syntax and readability. It looks a lot like normal English, which makes it a great language for beginners and powerful enough for experts.
+
+Here are a few key things to know about Python:
+
+1. **Easy to Learn and Use:** Its simple syntax reduces the cost of program maintenance and makes it easier to pick up than languages like C++ or Java.
+2. **Versatile:** Python is used in many different fields, including:
+   * **Web Development** (using frameworks like Django and Flask)
+   * **Data Science and Data Analysis**
+   * **Artificial Intelligence and Machine Learning**
+   * **Automation and Scripting**
+   * **Software Testing**
+3. **Interpreted Language:** Code written in Python is executed line-by-line, which makes debugging easier.
+4. **Huge Ecosystem:** Python has a massive standard library and thousands of third-party packages (like NumPy, Pandas, and TensorFlow) created by a very active community.
+
+In short, Python is a tool that allows developers to work quickly and integrate systems more effectively.",2054.477,0.57,,2053.568,0.0,58,238,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.015, ""text_cleaning"": 0.049, ""data_filtering"": 0.023, ""deduplication"": 0.037, ""tokenization"": 0.378, ""truncation"": 0.059, ""prompt_formatting"": 0.008}"
+2026-11-02T08:01:57.738800+00:00,,20261102-075749,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,where is cochin?,where is cochin?,"**Cochin** (officially known as **Kochi**) is a major port city located on the south-west coast of India. 
+
+Here are a few quick details about its location:
+* **State:** It is part of the state of **Kerala**.
+* **Region:** It lies along the Arabian Sea and the Laccadive Sea.
+* **Nickname:** Often referred to as the ""Queen of the Arabian Sea"" due to its long history as an important spice trading center.",2697.677,0.807,,2696.541,0.0,303,104,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.017, ""text_cleaning"": 0.052, ""data_filtering"": 0.027, ""deduplication"": 0.043, ""tokenization"": 0.505, ""truncation"": 0.158, ""prompt_formatting"": 0.005}"
+2026-11-02T08:02:21.273215+00:00,,20261102-075749,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,hi,hi,Hello! How can I help you today? 😊,1080.634,0.63,,1079.593,0.0,447,11,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.019, ""text_cleaning"": 0.067, ""data_filtering"": 0.029, ""deduplication"": 0.046, ""tokenization"": 0.391, ""truncation"": 0.065, ""prompt_formatting"": 0.013}"
+2026-11-02T08:03:41.669874+00:00,,20261102-075749,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is python?,what is python?,"**Python** is a popular, high-level programming language known for its clear syntax and readability. It looks a lot like normal English, which makes it a great language for beginners and powerful enough for experts.
+
+Here are a few key things to know about Python:
+
+1. **Easy to Learn and Use:** Its simple syntax reduces the cost of program maintenance and makes it easier to pick up than languages like C++ or Java.
+2. **Versatile:** Python is used in many different fields, including:
+   * **Web Development** (using frameworks like Django and Flask)
+   * **Data Science and Data Analysis**
+   * **Artificial Intelligence and Machine Learning**
+   * **Automation and Scripting**
+   * **Software Testing**
+3. **Interpreted Language:** Code written in Python is executed line-by-line, which makes debugging easier.
+4. **Huge Ecosystem:** Python has a massive standard library and thousands of third-party packages (like NumPy, Pandas, and TensorFlow) created by a very active community.
+
+In short, Python is a tool that allows developers to work quickly and integrate systems more effectively.",5098.684,0.526,,5097.813,0.0,451,239,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.017, ""text_cleaning"": 0.041, ""data_filtering"": 0.022, ""deduplication"": 0.022, ""tokenization"": 0.239, ""truncation"": 0.17, ""prompt_formatting"": 0.015}"
+2026-11-02T08:06:20.225664+00:00,,20261102-075749,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,where is Delhi?,where is Delhi?,"Delhi is the **national capital of India**.
+
+It is located in the northern part of India. It is a large, densely populated metropolitan area that encompasses several historical and modern parts of the city.",1000.476,0.592,,999.607,0.0,451,41,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.02, ""text_cleaning"": 0.066, ""data_filtering"": 0.05, ""deduplication"": 0.021, ""tokenization"": 0.348, ""truncation"": 0.082, ""prompt_formatting"": 0.005}"
+2026-11-02T08:07:24.439113+00:00,,20261102-075749,preprocessed,,General Chat,groq,openai/gpt-oss-20b,hi,hi,Hello! How can I help you today?,682.925,0.297,,682.427,0.0,431,29,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.012, ""text_cleaning"": 0.036, ""data_filtering"": 0.016, ""deduplication"": 0.015, ""tokenization"": 0.152, ""truncation"": 0.057, ""prompt_formatting"": 0.008}"
+2026-11-02T08:07:39.587885+00:00,,20261102-075749,preprocessed,,General Chat,groq,openai/gpt-oss-20b,what is variables in python?,what is variables in python?,"**Variables in Python**
+
+A variable is a name that refers to a value stored in memory.  
+In Python you don’t declare a variable’s type explicitly; you just assign a value to a name, and Python figures out the type automatically.
+
+```python
+x = 10          # integer
+name = ""Alice""  # string
+pi = 3.14159    # float
+flag = True     # boolean
+```
+
+### Key points
+
+| Feature | Description |
+|---------|-------------|
+| **Dynamic typing** | The variable’s type can change with each assignment. |
+| **No declaration needed** | Just assign a value: `variable = value`. |
+| **Naming rules** | • Letters, digits, and underscores (`_`).<br>• Cannot start with a digit.<br>• Case‑sensitive (`a` ≠ `A`). |
+| **Scope** | Variables defined inside a function are local; outside are global. |
+| **Mutable vs. immutable** | Numbers, strings, tuples are immutable; lists, dictionaries, sets are mutable. |
+
+### Example
+
+```python
+def greet():
+    message = ""Hello, world!""   # local variable
+    print(message)
+
+greet()
+# prints: Hello, world!
+```
+
+Variables are the basic building blocks for storing and manipulating data in Python programs.",1539.647,0.341,,1539.084,0.0,435,326,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.022, ""data_filtering"": 0.043, ""deduplication"": 0.011, ""tokenization"": 0.214, ""truncation"": 0.032, ""prompt_formatting"": 0.006}"
+2026-11-02T08:08:30.574229+00:00,,20261102-075749,preprocessed,,General Chat,groq,openai/gpt-oss-20b,Where is tirupathi?,Where is tirupathi?,"Tirupati is a city in the state of **Andhra Pradesh, India**. It lies in the southeastern part of the country, about 350 km (≈ 220 mi) south of the state capital, Amaravati, and roughly 200 km (≈ 125 mi) southeast of Hyderabad. The city is famous for the Venkateswara Temple and is a major pilgrimage destination.",1039.096,0.368,,1038.595,0.0,486,135,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.007, ""text_cleaning"": 0.018, ""data_filtering"": 0.008, ""deduplication"": 0.01, ""tokenization"": 0.275, ""truncation"": 0.047, ""prompt_formatting"": 0.003}"
+2026-11-02T08:08:56.263417+00:00,,20261102-075749,preprocessed,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi,Hi,Hello! How can I assist you today?,650.828,0.122,,650.584,0.0,527,37,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.007, ""text_cleaning"": 0.016, ""data_filtering"": 0.008, ""deduplication"": 0.009, ""tokenization"": 0.066, ""truncation"": 0.014, ""prompt_formatting"": 0.003}"
+2026-11-02T09:20:40.441157+00:00,,20261102-091959,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,Hi?,Hi?,Hello! How can I help you today?,32154.464,0.406,,32153.795,0.0,44,9,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.016, ""text_cleaning"": 0.038, ""data_filtering"": 0.017, ""deduplication"": 0.023, ""tokenization"": 0.271, ""truncation"": 0.034, ""prompt_formatting"": 0.007}"
+2026-11-02T09:21:22.591751+00:00,,20261102-091959,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,what is python?,what is python?,"**Python** is a popular, high-level programming language known for its clear syntax and readability. It looks a lot like plain English, which makes it great for beginners and efficient for professionals.
+
+Here are a few key things to know about Python:
+
+1. **Easy to Learn:** Its simple syntax reduces the cost of program maintenance and makes it easier for beginners to pick up coding.
+2. **Versatile:** It is used in many different fields, including:
+   * **Web Development** (using frameworks like Django and Flask)
+   * **Data Science and Machine Learning** (using libraries like Pandas, NumPy, and TensorFlow)
+   * **Automation and Scripting** (automating repetitive tasks)
+   * **Software Testing and Prototyping**
+3. **Interpreted:** You don't need to compile your code before running it; the Python interpreter executes it line by line, making debugging much easier.
+4. **Large Community:** Python has a massive global community, which means thousands of free tutorials, guides, and pre-written code libraries are available to help you build almost anything. 
+
+In short, Python is a powerful tool whether you want to build a website, analyze data, or automate your daily computer tasks.",32536.964,0.603,,32536.118,0.0,59,260,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.014, ""text_cleaning"": 0.044, ""data_filtering"": 0.019, ""deduplication"": 0.026, ""tokenization"": 0.411, ""truncation"": 0.086, ""prompt_formatting"": 0.004}"
+2026-11-02T09:22:02.854700+00:00,,20261102-091959,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,where is kochi,where is kochi,"**Kochi** (also known as Cochin) is a major port city located on the south-west coast of India. 
+
+Here are a few quick details on its location:
+* **State:** Kerala, India
+* **Region:** The Arabian Sea borders it, giving it a very prominent natural harbor and coastline. 
+
+It is often referred to as the ""Queen of the Arabian Sea"" and is a major financial, commercial, and tourism hub in Kerala.",26658.337,0.207,,26657.953,0.0,325,96,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.007, ""text_cleaning"": 0.019, ""data_filtering"": 0.008, ""deduplication"": 0.009, ""tokenization"": 0.094, ""truncation"": 0.061, ""prompt_formatting"": 0.007}"
+2026-11-02T09:22:38.182132+00:00,,20261102-091959,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,Hi?,Hi?,Hello! How can I help you today?,898.98,0.376,,898.33,0.0,462,10,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.011, ""text_cleaning"": 0.037, ""data_filtering"": 0.017, ""deduplication"": 0.023, ""tokenization"": 0.175, ""truncation"": 0.105, ""prompt_formatting"": 0.006}"
+2026-11-02T09:23:01.432527+00:00,,20261102-091959,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is Machine Learning?,What is Machine Learning?,"**Machine Learning (ML)** is a subset of Artificial Intelligence (AI) that enables computer systems to **learn from data** without being explicitly programmed for every specific task.
+
+Instead of a programmer writing rigid, step-by-step rules (e.g., ""If the image has pointy ears AND whiskers, then it is a cat""), an ML algorithm is fed vast amounts of data (images labeled ""cat"" or ""not cat""), and it *learns* the patterns and features that define a cat on its own.
+
+### How it Works (Simplified)
+1. **Data Input:** You provide the algorithm with large datasets (e.g., thousands of emails labeled ""spam"" or ""not spam"").
+2. **Training:** The algorithm processes this data, identifies patterns, and builds a mathematical model.
+3. **Prediction:** When you give the model new, unseen data (a new email), it uses the patterns it learned during training to make an accurate prediction (Spam or Not Spam).
+
+### Key Types of Machine Learning
+1. **Supervised Learning:** The data is *labeled*. The model learns from examples where the correct answer is already known (e.g., predicting house prices based on historical sales data).
+2. **Unsupervised Learning:** The data is *unlabeled*. The model finds hidden patterns or structures within the data on its own (e.g., grouping customers into different market segments).
+3. **Reinforcement Learning:** The model learns by interacting with an environment. It receives ""rewards"" for good actions and ""penalties"" for bad actions, optimizing its behavior over time (e.g., training an AI to play a video game).
+
+### Real-World Examples
+* **Recommendation Systems:** Netflix suggesting movies or Amazon suggesting products.
+* **Image Recognition:** Identifying faces, objects, or medical conditions in X-rays.
+* **Natural Language Processing (NLP):** Language translation (Google Translate) and chatbots (like me!).
+* **Fraud Detection:** Banks identifying unusual transaction patterns.
+
+In essence, **ML allows computers to get smarter with experience (data) rather than just following fixed instructions.**",8185.337,0.71,,8184.293,0.0,465,445,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.017, ""text_cleaning"": 0.046, ""data_filtering"": 0.047, ""deduplication"": 0.028, ""tokenization"": 0.308, ""truncation"": 0.257, ""prompt_formatting"": 0.008}"
+2026-11-02T09:23:45.974562+00:00,,20261102-091959,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,where is delhi?,where is delhi?,"**Delhi** (National Capital Territory of Delhi) is the capital city of India.
+
+It is located in the **Northern part of India**.
+
+It is a massive, densely populated metropolitan area and a major political, cultural, and economic hub of the country.",1237.348,0.399,,1236.449,0.0,649,54,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.015, ""text_cleaning"": 0.045, ""data_filtering"": 0.019, ""deduplication"": 0.027, ""tokenization"": 0.175, ""truncation"": 0.109, ""prompt_formatting"": 0.008}"
+2026-11-02T09:24:17.334022+00:00,,20261102-091959,preprocessed,,General Chat,groq,openai/gpt-oss-20b,HI?,HI?,Hello! How can I help you today?,775.159,0.225,,774.756,0.0,654,47,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.01, ""text_cleaning"": 0.037, ""data_filtering"": 0.023, ""deduplication"": 0.015, ""tokenization"": 0.121, ""truncation"": 0.015, ""prompt_formatting"": 0.004}"
+2026-11-02T09:24:32.260506+00:00,,20261102-091959,preprocessed,,General Chat,groq,openai/gpt-oss-20b,What is java?,What is java?,"**Java** is a high‑level, object‑oriented programming language and computing platform developed by Sun Microsystems (now owned by Oracle). It’s designed to be:
+
+- **Portable** – “write once, run anywhere” (WORA) thanks to the Java Virtual Machine (JVM).
+- **Secure** – sandboxed execution and strong type checking.
+- **Scalable** – used for everything from small mobile apps to large enterprise systems.
+
+Key points:
+
+| Feature | What it means |
+|---------|---------------|
+| **Syntax** | Similar to C/C++ but with automatic memory management (garbage collection). |
+| **JVM** | Executes compiled bytecode on any device that has a JVM implementation. |
+| **Standard Library** | Rich set of APIs for networking, I/O, collections, concurrency, GUI, etc. |
+| **Ecosystem** | Huge ecosystem of frameworks (Spring, Hibernate), tools (Maven, Gradle), and community support. |
+| **Use cases** | Web applications, Android apps, enterprise back‑ends, embedded systems, scientific computing, etc. |
+
+In short, Java is a versatile, widely‑used language that lets developers build robust, platform‑independent software.",828.638,0.21,,828.162,0.0,656,281,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.024, ""data_filtering"": 0.011, ""deduplication"": 0.013, ""tokenization"": 0.138, ""truncation"": 0.01, ""prompt_formatting"": 0.006}"
+2026-11-02T09:24:56.802913+00:00,,20261102-091959,preprocessed,,General Chat,groq,openai/gpt-oss-20b,Where is Tirunelveli?,Where is Tirunelveli?,"**Tirunelveli** is a city in the southern Indian state of **Tamil Nadu**.  
+- It lies on the banks of the **Thamirabarani River**.  
+- Geographically, it is situated about **200 km (≈124 mi) south of Chennai** and roughly **70 km (≈43 mi) east of the Western Ghats**.  
+- Coordinates: **10.77° N, 77.30° E**.  
+
+Tirunelveli is known for its historic temples, mango orchards, and as a major commercial hub in the region.",749.29,0.455,,748.525,0.0,474,180,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.009, ""text_cleaning"": 0.029, ""data_filtering"": 0.029, ""deduplication"": 0.016, ""tokenization"": 0.233, ""truncation"": 0.129, ""prompt_formatting"": 0.011}"
+2026-11-02T09:25:16.117926+00:00,,20261102-091959,preprocessed,,General Chat,groq_qwen,openai/gpt-oss-120b,Hi?,Hi?,Hello! How can I assist you today?,651.085,0.489,,650.343,0.0,550,47,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.043, ""data_filtering"": 0.299, ""deduplication"": 0.025, ""tokenization"": 0.091, ""truncation"": 0.013, ""prompt_formatting"": 0.004}"
+2026-11-02T09:25:24.206204+00:00,,20261102-091959,preprocessed,,General Chat,groq_qwen,openai/gpt-oss-120b,What is python?,What is python?,"**Python** is a high‑level, interpreted programming language known for its readability and simplicity.  
+
+### Key characteristics
+| Feature | Description |
+|---------|-------------|
+| **Syntax** | Clean, indentation‑based code that reads like plain English, making it easy to learn and maintain. |
+| **Interpreted** | Code is executed line‑by‑line by the Python interpreter; no separate compilation step is required. |
+| **Dynamically typed** | Variable types are determined at runtime, allowing rapid prototyping. |
+| **Multi‑paradigm** | Supports procedural, object‑oriented, and functional programming styles. |
+| **Extensive standard library** | “Batteries‑included” modules for file I/O, networking, web services, data handling, etc. |
+| **Cross‑platform** | Runs on Windows, macOS, Linux, and many other operating systems. |
+| **Large ecosystem** | Thousands of third‑party packages (via PyPI) for web development (Django, Flask), data science (NumPy, pandas, scikit‑learn), automation, scientific computing, AI/ML (TensorFlow, PyTorch), and more. |
+
+### Typical uses
+- **Web and internet development** – back‑ends, APIs, web scraping.  
+- **Data analysis & scientific computing** – statistics, visualization, simulations.  
+- **Machine learning & AI** – model building, training, deployment.  
+- **Automation & scripting** – system administration, task automation.  
+- **Education** – introductory programming courses due to its approachable syntax.  
+
+In short, Python is a versatile, beginner‑friendly language that powers a wide range of applications from simple scripts to large‑scale enterprise systems.",1497.509,0.33,,1496.962,0.0,552,416,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.045, ""data_filtering"": 0.014, ""deduplication"": 0.013, ""tokenization"": 0.213, ""truncation"": 0.031, ""prompt_formatting"": 0.005}"
+2026-11-02T09:25:51.122756+00:00,,20261102-091959,preprocessed,,General Chat,groq_qwen,openai/gpt-oss-120b,Where is Mumbai?,Where is Mumbai?,"**Mumbai** is a major city on the western coast of **India**.
+
+- **State:** Maharashtra  
+- **Geographic setting:** Located on the **Arabian Sea** at the southern tip of the **Konkan** coast.  
+- **Coordinates:** Approximately **19.08° N latitude**, **72.88° E longitude**.  
+- **Proximity:** About 150 km (≈93 mi) north of the island city of **Alibag** and roughly 600 km (≈373 mi) south‑west of the national capital, New Delhi.  
+
+Mumbai is India’s financial, commercial, and entertainment hub and is the country’s most populous city.",1123.689,0.181,,1123.223,0.0,658,224,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.009, ""text_cleaning"": 0.027, ""data_filtering"": 0.013, ""deduplication"": 0.011, ""tokenization"": 0.101, ""truncation"": 0.013, ""prompt_formatting"": 0.006}"
+2026-11-02T09:26:42.002061+00:00,,20261102-091959,preprocessed,,General Chat,groq_120b,qwen/qwen3.8-27b,Hi?,Hi?,Hello! How can I help you today?,275.205,0.256,,274.627,0.0,653,10,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.009, ""text_cleaning"": 0.026, ""data_filtering"": 0.011, ""deduplication"": 0.013, ""tokenization"": 0.062, ""truncation"": 0.126, ""prompt_formatting"": 0.008}"
+2026-11-02T09:26:49.885708+00:00,,20261102-091959,preprocessed,,General Chat,groq_120b,qwen/qwen3.8-27b,How are you?,How are you?,"I'm doing well, thank you! How are you?",284.704,0.433,,283.981,0.0,655,13,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.04, ""data_filtering"": 0.018, ""deduplication"": 0.026, ""tokenization"": 0.271, ""truncation"": 0.058, ""prompt_formatting"": 0.007}"
+2026-11-02T09:26:59.098501+00:00,,20261102-091959,preprocessed,,General Chat,groq_120b,qwen/qwen3.8-27b,What is python?,What is python?,"**Python** is a high-level, general-purpose programming language known for its simplicity, readability, and versatility.
+
+### Key Features:
+- **Easy to Learn:** Its syntax is clean and intuitive, making it a popular choice for beginners.
+- **Versatile:** Used in web development, data science, artificial intelligence, automation, software testing, and more.
+- **Large Ecosystem:** Has a vast standard library and a huge community with many third-party packages (e.g., NumPy, Pandas, Django, Flask).
+- **Cross-Platform:** Runs on Windows, macOS, Linux, and more.
+- **Interpreted:** Code is executed line-by-line, which simplifies debugging.
+
+### Common Uses:
+- **Web Development:** Frameworks like Django, Flask, and FastAPI.
+- **Data Science & AI:** Libraries like Pandas, NumPy, TensorFlow, and PyTorch.
+- **Automation & Scripting:** Automating repetitive tasks, file management, and system administration.
+- **Software Development:** Prototyping, backend services, and tooling.
+
+### Example:
+```python
+print(""Hello, World!"")
+```
+
+Python was created by **Guido van Rossum** and first released in 1991. It remains one of the most popular programming languages in the world.",818.827,0.398,,818.109,0.0,301,279,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.042, ""data_filtering"": 0.019, ""deduplication"": 0.027, ""tokenization"": 0.166, ""truncation"": 0.123, ""prompt_formatting"": 0.007}"
+2026-11-02T09:27:11.601274+00:00,,20261102-091959,preprocessed,,General Chat,groq_120b,qwen/qwen3.8-27b,Where is Taj Mahal?,Where is Taj Mahal?,"The Taj Mahal is located in **Agra, India**.
+
+Specifically, it stands on the south bank of the Yamuna River in the city of Agra, which is in the northern Indian state of **Uttar Pradesh**. It is a UNESCO World Heritage Site and one of the most famous landmarks in the world.",393.344,0.544,,392.493,0.0,415,68,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.012, ""text_cleaning"": 0.041, ""data_filtering"": 0.019, ""deduplication"": 0.028, ""tokenization"": 0.299, ""truncation"": 0.137, ""prompt_formatting"": 0.007}"
+2026-11-02T09:40:20.622090+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is while loop?,What is while loop?,"The provided documents do not contain a general definition of what a while loop is, though they mention that a `while` loop can be broken out of using the `break` statement and can have an `else` clause that executes when the condition becomes false [1].",14143.473,380.599,48.186,13714.126,0.0,750,54,provider,True,,,"Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 85; Tutorial_EDIT.pdf, page 97; Tutorial_EDIT.pdf, page 120",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.019, ""text_cleaning"": 0.621, ""data_filtering"": 0.031, ""deduplication"": 0.441, ""tokenization"": 378.004, ""truncation"": 1.419, ""prompt_formatting"": 0.065}"
+2026-11-02T09:41:35.359847+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,"Okay , what is for statements?","Okay , what is for statements?",The answer is not in the uploaded documents.,32052.483,3.619,16.533,32031.817,0.0,1115,9,provider,True,,,"Tutorial_EDIT.pdf, page 25; Tutorial_EDIT.pdf, page 3; Tutorial_EDIT.pdf, page 46; Tutorial_EDIT.pdf, page 122",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.039, ""data_filtering"": 0.056, ""deduplication"": 0.386, ""tokenization"": 0.299, ""truncation"": 2.772, ""prompt_formatting"": 0.055}"
+2026-11-02T09:42:00.850243+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,For loop,For loop,"A `for` statement (or loop) is used to loop over container objects, sequences, or iterables in a clear, concise, and convenient style [1, 2, 3]. 
+
+Behind the scenes, the `for` statement calls `iter()` on the container object, which returns an iterator object defining the `__next__()` method to access elements one at a time [2]. The loop terminates when `__next__()` raises a `StopIteration` exception [2], or it can be terminated early using a `break` statement [3]. Additionally, `for` loops can include an `else` clause that is executed when the loop terminates through the exhaustion of the list [3].",15862.291,3.53,9.871,15848.485,0.0,1177,146,provider,True,,,"Tutorial_EDIT.pdf, page 45; Tutorial_EDIT.pdf, page 85; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 3",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.014, ""text_cleaning"": 0.031, ""data_filtering"": 0.013, ""deduplication"": 0.3, ""tokenization"": 0.264, ""truncation"": 2.844, ""prompt_formatting"": 0.063}"
+2026-11-02T09:46:42.135802+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,what is Functios in Python?,what is Functios in Python?,The answer is not in the uploaded documents.,2414.77,3.416,24.977,2385.807,0.0,1021,10,provider,True,,,"Tutorial_EDIT.pdf, page 130; Tutorial_EDIT.pdf, page 120; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 124",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.023, ""text_cleaning"": 0.079, ""data_filtering"": 0.054, ""deduplication"": 0.361, ""tokenization"": 0.521, ""truncation"": 2.319, ""prompt_formatting"": 0.058}"
+2026-11-02T09:46:54.923635+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,Define Function?,Define Function?,A function is a series of statements that returns some value to a caller [3]. It can also be passed zero or more arguments which may be used in the execution of its body [3].,991.208,2.08,11.591,977.154,0.0,934,40,provider,True,,,"Tutorial_EDIT.pdf, page 29; Tutorial_EDIT.pdf, page 78; Tutorial_EDIT.pdf, page 123; Tutorial_EDIT.pdf, page 121",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.019, ""text_cleaning"": 0.052, ""data_filtering"": 0.026, ""deduplication"": 0.199, ""tokenization"": 0.4, ""truncation"": 1.354, ""prompt_formatting"": 0.031}"
+2026-11-02T09:51:58.615539+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,What is Tuples? and Sets?,What is Tuples? and Sets?,"**Tuples**  
+A tuple is an immutable sequence that can hold heterogeneous elements.  
+- It cannot be modified after creation; you cannot assign to individual items.  
+- Elements are accessed by indexing or unpacking.  
+- Empty tuples are created with `()`.  
+- A single‑item tuple requires a trailing comma: `singleton = 'hello',` [1][2].
+
+**Sets**  
+A set is an unordered collection that contains no duplicate elements.  
+- Useful for membership testing and eliminating duplicates.  
+- Supports mathematical operations such as union, intersection, difference, and symmetric difference.  
+- Created with curly braces `{}` or the `set()` constructor; an empty set must be created with `set()`, not `{}` (which creates a dictionary). [4]",1041.683,2.575,21.1,1017.738,0.0,964,207,provider,True,,,"Tutorial_EDIT.pdf, page 42; Tutorial_EDIT.pdf, page 42; Tutorial_EDIT.pdf, page 126; Tutorial_EDIT.pdf, page 43",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.032, ""data_filtering"": 0.037, ""deduplication"": 0.088, ""tokenization"": 0.38, ""truncation"": 1.999, ""prompt_formatting"": 0.026}"
+2026-11-02T09:57:53.982498+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,groq_qwen,openai/gpt-oss-120b,what is if statements? in python,what is if statements? in python,"In Python, an **if statement** is a control‑flow construct that executes a block of code only when a given condition evaluates to true. It can be followed by zero or more `elif` (else‑if) clauses for additional conditions, and an optional `else` clause that runs when none of the previous conditions are true. This structure lets you choose among alternative actions based on runtime values.  
+
+Example from the tutorial:
+
+```python
+if x < 0:
+    x = 0
+    print('Negative changed to zero')
+elif x == 0:
+    print('Zero')
+elif x == 1:
+    print('Single')
+else:
+    print('More')
+```
+
+The `elif` keyword is short for “else if” and helps avoid deep nesting, while the `else` part is optional. [2]",1170.724,2.811,17.188,1150.419,0.0,1116,263,provider,True,,,"Tutorial_EDIT.pdf, page 25; Tutorial_EDIT.pdf, page 25; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 122",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.02, ""text_cleaning"": 0.036, ""data_filtering"": 0.053, ""deduplication"": 0.153, ""tokenization"": 0.51, ""truncation"": 2.007, ""prompt_formatting"": 0.033}"
+2026-11-02T09:58:34.716391+00:00,,20261102-093816,preprocessed,,Ask Uploaded Documents,groq_120b,qwen/qwen3.8-27b,What is break and continue statements?,What is break and continue statements?,"Based on the provided document context:
+
+**Break Statement**
+The `break` statement breaks out of the innermost enclosing `for` or `while` loop [1].
+
+**Continue Statement**
+The provided documents mention `continue` in the context of `try` statements, noting that a `finally` clause is executed when a `try` statement is left via a `break`, `continue`, or `return` statement [2]. However, the specific definition or behavior of the `continue` statement within loops (such as skipping the rest of the current loop iteration) is not explicitly detailed in the provided text.",1998.565,3.314,11.337,1983.495,0.0,1271,128,provider,True,,,"Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 72; Tutorial_EDIT.pdf, page 72; Tutorial_EDIT.pdf, page 85",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.013, ""text_cleaning"": 0.034, ""data_filtering"": 0.04, ""deduplication"": 0.286, ""tokenization"": 0.721, ""truncation"": 2.175, ""prompt_formatting"": 0.045}"
+2026-11-02T17:17:41.950838+00:00,lakshmi,20261102-161607,preprocessed,,General Chat,gemini,gemini-3.5-flash-lite,hi?,hi?,Hello! How can I help you today?,1553.233,252.7,,1300.321,0.0,44,9,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.014, ""text_cleaning"": 0.186, ""data_filtering"": 0.012, ""deduplication"": 0.053, ""tokenization"": 252.404, ""truncation"": 0.023, ""prompt_formatting"": 0.008}"
+2026-11-02T17:18:58.376590+00:00,lakshmi,20261102-161607,preprocessed,,General Chat,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is variables?,What is variables?,,60258.717,10.653,,60247.63,0.0,,,,False,timeout,timeout: Request timed out.,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.019, ""data_filtering"": 0.01, ""deduplication"": 0.012, ""tokenization"": 10.575, ""truncation"": 0.023, ""prompt_formatting"": 0.005}"
+2026-11-02T17:20:04.838372+00:00,lakshmi,20261102-161607,preprocessed,,General Chat,groq,openai/gpt-oss-20b,what is faith?,what is faith?,"**Faith** is a belief or trust in something or someone, often without empirical proof. It can refer to:
+
+1. **Religious faith** – confidence in a deity, spiritual truth, or religious teachings.  
+2. **Secular or general faith** – trust in people, institutions, ideas, or future outcomes.  
+
+In both cases, faith involves a commitment to hold a conviction, even when evidence is incomplete or absent.",863.596,0.463,,862.916,0.0,139,126,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.009, ""text_cleaning"": 0.02, ""data_filtering"": 0.011, ""deduplication"": 0.013, ""tokenization"": 0.197, ""truncation"": 0.205, ""prompt_formatting"": 0.009}"
+2026-11-02T17:22:09.510507+00:00,lakshmi,20261102-161607,preprocessed,,General Chat,groq_120b,openai/gpt-oss-120b,what is documents?,what is documents?,"**Document** (plural **documents**) – a recorded piece of information that can be stored, retrieved, and communicated.  
+
+Typical characteristics:
+
+| Aspect | Description |
+|--------|-------------|
+| **Form** | Paper, digital file, image, audio, video, or any medium that preserves content. |
+| **Content** | Text, graphics, data, or a combination that conveys facts, ideas, instructions, or evidence. |
+| **Purpose** | To inform, prove, record, authorize, or support a transaction or decision. |
+| **Examples** | Contracts, reports, certificates, identification cards, manuals, emails, PDFs, spreadsheets, photographs, legal filings, academic papers, etc. |
+| **Legal relevance** | Many documents serve as official evidence (e.g., deeds, passports, birth certificates). |
+| **Management** | Organized through filing systems, databases, or document‑management software for easy retrieval and preservation. |
+
+In short, a document is any tangible or electronic artifact that captures and conveys information for reference, communication, or legal proof.",1295.971,0.465,,1295.352,0.0,241,259,provider,True,,,,,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.017, ""text_cleaning"": 0.025, ""data_filtering"": 0.027, ""deduplication"": 0.015, ""tokenization"": 0.306, ""truncation"": 0.07, ""prompt_formatting"": 0.004}"
+2026-11-02T17:25:44.224193+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is python?,What is python?,"Based on the provided documents, Python is an easy-to-learn, powerful programming language [3]. It features efficient high-level data structures, a simple and effective approach to object-oriented programming, elegant syntax, and dynamic typing [3]. It is an interpreted language, allowing source files to be run directly without explicitly creating an executable first [2], and it makes an ideal language for scripting and rapid application development [3].",1553.567,1.873,6.259,1545.138,0.0,1099,87,provider,True,,,"Tutorial_EDIT.pdf, page 9; Tutorial_EDIT.pdf, page 124; Tutorial_EDIT.pdf, page 7; Tutorial_EDIT.pdf, page 128",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.014, ""text_cleaning"": 0.032, ""data_filtering"": 0.014, ""deduplication"": 0.101, ""tokenization"": 0.259, ""truncation"": 1.419, ""prompt_formatting"": 0.035}"
+2026-11-02T17:26:09.240059+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,gemini,gemini-3.5-flash-lite,What is For techniques?,What is For techniques?,The answer is not in the uploaded documents.,1303.441,1.708,8.798,1292.592,0.0,1468,9,provider,True,,,"Tutorial_EDIT.pdf, page 130; Tutorial_EDIT.pdf, page 3; Tutorial_EDIT.pdf, page 126; Tutorial_EDIT.pdf, page 93",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.021, ""data_filtering"": 0.039, ""deduplication"": 0.244, ""tokenization"": 0.162, ""truncation"": 1.203, ""prompt_formatting"": 0.032}"
+2026-11-02T17:27:21.175602+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,nvidia,nvidia/nemotron-3.5-bolt-e4b,What is for loop?,What is for loop?,,60294.705,1.9,10.955,60281.39,0.0,,,,False,timeout,timeout: Request timed out.,"Tutorial_EDIT.pdf, page 85; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 45; Tutorial_EDIT.pdf, page 120",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.011, ""text_cleaning"": 0.031, ""data_filtering"": 0.016, ""deduplication"": 0.138, ""tokenization"": 0.186, ""truncation"": 1.467, ""prompt_formatting"": 0.051}"
+2026-11-02T17:28:04.952251+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,groq,openai/gpt-oss-20b,what is if statements?,what is if statements?,"In Python, an **if statement** is a control‑flow statement that evaluates a Boolean expression and executes a block of code only when that expression is true. It can optionally include `elif` (else‑if) and `else` clauses to handle alternative conditions. Unlike expressions, an `if` statement is a *statement* and cannot be used inside an expression. This is noted in the tutorial: “There are also statements which cannot be used as expressions, such as if”【4】.",1019.89,1.569,8.711,1009.361,0.0,1277,277,provider,True,,,"Tutorial_EDIT.pdf, page 25; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 46; Tutorial_EDIT.pdf, page 122",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.018, ""data_filtering"": 0.021, ""deduplication"": 0.125, ""tokenization"": 0.173, ""truncation"": 1.199, ""prompt_formatting"": 0.025}"
+2026-11-02T17:28:38.482043+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,groq_qwen,qwen/qwen3.8-27b,what is packages?,what is packages?,"Based on the provided documents, a **package** is a way to organize Python modules. Key characteristics include:
+
+*   **Structure:** Packages contain submodules and can be extended to include more modules [3].
+*   **Initialization:** They typically use an `__init__.py` file for initialization code [4].
+*   **Namespace Packages:** A specific type of package (PEP 420) serves only as a container for subpackages. Unlike regular packages, namespace packages have no `__init__.py` file and may have no physical representation [1].
+*   **Importing:** The `__all__` variable in a package's `__init__.py` file can define which submodules are imported when using `from package import *`. If `__all__` is not defined, `from package import *` only ensures the package is imported (running initialization code) and imports names defined directly in the package, not necessarily all submodules [4].",1028.02,1.29,7.417,1019.086,0.0,985,204,provider,True,,,"Tutorial_EDIT.pdf, page 127; Tutorial_EDIT.pdf, page 49; Tutorial_EDIT.pdf, page 57; Tutorial_EDIT.pdf, page 56",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.009, ""text_cleaning"": 0.024, ""data_filtering"": 0.011, ""deduplication"": 0.102, ""tokenization"": 0.172, ""truncation"": 0.946, ""prompt_formatting"": 0.026}"
+2026-11-02T17:28:58.313395+00:00,lakshmi,20261102-161607,preprocessed,,Ask Uploaded Documents,groq_120b,openai/gpt-oss-120b,what is loops?,what is loops?,"Loops are control‑flow statements that repeatedly execute a block of code. Python provides two main kinds of loops:
+
+* **`for` loops** – iterate over any iterable object (lists, tuples, dictionaries, strings, files, etc.). Internally the `for` statement calls `iter()` on the object and repeatedly invokes the iterator’s `__next__()` method until a `StopIteration` exception ends the loop【4】.  
+* **`while` loops** – repeat as long as a Boolean condition remains true.
+
+Loops can also include `break` and `continue` statements to exit the loop early or skip to the next iteration, and they may have an optional `else` clause that runs only when the loop finishes normally (i.e., not via `break`)【2】.",1384.337,1.537,8.393,1374.151,0.0,1464,253,provider,True,,,"Tutorial_EDIT.pdf, page 97; Tutorial_EDIT.pdf, page 27; Tutorial_EDIT.pdf, page 3; Tutorial_EDIT.pdf, page 85",fastembed:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"{""text_cleaning"": true, ""normalization"": true, ""tokenization"": true, ""data_filtering"": true, ""deduplication"": true, ""prompt_formatting"": true, ""truncation"": true, ""chunking"": true, ""padding"": false}","{""normalization"": 0.008, ""text_cleaning"": 0.023, ""data_filtering"": 0.01, ""deduplication"": 0.092, ""tokenization"": 0.081, ""truncation"": 1.298, ""prompt_formatting"": 0.024}"

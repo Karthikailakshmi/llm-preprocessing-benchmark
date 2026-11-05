@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+compenv/
+
+__pycache__/
+*.pyc
+
+evaluation/results/*.csv
+evaluation/results/*.jsonl
+
+.DS_Store
+
+# Local database
+users.db

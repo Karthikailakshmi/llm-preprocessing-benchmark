@@ -1,0 +1,27 @@
+id,category,question,expected_answer,document_ref,language,repeat_group,notes
+G01,general,What is the capital of Australia?,Canberra,,en,,
+G02,general,Who wrote the novel Pride and Prejudice?,Jane Austen,,en,,
+G03,general,What is the chemical symbol for sodium?,Na,,en,,
+G04,general,"At sea level, at what temperature in degrees Celsius does water boil?",100,,en,,
+R01,reasoning,A train travels 60 km in 45 minutes. What is its average speed in km/h?,80 km/h,,en,,
+R02,reasoning,All bloops are razzies and all razzies are lazzies. Are all bloops lazzies?,Yes,,en,,
+R03,reasoning,"I have 3 apples, eat 1, buy 5 more and give away 2. How many apples do I have?",5,,en,,
+C01,coding,Write a Python expression or function that reverses a string s.,s[::-1] (or ''.join(reversed(s))),,en,,
+C02,coding,What is the time complexity of binary search on a sorted array of n items?,O(log n),,en,,
+C03,coding,Write a SQL query that counts the rows in a table named users.,SELECT COUNT(*) FROM users;,,en,,
+S01,short,Define photosynthesis in one sentence.,"Process by which plants, algae and some bacteria use light to make sugars from carbon dioxide and water, releasing oxygen.",,en,,rubric-based
+L01,long,"I am planning a science project for my class and I have been reading many different things about temperature scales, thermometers, laboratory safety, and the history of measurement, which has been really interesting but also a little confusing because there are so many units. My teacher said that I should memorise a few reference points, and I already know that water boils at a certain temperature. To finish my notes, what is the freezing point of water in degrees Fahrenheit?",32,,en,,long input; answer is at the end
+N01,noisy,wat  is teh  capitl of   frnace??,Paris,,en,,typos and spacing
+N02,noisy,whos   the   auther of   Hamlet,William Shakespeare,,en,,typos and spacing
+N03,noisy,  how   many   days in   a   leap year   ,366,,en,,spacing
+M01,multilingual,¿Cuál es la capital de Japón?,Tokio / Tokyo,,es,,
+M02,multilingual,भारत की राजधानी क्या है?,नई दिल्ली (New Delhi),,hi,,
+M03,multilingual,தமிழ்நாட்டின் தலைநகரம் எது?,சென்னை (Chennai),,ta,,
+K01,consistency,What is 17 multiplied by 6?,102,,en,RG01,run at least 3 trials
+D01,document,How many days per week may employees work remotely?,3 days per week,northwind_handbook.txt,en,,
+D02,document,How many days of paid annual leave do full-time employees get?,24 days,northwind_handbook.txt,en,,
+D03,document,Within how many days must expense claims be submitted?,30 days,northwind_handbook.txt,en,,
+D04,document,What are the IT support hours?,"Monday to Friday, 09:00 to 17:00 IST",northwind_handbook.txt,en,,
+D05,document,What is the minimum password length?,14 characters,northwind_handbook.txt,en,,
+U01,document_unanswerable,What is the CEO's annual salary?,Not stated in the document,northwind_handbook.txt,en,,answer is absent
+U02,document_unanswerable,In which city is the Northwind Labs headquarters located?,Not stated in the document,northwind_handbook.txt,en,,answer is absent

@@ -1,0 +1,824 @@
+[
+  {
+    "role": "user",
+    "content": "Hi?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Hi?",
+      "techniques": {},
+      "processed": "Hi?",
+      "total_ms": 2892.88050000323,
+      "pre_ms": 0,
+      "api_ms": 2892.7656000014395,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 40,
+      "out_tok": 9,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is a popular, high-level programming language known for its simplicity and readability. \n\nHere are a few key things about it:\n* **Easy to Learn:** Its syntax (the way it is written) closely resembles plain English, making it great for beginners.\n* **Versatile:** It is used in web development, data science, artificial intelligence (AI), machine learning, automation, and software testing.\n* **Interpreted:** You don't need to \"compile\" your code before running it; the Python interpreter executes it line by line.\n* **Large Community:** It has a massive community of developers, meaning there are countless libraries, tools, and tutorials available.\n\nWould you like to know how to write a simple Python program?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 1514.7378999972716,
+      "pre_ms": 0,
+      "api_ms": 1514.6330000134185,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 55,
+      "out_tok": 156,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Where is Taj Mahal?"
+  },
+  {
+    "role": "assistant",
+    "content": "The Taj Mahal is located in **Agra**, in the state of **Uttar Pradesh, India**. It sits on the right bank of the Yamuna River.",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Where is Taj Mahal?",
+      "techniques": {},
+      "processed": "Where is Taj Mahal?",
+      "total_ms": 1077.0272000227123,
+      "pre_ms": 0,
+      "api_ms": 1076.8457999802195,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 218,
+      "out_tok": 32,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "HI?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How can I assist you today? 😊",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "HI?",
+      "techniques": {},
+      "processed": "HI?",
+      "total_ms": 1179.7712000552565,
+      "pre_ms": 0,
+      "api_ms": 1179.6232999768108,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 291,
+      "out_tok": 11,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Java?"
+  },
+  {
+    "role": "assistant",
+    "content": "Java is a high-level, class-based, object-oriented programming language. It is very popular for building large-scale, robust applications.\n\nHere are its key characteristics:\n\n* **\"Write Once, Run Anywhere\" (WORA):** This is Java's most famous feature. Java code is compiled into **bytecode**, which can then run on any device that has a **Java Virtual Machine (JVM)** installed, regardless of the underlying operating system (Windows, macOS, Linux, etc.).\n* **Object-Oriented:** It organizes code around \"objects\" rather than just functions, promoting modularity and reusability.\n* **Platform Independent:** Due to the JVM, it achieves platform independence.\n* **Used For:** Enterprise-level backend systems, Android mobile app development (though Kotlin is gaining ground), big data applications, and web applications.\n\nIn short, while Python is often praised for simplicity, Java is known for its **stability, performance, and massive use in large, enterprise-level systems.**\n\nDo you want to compare Java to Python, or learn about a specific use case for Java?",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is Java?",
+      "techniques": {},
+      "processed": "What is Java?",
+      "total_ms": 4976.695100020152,
+      "pre_ms": 0,
+      "api_ms": 4976.530999992974,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 294,
+      "out_tok": 232,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Where is Kasi?"
+  },
+  {
+    "role": "assistant",
+    "content": "\"Kasi\" can refer to a few different places, as it might be a local name or a shortened form.\n\nCould you please provide a little more context? For example:\n\n1. **Are you referring to a city, town, or neighborhood?**\n2. **Do you know which country or region it is in?**\n3. **Is it related to a specific context (e.g., a movie, a business)?**\n\nIf you can give me more details, I can give you an accurate location!",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "Where is Kasi?",
+      "techniques": {},
+      "processed": "Where is Kasi?",
+      "total_ms": 2075.5852999864146,
+      "pre_ms": 0,
+      "api_ms": 2075.424699985888,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 370,
+      "out_tok": 111,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Where is Tiruchendur?"
+  },
+  {
+    "role": "assistant",
+    "content": "Tiruchendur is a town located in the **Tamil Nadu** state of **India**.\n\nIt is particularly famous for the **Tiruchendur Murugan Temple**, which is a very important Hindu pilgrimage site dedicated to Lord Murugan.\n\nIf you need directions, information about travel to Tiruchendur, or details about the temple, please let me know!",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "Where is Tiruchendur?",
+      "techniques": {},
+      "processed": "Where is Tiruchendur?",
+      "total_ms": 1809.7546999924816,
+      "pre_ms": 0,
+      "api_ms": 1809.5762000302784,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 450,
+      "out_tok": 78,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hello?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "Hello?",
+      "techniques": {},
+      "processed": "Hello?",
+      "total_ms": 928.4509000135586,
+      "pre_ms": 0,
+      "api_ms": 928.264299989678,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 553,
+      "out_tok": 47,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is variables?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Variables** are symbols (names) that stand for values in a program or mathematical expression.  \n- In **programming**, a variable holds data that can change during execution.  \n  - Example: `int age = 25;` – `age` is a variable that currently stores the number 25.  \n- In **mathematics**, a variable represents an unknown or a value that can vary.  \n  - Example: In the equation `x + 5 = 10`, `x` is a variable that can take on different values.\n\nIn both cases, the variable name lets you refer to the stored value, and you can read, modify, or use it in calculations.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "What is variables?",
+      "techniques": {},
+      "processed": "What is variables?",
+      "total_ms": 976.7673999886028,
+      "pre_ms": 0,
+      "api_ms": 976.6546000028029,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 341,
+      "out_tok": 176,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Where is Delhi?"
+  },
+  {
+    "role": "assistant",
+    "content": "Delhi is the capital city of India, located in the northern part of the country. It sits on the banks of the Yamuna River and is surrounded by the state of Haryana and the National Capital Territory of Delhi itself.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "Where is Delhi?",
+      "techniques": {},
+      "processed": "Where is Delhi?",
+      "total_ms": 794.2278999835253,
+      "pre_ms": 0,
+      "api_ms": 793.9243000000715,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 380,
+      "out_tok": 69,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "Hi?",
+      "techniques": {},
+      "processed": "Hi?",
+      "total_ms": 511.2193000386469,
+      "pre_ms": 0,
+      "api_ms": 511.0982999904081,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 307,
+      "out_tok": 10,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is C?"
+  },
+  {
+    "role": "assistant",
+    "content": "**C** is a high-level, general-purpose, imperative programming language that was first developed in 1972 by **Dennis Ritchie** at Bell Labs.\n\nHere are the key characteristics of C:\n\n1.  **System Programming**: It is widely used for writing operating systems (like Unix and Linux), device drivers, and embedded systems because it allows direct memory manipulation and close-to-hardware control.\n2.  **Performance**: C programs are compiled into machine code, making them very fast and efficient.\n3.  **Portability**: C code can be compiled on many different platforms with little or no modification.\n4.  **Foundation**: Many other popular programming languages (such as C++, Java, Python, and JavaScript) were influenced by or derived from C.\n\n**Example of a simple C program:**\n```c\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}\n```\n\nIn summary, C is a foundational language in computer science known for its power, speed, and flexibility.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is C?",
+      "techniques": {},
+      "processed": "What is C?",
+      "total_ms": 957.3940000263974,
+      "pre_ms": 0,
+      "api_ms": 957.2463999502361,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 309,
+      "out_tok": 228,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "where ooty?"
+  },
+  {
+    "role": "assistant",
+    "content": "Ooty (officially known as **Udhagamandalam**) is a hill station located in the **Nilgiri Hills** in the southern Indian state of **Tamil Nadu**.\n\nIt is situated in the **Nilgiris district** and is famous for its cool climate, tea plantations, and scenic beauty. Ooty is a popular tourist destination, known for attractions like the Ooty Lake, Botanical Gardens, and the Nilgiri Mountain Railway.",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "where ooty?",
+      "techniques": {},
+      "processed": "where ooty?",
+      "total_ms": 657.5795000535436,
+      "pre_ms": 0,
+      "api_ms": 657.4024999863468,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 392,
+      "out_tok": 96,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hello?"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I assist you today?",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "Hello?",
+      "techniques": {},
+      "processed": "Hello?",
+      "total_ms": 690.1509999879636,
+      "pre_ms": 0,
+      "api_ms": 689.9990999954753,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 471,
+      "out_tok": 34,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Python?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Python** is a high‑level, interpreted programming language known for its readability and simplicity. It was created by **Guido van Rossum** and first released in 1991.\n\n### Key Features\n| Feature | Description |\n|---------|-------------|\n| **Readable syntax** | Uses indentation to define code blocks, making programs easy to read and write. |\n| **Interpreted** | Code is executed line‑by‑line by the Python interpreter; no separate compilation step is required. |\n| **Dynamically typed** | Variable types are determined at runtime, so you don’t need to declare them explicitly. |\n| **Extensive standard library** | Includes modules for file I/O, networking, web services, data handling, and more. |\n| **Cross‑platform** | Runs on Windows, macOS, Linux, and many other operating systems without modification. |\n| **Large ecosystem** | Thousands of third‑party packages (via PyPI) for web development, data science, machine learning, automation, etc. |\n| **Multi‑paradigm** | Supports procedural, object‑oriented, and functional programming styles. |\n\n### Common Uses\n- **Web development** (Django, Flask)\n- **Data analysis & scientific computing** (pandas, NumPy, SciPy)\n- **Machine learning & AI** (TensorFlow, PyTorch, scikit‑learn)\n- **Automation & scripting**\n- **Desktop GUI applications** (Tkinter, PyQt)\n- **Embedded systems** (MicroPython, CircuitPython)\n\n### Simple Example\n```python\n# Print the first 10 Fibonacci numbers\ndef fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a, end=' ')\n        a, b = b, a + b\n\nfibonacci(10)   # Output: 0 1 1 2 3 5 8 13 21 34\n```\n\nIn short, Python’s combination of clear syntax, powerful libraries, and community support makes it a popular choice for beginners and experienced developers alike.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is Python?",
+      "techniques": {},
+      "processed": "What is Python?",
+      "total_ms": 1499.7911000391468,
+      "pre_ms": 0,
+      "api_ms": 1499.685499991756,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 473,
+      "out_tok": 479,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "where is Mumbai?"
+  },
+  {
+    "role": "assistant",
+    "content": "Mumbai is a major city on the **west coast of India**.  \n\n- **State:** Maharashtra (the state’s capital)  \n- **Geographic setting:** It lies on a natural deep‑water harbor on the **Arabian Sea**, spread across a group of islands that have been merged by land reclamation.  \n- **Coordinates:** Approximately **19.07° N latitude, 72.88° E longitude**.  \n\nSo, if you look at a map of India, find the long, narrow peninsula jutting into the Arabian Sea on the western side—Mumbai is located there.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "where is Mumbai?",
+      "techniques": {},
+      "processed": "where is Mumbai?",
+      "total_ms": 1082.618500047829,
+      "pre_ms": 0,
+      "api_ms": 1082.5138000072911,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 689,
+      "out_tok": 184,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy-to-learn, powerful programming language [1]. It has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax, dynamic typing, and interpreted nature make it an ideal language for scripting and rapid application development in many areas on most platforms [1].",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 1933.453100034967,
+      "pre_ms": 0,
+      "api_ms": 1913.3596000028774,
+      "retrieval_ms": 19.882199994754046,
+      "wait_ms": 0.0,
+      "in_tok": 1369,
+      "out_tok": 67,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms.\nThe Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new fun"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6902658939361572,
+          "text": "Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new functions and data types implemented in C or C++\n(or other languages callable from C). Python is also suitable as an extension language for customizable\napplications.\nThis tutorial introduces the reader informally to the basic concepts and features of the Python language\nand system. It helps to have a Python interpreter handy for hands-on experience, but all examples are\nself-contained, so the tutorial can be read oﬀ-line as well.\nFor a description of standard objects and modules, see library-index. reference-index gives a more formal\ndeﬁnition of the language. To write extensions in C or C++, read extending-index and c-api-index. There\nare also several books covering Python"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.6850104331970215,
+          "text": "d see their results. Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)).\n\ninterpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically\n\n118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.6801798343658447,
+          "text": "your programs — or as\nexamples to start learning to program in Python. Some of these modules provide things like ﬁle I/O, system\ncalls, sockets, and even interfaces to graphical user interface toolkits like Tk.\nPython is an interpreted language, which can save you considerable time during program development\nbecause no compilation and linking is necessary. The interpreter can be used interactively, which makes it\neasy to experiment with features of the language, to write throw-away programs, or to test functions during\nbottom-up program development. It is also a handy desk calculator.\nPython enables programs to be written compactly and readably. Programs written in Python are typically\nmuch shorter than equivalent C, C++, or Java programs, for several reasons:\n• the high-level data types"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is for loop?"
+  },
+  {
+    "role": "assistant",
+    "content": "timeout: Request timed out.",
+    "error": true,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "what is for loop?",
+      "techniques": {},
+      "processed": "what is for loop?",
+      "total_ms": 60202.44439999806,
+      "pre_ms": 0,
+      "api_ms": 60194.165399996564,
+      "retrieval_ms": 7.8381000203080475,
+      "wait_ms": 0.0,
+      "in_tok": null,
+      "out_tok": null,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 85",
+          "score": 0.5512791872024536,
+          "text": "most container objects can be looped over using a for statement:\n\nfor element in [1, 2, 3]:\n print(element)\nfor element in (1, 2, 3):\n print(element)\nfor key in {'one':1, 'two':2}:\n print(key)\nfor char in \"123\":\n print(char)\nfor line in open(\"myfile.txt\"):\n print(line, end='')\n\nThis style of access is clear, concise, and convenient. The use of iterators pervades and uniﬁes Python.\nBehind the scenes, the for statement calls iter() on the container object. The function returns an iterator\nobject that deﬁnes the method __next__() which accesses elements in the container one at a time. When\nthere are no more elements, __next__() raises a StopIteration exception which tells the for loop to\nterminate. You can call the __next__() method using the next() built-in function; this example shows how\ni"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.5477281808853149,
+          "text": "ll see more functions that return iterables and take iterables as argument.\n\n4.4 break and continue Statements, and else Clauses on Loops\n\nThe break statement, like in C, breaks out of the innermost enclosing for or while loop.\n\nLoop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers:\n\n>>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n...\n2 is a prime number\n3 is a prime number\n4 equal"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 120",
+          "score": 0.535783588886261,
+          "text": "t looks like a\n coroutine function deﬁned with async def except that it contains yield expressions for producing a\n series of values usable in an async for loop.\n\n Usually refers to a asynchronous generator function, but may refer to an asynchronous generator\n iterator in some contexts. In cases where the intended meaning isn’t clear, using the full terms avoids\n ambiguity.\n\n An asynchronous generator function may contain await expressions as well as async for, and async\n with statements.\n\nasynchronous generator iterator An object created by a asynchronous generator function.\n\n This is an asynchronous iterator which when called using the __anext__() method returns an awaitable\n object which will execute that the body of the asynchronous generator function until the next yield\n expression."
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.523923933506012,
+          "text": "d from C, continues with the next iteration of the loop:\n\n>>> for num in range(2, 10):\n... if num % 2 == 0:\n... print(\"Found an even number\", num)\n... continue\n... print(\"Found a number\", num)\nFound an even number 2\n\n (continues on next page)\n\n4.4. break and continue Statements, and else Clauses on Loops 21"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is Pass statement?"
+  },
+  {
+    "role": "assistant",
+    "content": "The answer is not in the uploaded documents.",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is Pass statement?",
+      "techniques": {},
+      "processed": "what is Pass statement?",
+      "total_ms": 917.5389999873005,
+      "pre_ms": 0,
+      "api_ms": 911.4170999964699,
+      "retrieval_ms": 5.922599986661226,
+      "wait_ms": 0.0,
+      "in_tok": 1403,
+      "out_tok": 98,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 123",
+          "score": 0.43385049700737,
+          "text": "nction A series of statements which returns some value to a caller. It can also be passed zero or more\n arguments which may be used in the execution of the body. See also parameter, method, and the\n function section.\n\nfunction annotation An annotation of a function parameter or return value.\n\n Function annotations are usually used for type hints: for example this function is expected to take two\n int arguments and is also expected to have an int return value:\n\n def sum_two_numbers(a: int, b: int) -> int:\n return a + b\n\n Function annotation syntax is explained in section function.\n\n See variable annotation and PEP 484, which describe this functionality.\n\n__future__ A pseudo-module which programmers can use to enable new language features which are\n not compatible with the current interprete"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 29",
+          "score": 0.39839422702789307,
+          "text": "lso returns None.\n\n • The statement result.append(a) calls a method of the list object result. A method is a function\n that ‘belongs’ to an object and is named obj.methodname, where obj is some object (this may be an\n\n 1 Actually, call by object reference would be a better description, since if a mutable object is passed, the caller will see any\nchanges the callee makes to it (items inserted into a list).\n\n4.6. Deﬁning Functions 23"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 71",
+          "score": 0.35921722650527954,
+          "text": "ttempts a state transition that's not\n allowed.\n\n Attributes:\n previous -- state at beginning of transition\n next -- attempted new state\n message -- explanation of why the specific transition is not allowed\n \"\"\"\n\n def __init__(self, previous, next, message):\n self.previous = previous\n self.next = next\n self.message = message\n\nMost exceptions are deﬁned with names that end in “Error,” similar to the naming of the standard exceptions.\n\nMany standard modules deﬁne their own exceptions to report errors that may occur in functions they deﬁne.\nMore information on classes is presented in chapter Classes.\n\n8.5. User-deﬁned Exceptions 65"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 41",
+          "score": 0.3575983941555023,
+          "text": "del statement can also be used to remove slices\nfrom a list or clear the entire list (which we did earlier by assignment of an empty list to the slice). For\nexample:\n\n>>> a = [-1, 1, 66.25, 333, 333, 1234.5]\n>>> del a[0]\n>>> a\n[1, 66.25, 333, 333, 1234.5]\n>>> del a[2:4]\n>>> a\n[1, 66.25, 1234.5]\n>>> del a[:]\n\n (continues on next page)\n\n5.2. The del statement 35"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is if statement?"
+  },
+  {
+    "role": "assistant",
+    "content": "In Python, an **if statement** is a conditional construct that evaluates a Boolean expression and executes the indented block that follows it only when that expression is true. It can be followed by optional `elif` (else‑if) and `else` clauses to handle other cases.  \n\nExample from the tutorial:  \n\n```python\nfor n in range(2, 10):\n    for x in range(2, n):\n        if n % x == 0:          # <‑‑ if statement\n            print(n, 'equals', x, '*', n//x)\n            break\n        else:\n            print(n, 'is a prime number')\n```\n\nHere, the `if n % x == 0:` line tests whether `n` is divisible by `x`; if the condition is true, the block under it runs. If the condition is false, the `else` block runs instead.  \n\n[2] (Tutorial_EDIT.pdf, page 27)",
+    "error": false,
+    "meta": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-20b",
+      "original": "what is if statement?",
+      "techniques": {},
+      "processed": "what is if statement?",
+      "total_ms": 1300.359999993816,
+      "pre_ms": 0,
+      "api_ms": 1294.1647000261582,
+      "retrieval_ms": 6.04790000943467,
+      "wait_ms": 0.0,
+      "in_tok": 1229,
+      "out_tok": 449,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 25",
+          "score": 0.6526474952697754,
+          "text": "n. An if … elif … elif … sequence is a substitute for the\nswitch or case statements found in other languages.\n\n4.2 for Statements\n\nThe for statement in Python diﬀers a bit from what you may be used to in C or Pascal. Rather than always\niterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to deﬁne\nboth the iteration step and halting condition (as C), Python’s for statement iterates over the items of any\nsequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended):\n\n>>> # Measure some strings:\n... words = ['cat', 'window', 'defenestrate']\n>>> for w in words:\n... print(w, len(w))\n...\ncat 3\nwindow 6\ndefenestrate 12\n\n 19"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 27",
+          "score": 0.5017939805984497,
+          "text": "ll see more functions that return iterables and take iterables as argument.\n\n4.4 break and continue Statements, and else Clauses on Loops\n\nThe break statement, like in C, breaks out of the innermost enclosing for or while loop.\n\nLoop statements may have an else clause; it is executed when the loop terminates through exhaustion of\nthe list (with for) or when the condition becomes false (with while), but not when the loop is terminated\nby a break statement. This is exempliﬁed by the following loop, which searches for prime numbers:\n\n>>> for n in range(2, 10):\n... for x in range(2, n):\n... if n % x == 0:\n... print(n, 'equals', x, '*', n//x)\n... break\n... else:\n... # loop fell through without finding a factor\n... print(n, 'is a prime number')\n...\n2 is a prime number\n3 is a prime number\n4 equal"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 72",
+          "score": 0.47294679284095764,
+          "text": "the finally clause has been executed. The\nfinally clause is also executed “on the way out” when any other clause of the try statement is left via a\nbreak, continue or return statement. A more complicated example:\n\n>>> def divide(x, y):\n... try:\n... result = x / y\n... except ZeroDivisionError:\n... print(\"division by zero!\")\n... else:\n... print(\"result is\", result)\n... finally:\n... print(\"executing finally clause\")\n...\n>>> divide(2, 1)\nresult is 2.0\nexecuting finally clause\n>>> divide(2, 0)\ndivision by zero!\nexecuting finally clause\n>>> divide(\"2\", \"1\")\nexecuting finally clause\nTraceback (most recent call last):\n File \"<stdin>\", line 1, in <module>\n File \"<stdin>\", line 3, in divide\nTypeError: unsupported operand type(s) for /: 'str' and 'str'\n\nAs you can see, the finally clause is executed"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 22",
+          "score": 0.4717574119567871,
+          "text": "values\n 0 and 1. On the last line this is used again, demonstrating that the expressions on the right-hand side\n are all evaluated ﬁrst before any of the assignments take place. The right-hand side expressions are\n evaluated from the left to the right.\n\n • The while loop executes as long as the condition (here: a < 10) remains true. In Python, like in C,\n any non-zero integer value is true; zero is false. The condition may also be a string or list value, in\n fact any sequence; anything with a non-zero length is true, empty sequences are false. The test used\n in the example is a simple comparison. The standard comparison operators are written the same as in\n C: < (less than), > (greater than), == (equal to), <= (less than or equal to), >= (greater than or equal\n to) and != (not equal to)."
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is Exceptions?"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the provided documents, **Exceptions** are errors that occur during the execution of a program. Key characteristics include:\n\n*   **Types and Messages:** Exceptions come in different types (e.g., `ZeroDivisionError`, `NameError`, `TypeError`), and the type name is printed as part of the error message [3]. The message also includes a stack traceback showing the context where the exception happened [3], [4].\n*   **Arguments:** An exception may have an associated value known as the exception’s argument. The presence and type of this argument depend on the specific exception type [1].\n*   **Handling:** Programs can handle selected exceptions using `try...except` statements. The `except` clause can bind a variable to the exception instance, allowing access to its arguments via the `.args` attribute or by printing the instance directly [1].\n*   **User-Defined Exceptions:** Developers can create custom exception classes by subclassing the built-in `Exception` class or a module-specific base class to handle distinct error conditions [2].\n*   **Interruptions:** User-generated interruptions, such as pressing Control-C, are signaled by raising the `KeyboardInterrupt` exception [4].",
+    "error": false,
+    "meta": {
+      "provider": "groq_qwen",
+      "model": "qwen/qwen3.8-27b",
+      "original": "What is Exceptions?",
+      "techniques": {},
+      "processed": "What is Exceptions?",
+      "total_ms": 911.7764999973588,
+      "pre_ms": 0,
+      "api_ms": 904.544299992267,
+      "retrieval_ms": 7.020600023679435,
+      "wait_ms": 0.0,
+      "in_tok": 1150,
+      "out_tok": 250,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 69",
+          "score": 0.6262962818145752,
+          "text": "dditional code to the try clause because it avoids acciden-\ntally catching an exception that wasn’t raised by the code being protected by the try … except statement.\n\nWhen an exception occurs, it may have an associated value, also known as the exception’s argument. The\npresence and type of the argument depend on the exception type.\n\nThe except clause may specify a variable after the exception name. The variable is bound to an exception\ninstance with the arguments stored in instance.args. For convenience, the exception instance deﬁnes\n__str__() so the arguments can be printed directly without having to reference .args. One may also\n\n8.3. Handling Exceptions 63"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 71",
+          "score": 0.5493046045303345,
+          "text": "lers for\nthe exception. When creating a module that can raise several distinct errors, a common practice is to create\na base class for exceptions deﬁned by that module, and subclass that to create speciﬁc exception classes for\ndiﬀerent error conditions:\n\nclass Error(Exception):\n \"\"\"Base class for exceptions in this module.\"\"\"\n pass\n\nclass InputError(Error):\n \"\"\"Exception raised for errors in the input.\n\n Attributes:\n expression -- input expression in which the error occurred\n message -- explanation of the error\n \"\"\"\n\n def __init__(self, expression, message):\n self.expression = expression\n self.message = message\n\nclass TransitionError(Error):\n \"\"\"Raised when an operation attempts a state transition that's not\n allowed.\n\n Attributes:\n previous -- state at beginning of transition\n next -- att"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 68",
+          "score": 0.5227011442184448,
+          "text": "Python Tutorial, Release 3.7.0\n\nThe last line of the error message indicates what happened. Exceptions come in diﬀerent types, and the\ntype is printed as part of the message: the types in the example are ZeroDivisionError, NameError and\nTypeError. The string printed as the exception type is the name of the built-in exception that occurred.\nThis is true for all built-in exceptions, but need not be true for user-deﬁned exceptions (although it is a\nuseful convention). Standard exception names are built-in identiﬁers (not reserved keywords).\n\nThe rest of the line provides detail based on the type of exception and what caused it.\n\nThe preceding part of the error message shows the context where the exception happened, in the form of\na stack traceback. In general it contains a stack traceback lis"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 68",
+          "score": 0.5207267999649048,
+          "text": "the context where the exception happened, in the form of\na stack traceback. In general it contains a stack traceback listing source lines; however, it will not display\nlines read from standard input.\n\nbltin-exceptions lists the built-in exceptions and their meanings.\n\n8.3 Handling Exceptions\n\nIt is possible to write programs that handle selected exceptions. Look at the following example, which asks\nthe user for input until a valid integer has been entered, but allows the user to interrupt the program (using\nControl-C or whatever the operating system supports); note that a user-generated interruption is signalled\nby raising the KeyboardInterrupt exception.\n\n>>> while True:\n... try:\n... x = int(input(\"Please enter a number: \"))\n... break\n... except ValueError:\n... print(\"Oops! That was no va"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is set and tuples?"
+  },
+  {
+    "role": "assistant",
+    "content": "**Set**  \nA set is an unordered collection that cannot contain duplicate elements. It is useful for fast membership testing and for removing duplicate entries. Sets support mathematical operations such as union, intersection, difference, and symmetric difference. Sets are created with curly braces `{}` or with the `set()` function (the latter is required for an empty set, because `{}` creates an empty dictionary)【1†L1-L7】.\n\n**Tuple**  \nA tuple is an immutable sequence of elements, often heterogeneous, that can be accessed by indexing, unpacking, or (for namedtuples) by attribute. Because tuples cannot be modified after creation, they are useful for fixed collections of values. Empty tuples are written as `()`, and a one‑item tuple requires a trailing comma, e.g., `'hello',`【2†L1-L6】【3†L1-L5】.",
+    "error": false,
+    "meta": {
+      "provider": "groq_120b",
+      "model": "openai/gpt-oss-120b",
+      "original": "What is set and tuples?",
+      "techniques": {},
+      "processed": "What is set and tuples?",
+      "total_ms": 1545.4271000344306,
+      "pre_ms": 0,
+      "api_ms": 1528.9528999710456,
+      "retrieval_ms": 16.258199990261346,
+      "wait_ms": 0.0,
+      "in_tok": 1270,
+      "out_tok": 264,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 43",
+          "score": 0.5704327821731567,
+          "text": "includes a data type for sets. A set is an unordered collection with no duplicate elements. Basic\nuses include membership testing and eliminating duplicate entries. Set objects also support mathematical\noperations like union, intersection, diﬀerence, and symmetric diﬀerence.\n\nCurly braces or the set() function can be used to create sets. Note: to create an empty set you have to use\nset(), not {}; the latter creates an empty dictionary, a data structure that we discuss in the next section.\n\nHere is a brief demonstration:\n\n>>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}\n>>> print(basket) # show that duplicates have been removed\n{'orange', 'banana', 'pear', 'apple'}\n>>> 'orange' in basket # fast membership testing\nTrue\n>>> 'crabgrass' in basket\nFalse\n\n>>> # Demonstrate"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 42",
+          "score": 0.5660957098007202,
+          "text": "he tuple is part of a larger expression). It is not possible to assign to the individual\nitems of a tuple, however it is possible to create tuples which contain mutable objects, such as lists.\n\nThough tuples may seem similar to lists, they are often used in diﬀerent situations and for diﬀerent purposes.\nTuples are immutable, and usually contain a heterogeneous sequence of elements that are accessed via\nunpacking (see later in this section) or indexing (or even by attribute in the case of namedtuples). Lists are\nmutable, and their elements are usually homogeneous and are accessed by iterating over the list.\n\nA special problem is the construction of tuples containing 0 or 1 items: the syntax has some extra quirks to\naccommodate these. Empty tuples are constructed by an empty pair of parenthe"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 42",
+          "score": 0.49191397428512573,
+          "text": "items: the syntax has some extra quirks to\naccommodate these. Empty tuples are constructed by an empty pair of parentheses; a tuple with one item is\nconstructed by following a value with a comma (it is not suﬃcient to enclose a single value in parentheses).\nUgly, but eﬀective. For example:\n\n>>> empty = ()\n>>> singleton = 'hello', # <-- note trailing comma\n>>> len(empty)\n\n (continues on next page)\n\n36 Chapter 5. Data Structures"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 126",
+          "score": 0.44026803970336914,
+          "text": "accessible either with an\n index such as t[0] or with a named attribute like t.tm_year).\n\n A named tuple can be a built-in type such as time.struct_time, or it can be created with a regular\n class deﬁnition. A full featured named tuple can also be created with the factory function collections.\n namedtuple(). The latter approach automatically provides extra features such as a self-documenting\n representation like Employee(name='jones', title='programmer').\n\n120 Appendix A. Glossary"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is python?"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is an easy to learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming [1]. Its elegant syntax and dynamic typing, along with its interpreted nature, make it ideal for scripting and rapid application development on most platforms [1].\n\nPython is an interpreted language, meaning source files can be run directly without explicitly creating an executable [4]. It enables programs to be written compactly and readably, often resulting in shorter code compared to equivalent C, C++, or Java programs due to its high-level data types [4].\n\nThe Python interpreter and its extensive standard library are freely available from the Python Web site [1].",
+    "error": false,
+    "meta": {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-bolt-e4b",
+      "original": "What is python?",
+      "techniques": {},
+      "processed": "What is python?",
+      "total_ms": 4738.74679999426,
+      "pre_ms": 0,
+      "api_ms": 4686.803699994925,
+      "retrieval_ms": 51.56689998693764,
+      "wait_ms": 0.0,
+      "in_tok": 1459,
+      "out_tok": 140,
+      "sources": [
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6987428069114685,
+          "text": "Python Tutorial, Release 3.7.0\nPython is an easy to learn, powerful programming language. It has eﬃcient high-level data structures and\na simple but eﬀective approach to object-oriented programming. Python’s elegant syntax and dynamic\ntyping, together with its interpreted nature, make it an ideal language for scripting and rapid application\ndevelopment in many areas on most platforms.\nThe Python interpreter and the extensive standard library are freely available in source or binary form for all\nmajor platforms from the Python Web site,https://www.python.org/, and may be freely distributed. The\nsame site also contains distributions of and pointers to many free third party Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new fun"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 7",
+          "score": 0.6902658939361572,
+          "text": "Python modules, programs\nand tools, and additional documentation.\nThe Python interpreter is easily extended with new functions and data types implemented in C or C++\n(or other languages callable from C). Python is also suitable as an extension language for customizable\napplications.\nThis tutorial introduces the reader informally to the basic concepts and features of the Python language\nand system. It helps to have a Python interpreter handy for hands-on experience, but all examples are\nself-contained, so the tutorial can be read oﬀ-line as well.\nFor a description of standard objects and modules, see library-index. reference-index gives a more formal\ndeﬁnition of the language. To write extensions in C or C++, read extending-index and c-api-index. There\nare also several books covering Python"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 124",
+          "score": 0.6850104331970215,
+          "text": "d see their results. Just launch python with\n no arguments (possibly by selecting it from your computer’s main menu). It is a very powerful way to\n test out new ideas or inspect modules and packages (remember help(x)).\n\ninterpreted Python is an interpreted language, as opposed to a compiled one, though the distinction can\n be blurry because of the presence of the bytecode compiler. This means that source ﬁles can be run\n directly without explicitly creating an executable which is then run. Interpreted languages typically\n\n118 Appendix A. Glossary"
+        },
+        {
+          "ref": "Tutorial_EDIT.pdf, page 9",
+          "score": 0.6801798343658447,
+          "text": "your programs — or as\nexamples to start learning to program in Python. Some of these modules provide things like ﬁle I/O, system\ncalls, sockets, and even interfaces to graphical user interface toolkits like Tk.\nPython is an interpreted language, which can save you considerable time during program development\nbecause no compilation and linking is necessary. The interpreter can be used interactively, which makes it\neasy to experiment with features of the language, to write throw-away programs, or to test functions during\nbottom-up program development. It is also a handy desk calculator.\nPython enables programs to be written compactly and readably. Programs written in Python are typically\nmuch shorter than equivalent C, C++, or Java programs, for several reasons:\n• the high-level data types"
+        }
+      ],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Hi"
+  },
+  {
+    "role": "assistant",
+    "content": "bad_request: Error code: 400",
+    "error": true,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Hi",
+      "techniques": {},
+      "processed": "Hi",
+      "total_ms": 666.487899958156,
+      "pre_ms": 0,
+      "api_ms": 666.2102999980561,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": null,
+      "out_tok": null,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  },
+  {
+    "role": "user",
+    "content": "Good afternoon?"
+  },
+  {
+    "role": "assistant",
+    "content": "Good afternoon! How can I help you today?",
+    "error": false,
+    "meta": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "original": "Good afternoon?",
+      "techniques": {},
+      "processed": "Good afternoon?",
+      "total_ms": 1170.5841000075452,
+      "pre_ms": 0,
+      "api_ms": 1170.4507000395097,
+      "retrieval_ms": null,
+      "wait_ms": 0.0,
+      "in_tok": 635,
+      "out_tok": 10,
+      "sources": [],
+      "step_ms": {},
+      "details": {},
+      "warnings": []
+    }
+  }
+]
